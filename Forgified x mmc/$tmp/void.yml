@@ -1,0 +1,5 @@
+void:
+  # Players are treated as voided this many blocks under spawnLocation.
+  blocks-under-spawn: 25
+  respawn-countdown-seconds: 3
+  absolute-y: 0

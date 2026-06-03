@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 86.236.133.102
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1776810567610
+  login: 1776810142020
+money: '0'
+last-account-name: HamsterPrank
+lastlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: -3.9786319315876355
+  y: 5.0625
+  z: 597.0078296266091
+  yaw: -270.0
+  pitch: -1.0
+logoutlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: -82.5
+  y: 39.0
+  z: 275.5
+  yaw: -0.32977378368377686
+  pitch: 1.6925427913665771

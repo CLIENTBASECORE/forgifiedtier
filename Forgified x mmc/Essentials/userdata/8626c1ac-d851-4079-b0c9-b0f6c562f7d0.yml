@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: true
+muted: false
+jailed: false
+ip-address: 119.120.92.27
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1771261400580
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1772228683459
+  login: 1772228683171
+money: '0'
+last-account-name: LastRev3nge_
+lastlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: -5.8252896292031
+  y: 5.0625
+  z: 595.7109738524489
+  yaw: -41.39996337890625
+  pitch: -3.3999998569488525
+logoutlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: 6.5
+  y: 7.0
+  z: 641.5
+  yaw: -180.0
+  pitch: 0.0
+past-usernames:
+- Anonymous_Macer

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 169.251.61.44
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1772376931071
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1774742399889
+  login: 1774741851029
+money: '0'
+last-account-name: DonArkada7
+lastlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: 10.285340184755361
+  y: 8.249187078744681
+  z: 638.2445852683992
+  yaw: 59.821189880371094
+  pitch: 25.76926612854004
+logoutlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: 6.5
+  y: 7.0
+  z: 641.5
+  yaw: -180.04576110839844
+  pitch: 0.03671193867921829

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 139.179.90.27
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1773345296290
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1773487160637
+  login: 1773486186549
+money: '0'
+last-account-name: StolenCreeper
+lastlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: 88.5
+  y: 30.0
+  z: -86.5
+  yaw: 0.004183124750852585
+  pitch: 0.036512114107608795
+logoutlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: -89.59985179243999
+  y: 41.019039816043886
+  z: 253.83751469657187
+  yaw: -61.15542221069336
+  pitch: 29.340763092041016

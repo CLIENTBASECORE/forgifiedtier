@@ -1,0 +1,46 @@
+items:
+  bottom-filler:
+    slot: 27-35
+    material: STAINED_GLASS_PANE:15
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&a'
+    lore: []
+    actions: []
+  close:
+    slot: '31'
+    material: FEATHER
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&aClose'
+    lore: []
+    actions:
+    - '[CLOSE_INVENTORY]'
+settings:
+  type: SETTINGS
+  title: Your Settings
+  rows: 4
+  refresh:
+    enabled: false
+    rate: 20
+  on-open-actions: []
+duels-request-item:
+  slot: 13
+  material: SIGN
+  custom-model-data: 0
+  glow: false
+  display-name: '&aDuels Request'
+  lore:
+  - '&7Click here to toggle duel requests.'
+  - '&7By having this option enabled'
+  - '&7players will not be able to invite you.'
+  - ''
+  - '&fIs Rejecting: &7%state%'
+  - ''
+  - '&6Left-Click: &eSwitch state.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'

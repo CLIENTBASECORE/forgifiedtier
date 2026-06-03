@@ -1,0 +1,7 @@
+name: FrostDuelRespawnPatch
+main: dev.forgified.frostduelrespawn.FrostDuelRespawnPatchPlugin
+version: 1.0.8
+author: Codex
+depend: [Frost]
+softdepend: [ProtocolLib]
+description: Stabilizes Frost duel respawns for selected respawn-based kits.

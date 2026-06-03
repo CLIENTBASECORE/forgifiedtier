@@ -1,0 +1,53 @@
+name: ForgifiedPractice
+main: dev.forgified.practice.ForgifiedPracticePlugin
+version: 1.0.0
+author: Codex
+description: Standalone practice core driven by the Frost/ForgifiedPractice folder files.
+softdepend: [Fastbridge, FastBuilder, PlaceholderAPI, Essentials, EssentialsChat, LuckPerms]
+commands:
+  forgifiedpractice:
+    aliases: [fgpractice, frostpractice]
+    description: Opens the ForgifiedPractice menu or runs practice commands.
+  practice:
+    aliases: [fp]
+    description: Opens the practice menu or runs practice commands.
+  queue:
+    aliases: [q]
+    description: Queue for a Frost kit.
+  duel:
+    description: Duel another player.
+  party:
+    aliases: [p]
+    description: Party commands.
+  settings:
+    description: Opens player settings.
+  stats:
+    description: Opens your practice stats.
+  unqueue:
+    aliases: [leavequeue]
+    description: Leave the current queue.
+  lobby:
+    aliases: [hub, l, spawn]
+    description: Return to spawn.
+  setlobby:
+    description: Set the lobby spawn point.
+    permission: forgifiedpractice.admin
+  map:
+    description: Shows the map you are currently playing.
+  spectate:
+    description: Spectate a player in a match.
+  friend:
+    aliases: [f]
+    description: "Friend system commands. Usage: /friend <add|remove|accept|list> [player]"
+  leaderboard:
+    aliases: [lb]
+    description: "Opens the leaderboard menu."
+  divisions:
+    description: "Shows a list of all divisions and their requirements."
+  alerts:
+    description: "Toggle ForgifiedAC alerts for staff."
+    permission: forgifiedpractice.admin
+permissions:
+  forgifiedpractice.admin:
+    description: Allows reloading ForgifiedPractice configs.
+    default: op

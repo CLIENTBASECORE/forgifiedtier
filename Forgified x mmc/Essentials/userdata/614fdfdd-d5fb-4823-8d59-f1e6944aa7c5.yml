@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 22.26.214.208
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1774141558681
+  login: 1774141506984
+money: '0'
+last-account-name: qClicks
+lastlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: 6.5
+  y: 7.0
+  z: 641.5
+  yaw: -180.046875
+  pitch: 0.045891646295785904
+logoutlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: -82.5
+  y: 39.0
+  z: 275.5
+  yaw: -0.32977378368377686
+  pitch: 1.6925427913665771

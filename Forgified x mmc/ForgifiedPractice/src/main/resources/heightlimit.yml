@@ -1,0 +1,5 @@
+height-limit:
+  # Players cannot place blocks this many blocks above their map spawnpoint. Set to 0 to disable.
+  blocks-above-spawn: 50
+  fireballfight:
+    blocks-above-spawn: 20

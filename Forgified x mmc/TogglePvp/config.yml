@@ -1,0 +1,228 @@
+##############################################
+#                                            #
+#  TogglePvp By TauCubed <gitlab.com/TauCu>  #
+#                                            #
+##############################################
+
+# The permission needed to toggle your own pvp.
+toggle permission: "tau.togglepvp.use"
+
+# The permission needed to toggle someone else's pvp.
+toggle other permission: "tau.togglepvp.other"
+
+# The permission needed to bypass the flight restriction during combat.
+flight bypass permission: "tau.togglepvp.flightbypass"
+
+# The permission needed to bypass the blocked commands restriction during combat.
+command bypass permission: "tau.togglepvp.commandbypass"
+
+# The permission needed to reload the configuration.
+reload permission: "tau.togglepvp.reload"
+
+# The number of seconds before a player can toggle their pvp after entering combat.
+# If kill combat loggers is enabled, this cooldown also represents the combat timer.
+combat cooldown: 10.0
+
+# Should players who log out while in combat be killed?
+kill combat loggers: false
+
+# Should this plugin allow pvp by default?
+default pvp state: false
+
+# Only works on 1.14+
+# Stores pvp state and remaining delay in the player's data.
+enable persistent pvp state: true
+
+# Worlds where pvp is always enabled.
+# These are case-sensitive.
+force pvp enabled worlds:
+  - "pvp_world"
+  - "Example_World"
+  - "Another_Example_World"
+
+# Worlds where pvp is always disabled.
+force pvp disabled worlds:
+  - "pve_world"
+
+# Commands that will run from console when someone turns on pvp.
+# %name% will be replaced with the player's name.
+pvp enabled commands: []
+
+# Commands that will run from console when someone turns off pvp.
+# %name% will be replaced with the player's name.
+pvp disabled commands: []
+
+# Commands that will be blocked from execution while a player's combat timer is active.
+# All commands should be lowercase, you must include the forward slash.
+blocked combat commands:
+  - "/somebannedcommand"
+  - "/someotherbannedcommand"
+
+# What potion effects should be considered an attack?
+# A list of supported potions can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html#field-detail
+banned potion effects:
+  - "POISON"
+  - "WITHER"
+  - "BLINDNESS"
+  - "CONFUSION"
+  - "HUNGER"
+  - "SLOW"
+  - "SLOW_DIGGING"
+  - "UNLUCK"
+  - "WEAKNESS"
+  - "INSTANT_DAMAGE"
+  - "HARM" # Used in old versions
+
+# Should this plugin protect tamed animals when their owner has pvp disabled or is offline?
+protect tameable animals: true
+
+# Should this plugin protect players with pvp disabled from unknown explosions?
+# An explosion is unknown when the plugin cannot determine who caused it.
+protect from unknown explosions: false
+
+# Should this plugin prevent players from placing fire/lava near players with pvp disabled?
+protect from player hazards: true
+
+# Should attackers get knocked back when they attempt to pvp someone with pvp disabled?
+enable knockback: true
+knockback force: 0.5
+
+# Should attack-blocked messages be sent to attackers when they use non-melee attacks? (Bows, Potions, Explosives etc)
+send pvp disabled messages on non-melee: true
+
+# Limit how often attack-blocked messages can be sent.
+attack msg cooldown: 1.0
+
+# State effects are effects that are applied to a player depending on their pvp state.
+state effects:
+  # should state effects be enabled at all?
+  enabled: false
+
+  # What color should a player glow depending on their pvp state.
+  # For a list of colors see: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/ChatColor.html
+  # Set to "" to disable glowing.
+  pvp glow color: ""
+  pve glow color: ""
+
+  # How a player's name will appear in tab, based on their pvp state.
+  # Set to "" to disable.
+  pvp tab name: "&c%name%"
+  pve tab name: ""
+
+  # WARNING: when set to true, it will remove the glowing state from all online and offline players.
+  # Please backup your playerdata before enabling this. The plugin will also make an automatic backup of that folder called playerdata.bak
+  # This option will automatically set itself to false after completion.
+  force remove glow: false
+
+############
+# Messages #
+############
+#
+# All messages can either be single strings or a list.
+# If Placeholder API is installed, you can use its placeholders in these messages.
+#
+# If you don't want a message displayed, simply make it an empty message.
+#
+
+messages:
+  # What message should be sent to players to instruct them on how to use this plugin?
+  usage:
+    - " &c>> &7Usage: /&cpvp &con&7, &cenable&7, &coff&7, &cdisable&7"
+    - " &c>> &7Toggle Usage: /&cpvp"
+    - " &c>> &7Admin Usage: /&cpvp &7<&cstate&7> <&cplayer&7>"
+
+  # What message should be sent to players that attempt to toggle their pvp while in combat?
+  # You may use the placeholders %remainingtime%
+  toggle blocked combat cooldown:
+    - " &c>> &7You cannot disable your pvp while in combat."
+    - " &c>> &7You must wait &c%remainingtime%&7 seconds."
+
+  # The message displayed whe na player enters combat.
+  # Use can you the placeholder %remaining_time% in this message.
+  now in combat: " &c>> &7You are now in combat!"
+
+  # The message displayed when a player is no longer in combat.
+  no longer in combat: " &8>> &7You are no longer in combat."
+
+  # The message broadcast when a player is killed for combat logging.
+  # You can use the placeholders %logger% and %last_attacker% in this message.
+  combat log killed: " &c>> &c%logger% &7couldn't handle the heat."
+
+  # What messages should be sent to players who attempt to set their pvp state to an existing state?
+  pvp already disabled: " &4>> &7Your pvp is already &cDisabled"
+  pvp already enabled: " &4>> &7Your pvp is already &aEnabled"
+
+  # What messages should be sent to players when their pvp state changes?
+  pvp disabled: " &8>> &7Your pvp has been &cDisabled"
+  pvp enabled: " &8>> &7Your pvp has been &aEnabled"
+
+  # The message sent to players that toggle someone else's pvp.
+  # You can use the placeholders %new_state% and %them% in this message.
+  pvp toggled other: " &8>> &7%new_state% the pvp of %them%"
+
+  # You can use the placeholders %them% and %you% in these messages.
+  # The message when both the attacker and the victim have PVP disabled.
+  attack blocked both pve:
+    - " &c>> &7You may not pvp &b%them% &7because"
+    - " &c>> &7both &byou &7and &b%them%&7 have pvp &cDisabled"
+  # The message when the attacker has PVP disabled.
+  attack blocked you pve:
+    - " &c>> &7You may not pvp &b%them% &7because"
+    - " &c>> &7you have pvp &cDisabled"
+  # The message when the victim has PVP disabled.
+  attack blocked them pve:
+    - " &c>> &7You may not pvp &b%them% &7because"
+    - " &c>> &b%them%&7 has pvp &cDisabled"
+  # The message when either the attacker or is in a force-disabled area.
+  attack blocked force pve:
+    - " &c>> &r&7Pvp is &cDisabled &7in this area."
+  # The message to send to a player that attacks a tamed animal when the owner of that animal is offline.
+  attack blocked animal owner offline: " &c>> &7You cannot attack this animal while its owner is offline."
+
+  # The message to be sent to the player when they try to run a blocked command while in combat.
+  command blocked message: " &c>> &7This command is disabled during combat."
+
+  # What message should be sent to players when they toggle their pvp in a forced pvp area?
+  # NOTE: This does not prevent people from toggling. It simply serves as a warning message.
+  force pvp enabled area: " &c>> &c&lWarning: &r&7Pvp is always enabled in this area."
+  force pvp disabled area: " &c>> &r&7Pvp is always disabled in this area."
+
+  # Miscellaneous messages.
+  no permission: " &4>> &7No permission"
+  console is not a player: " &4>> &cConsole is not a player."
+  reloading: " &8>> &aTogglePvp &7reloading"
+  reloaded: " &8>> &aTogglePvp &7reloaded"
+
+################
+# Placeholders #
+################
+#
+# Section for manipulating the placeholders registered to PlaceholderAPI
+#
+
+placeholders:
+  # Placeholders:
+  # %togglepvp_state%
+  #   calculates the pvp state of the player, taking into account the world and region.
+  #   this can return the "pvp enabled", "pvp disabled", "pvp enabled area" or "pvp disabled area" placeholders.
+  # %togglepvp_desired_state%
+  #   returns the player's /pvp state preference.
+  # %togglepvp_forced_state%
+  #   returns the forced state of the area.
+  # %togglepvp_remainingtime%
+  #   returns the remaining time in seconds before a player can toggle their pvp.
+
+  # Placeholders for the pvp state of players.
+  pvp enabled: "Enabled"
+  pvp disabled: "Disabled"
+  # Placeholders for forced PVP areas (worlds or worldguard regions)
+  pvp enabled area: "Force Enabled"
+  pvp undefined area: "Undefined"
+  pvp disabled area: "Force Disabled"
+
+########################
+# END of Configuration #
+########################
+
+# No Touchy
+config version: 12.0

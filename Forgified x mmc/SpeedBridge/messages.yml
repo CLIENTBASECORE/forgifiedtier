@@ -1,0 +1,48 @@
+# Supports PlaceholderAPI
+
+messages:
+  joined: '&6&lWelcome To Forgified FastBuilder! &2Switch islands by leaving FastBuilder
+    and typing /join 1 - 10'
+  left: ''
+  no-available: '&cThere is no available island right now, try again later!'
+  not-available: '&cThis island is not available right now, try again later!'
+  not-playing: '&cYou''re not playing!'
+  already-joined: '&cYou cannot join a game while playing or spectating! &2To switch
+    islands leave FastBridge and run /join 1 - 10'
+  your-score: '&eYour personal best score is: &a%score%&e!'
+  cannot-edit: '&cYou cannot edit an island while playing.'
+  no-lobby: '&cYou have to setup a lobby first!'
+  invalid-type: '&cInvalid location type!'
+  single-edit-only: '&cYou can edit an island one at a time.'
+  reloaded: '&eSpeedBridge has applied the new configuration changes!'
+  island-creation: '&aThe island has been created!'
+  island-modification: '&aYou can start modifying your island locations now!'
+  lobby-location: '&aSuccess!'
+  island-exists: '&cThat island already exists!'
+  invalid-island: '&cThat island does not exist!'
+  island-completed: '&eThe island setup has been completed!'
+  island-incomplete: '&cIncomplete island setup, please double check!'
+  island-removal: |-
+    &eIsland &6%slot% &ehas been removed!
+    &eYou can revert the removal by typing /island revert
+  island-removal-fail: '&eIsland &6%slot% &ecouldn''t be removed... check the console!'
+  island-revert: '&eIsland &6%slot% &ehas been reverted back!'
+  island-revert-fail: '&cThere is nothing to revert back!'
+  cancel-setup: '&cThe current island setup has been canceled!'
+  no-setup: '&cYou don''t have anything to cancel.'
+  not-beaten: '&cYou didn''t beat your personal best score. (%score% seconds)'
+  beaten-score: '&aYou topped your old personal best score by %calu_score% seconds!'
+  scored: '&eYou scored &a%scored% &eseconds!'
+  spectating: '&eYou are spectating &6%player%&e!'
+  notify-spectate: '&6%player% &eis spectating!'
+  no-longer-spectating: '&eYou''re no longer spectating &6%player%!'
+  notify-not-spectating: '&6%player% &eis no longer spectating!'
+  spectator-beaten-score: '&6%player% &etopped their personal score by &a%calu_score%
+    &eseconds!'
+  spectotor-score: '&6%player% &escored &a%scored% &eseconds!'
+  spectate-unknown: '&eYou cannot spectate offline players!'
+  spectate-self: '&eYou cannot spectate yourself!'
+  spectate-self-playing: '&eYou cannot spectate while playing!'
+  spectate-target: '&eYou cannot spectate somebody who isn''t playing!'
+  notify-spectating: '&6%player% &eis spectating!'
+  spectator-scored: '&6%player% &escored &a%scored% &eseconds!'

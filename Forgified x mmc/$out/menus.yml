@@ -1,0 +1,671 @@
+POST-MATCH-INVENTORY:
+  TITLE: "<player>'s Inventory"
+  COUNTERS:
+    HEALTH-POTIONS: "&bHealth Potions&7: &f<potions_left>"
+    POTIONS-MISSED: "&bPotions Missed&7: &f<potions_missed>"
+    POTION-ACCURACY: "&bPotion Accuracy&7: &f<potion_accuracy>"
+    REMAINING-SOUPS: "&bRemaining Soups&7: &f<soups_left>"
+  PLAYER:
+    HEALTH: "&f * &bHealth&7: &f<health_amount>/10 &c❤"
+    HUNGER: "&f * &bHunger&7: &f<hunger_amount>/10"
+  POTIONS:
+    NAME: "&b&lPotion Effects"
+    POTION-EFFECTS: "&f * &b<potion_name> <potion_lvl> &7- &f<potion_duration>"
+  MATCH:
+    STATISTICS-NAME: "&b&lMatch Statistics"
+    TOTAL-HITS: "&bTotal Hits&7: &f<hits_amount>"
+    LONGEST-COMBO: "&bLongest Combo&7: &f<longest_combo>"
+    NEXT-INVENTORY:
+      NAME: "&bView other inventory"
+      LORE: "&7Click to view the opponent's inventory"
+QUEUE-INVENTORY:
+  NAME: "&b&l<kit_name>"
+  SIZE: 3
+  RANKED-SIZE: 2
+  UNRANKED-SIZE: 3
+  PLACEHOLDER-ITEMS-ENABLED: true
+  PLACEHOLDER-ITEM-MATERIAL: STAINED_GLASS_PANE
+  PLACEHOLDER-ITEM-DATA: 7
+  UNRANKED:
+    NAME: "&a&l<kit_name>"
+    TITLE: "Unranked Queue"
+    TOP-3-FORMAT: "&b<number># &f<name> &7» &f <value>"
+    LORE:
+      - "&2 ▶ &aUnranked"
+      - "&8      &fFighting&7: &a<fighting_unranked>"
+      - "&8      &fQueueing&7: &a<queueing_unranked>"
+      - " "
+      - "&4 ▶ &cRanked"
+      - "&8      &fFighting&7: &c<fighting_ranked>"
+      - "&8      &fQueueing&7: &c<queueing_ranked>"
+      - " "
+      - "&bWinstreak Top 3"
+      - "<top-3>"
+      - " "
+      - "&bClick to join the Unranked <kit_name> queue!"
+  RANKED:
+    NAME: "&c&l<kit_name>"
+    TITLE: "Ranked Queue"
+    TOP-3-FORMAT: "&b<number># &f<name> &7» &f <value> &7» <elo_rating>"
+    LORE:
+      - "&4 ▶ &cRanked"
+      - "&8      &fFighting&7: &c<fighting_ranked>"
+      - "&8      &fQueueing&7: &c<queueing_ranked>"
+      - " "
+      - "&2 ▶ &aUnranked"
+      - "&8      &fFighting&7: &a<fighting_unranked>"
+      - "&8      &fQueueing&7: &a<queueing_unranked>"
+      - " "
+      - "&bELO Top 3"
+      - "<top-3>"
+      - " "
+      - "&bClick to join the Ranked <kit_name> queue!"
+  DUEL-INVENTORY-TITLE: "Send Request"
+  DUEL-ARENA-SELECTION-TITLE: "Select Arena"
+  PARTY-SPLIT-INVENTORY-TITLE: "Party Split"
+  PARTY-FFA-INVENTORY-TITLE: "Party FFA"
+  PREMIUM-INVENTORY-TITLE: "Premium Queue"
+  PARTY-EVENTS-INVENTORY-TITLE: "Party Events"
+  PARTY-OTHER-PARTIES-INVENTORY-TITLE: "Other Parties"
+SETTINGS-INVENTORY:
+  TITLE: "&8Player Settings"
+  NAME: "<setting_name>"
+  SIZE: 1 #The size is calculated like this 9 rows = 1, 18 rows = 2, 27 rows = 3, and so on, until 6
+  ENABLED: "&a&l   ▶ "
+  DISABLED: "&4&l   ▶ "
+  UNSELECTED: "&7    "
+  NO-PERMISSION: "&cThis feature requires a rank to be accessed, buy it at https://example.com"
+  TOP-SPLITTER: "&8&m----------------------------"
+  BOTTOM-SPLITTER: "&8&m----------------------------"
+  SETTINGS:
+    DUEL_REQUESTS:
+      NAME: "&bToggle Duel Requests"
+      SLOT: 0
+      ICON: DIAMOND_SWORD
+      LORE:
+        - "&7If enabled, players will be"
+        - "&7able to send you duel requests."
+        - " "
+      O-ENABLED: "&7Allow other players duel you"
+      O-DISABLED: "&7Don't allow other players duel you"
+      SHOW: true
+    PARTY_REQUESTS:
+      NAME: "&dParty Invite Requests"
+      SLOT: 1
+      ICON: PAPER
+      LORE:
+        - "&7If enabled, players will be"
+        - "&7able to send you party invites."
+        - " "
+      O-ENABLED: "&7Allow party leaders to invite you"
+      O-DISABLED: "&7Don't allow party leaders to invite you"
+      SHOW: true
+    ALLOW_SPECTATORS:
+      NAME: "&7Allow Spectators"
+      SLOT: 2
+      ICON: EMERALD
+      LORE:
+        - "&7If enabled, players can spectate"
+        - "&7your matches with /spectate."
+        - " "
+      O-ENABLED: "&7Let players spectate your matches"
+      O-DISABLED: "&7Don't let players spectate your matches"
+      SHOW: true
+    TOGGLE_SCOREBOARD:
+      NAME: "&6Toggle Scoreboard"
+      SLOT: 3
+      ICON: PAINTING
+      LORE:
+        - "&7If enabled, you will be"
+        - "&7able to see the scoreboard."
+        - " "
+      O-ENABLED: "&7Show match scoreboard"
+      O-DISABLED: "&7Hide match scoreboard"
+      SHOW: true
+    PING_ON_SCOREBOARD:
+      NAME: "&eShow Ping on Scoreboard"
+      SLOT: 4
+      ICON: FLINT
+      LORE:
+        - "&7If enabled, you will be able"
+        - "&7to see the ping on scoreboard."
+        - " "
+      O-ENABLED: "&7Show ping on scoreboard"
+      O-DISABLED: "&7Hide ping on scoreboard"
+      SHOW: true
+    VANILLA_TAB:
+      NAME: "&9Show Vanilla Tablist"
+      SLOT: 5
+      ICON: QUARTZ
+      LORE:
+        - "&7If enabled, you will be able"
+        - "&7to see players on the tablist."
+        - " "
+      O-ENABLED: "&7Show vanilla tablist"
+      O-DISABLED: "&7Show modern tablist"
+      SHOW: true
+    DEATH_EFFECT_SETTINGS:
+      NAME: "&cDeath Effects"
+      SLOT: 8
+      ICON: SKULL_ITEM
+      LORE:
+        - "&7Click here to select your"
+        - "&7preferred death effect."
+      SHOW: true
+    BODY_ANIMATION:
+      NAME: "&aBody Animation"
+      SLOT: 3
+      ICON: SKULL_ITEM
+      LORE:
+        - "&7If enabled, when you die you will"
+        - "&7play the body falling death animation"
+        - " "
+      O-ENABLED: "&7Play death animation"
+      O-DISABLED: "&7Don't play death animation"
+      SHOW: true
+    CLEAR_INVENTORY:
+      NAME: "&9Clear Inventory"
+      SLOT: 5
+      ICON: FIREBALL
+      LORE:
+        - "&7If enabled, when the match ends"
+        - "&7your inventory will be cleared."
+        - " "
+      O-ENABLED: "&7Clear inventory on match end"
+      O-DISABLED: "&7Don't clear inventory on match end"
+      SHOW: true
+    START_FLYING:
+      NAME: "&9Start Flying"
+      SLOT: 7
+      ICON: FEATHER
+      LORE:
+        - "&7If enabled, you will be able"
+        - "&7to fly when the match ends."
+        - " "
+      O-ENABLED: "&7Start flying on match end"
+      O-DISABLED: "&7Don't start flying on match end"
+      SHOW: true
+    QUEUE_PING_LIMIT:
+      NAME: "&2Ping Range"
+      SLOT: 6
+      ICON: DIODE
+      LORE:
+        - "&7Change the maximum Ping difference"
+        - "&7between you and the other players."
+        - " "
+        - "&8 ● &7Left-Click to increase"
+        - "&8 ● &7Right-Click to decrease"
+        - "&8 ● &7Shift-Click to reset"
+        - " "
+        - "<formatted>"
+      SHOW: true
+      PING-RANGE-FORMAT: "&7Ping Range: &a<format>"
+    TIME_SETTING:
+      NAME: "&eWorld Time: &a<time>"
+      SLOT: 7
+      ICON: BLAZE_POWDER
+      LORE:
+        - "&7Click here to change time."
+      SHOW: true
+EVENTS-INVENTORY:
+  TITLE: "&8Host an Event"
+  SIZE: 4 #The size is calculated like this 9 rows = 1, 18 rows = 2, 27 rows = 3, and so on, until 6
+  EVENTS:
+    LMS:
+      NAME: "&b&lLMS"
+      SLOT: 10
+      ICON: SKULL_ITEM
+      SHOW: true
+      LORE:
+        - "&8&m--------------------------------"
+        - "&7Fight for your life"
+        - "&7and kills everyone to"
+        - "&7be the last man standing"
+        - " "
+        - "&bClick to host..."
+        - "&8&m--------------------------------"
+    SKYWARS:
+      NAME: "&b&lSkywars"
+      SLOT: 11
+      ICON: EYE_OF_ENDER
+      SHOW: true
+      LORE:
+        - "&8&m--------------------------------"
+        - "&7Fight for your life"
+        - "&7and kills everyone to"
+        - "&7be the last man standing"
+        - "&7in the sky among others"
+        - " "
+        - "&bClick to host..."
+        - "&8&m--------------------------------"
+    SUMO:
+      NAME: "&b&lSumo"
+      SLOT: 12
+      ICON: LEASH
+      SHOW: true
+      LORE:
+        - "&8&m--------------------------------"
+        - "&7Knock everyone off the"
+        - "&7platform until you are"
+        - "&7the last player alive"
+        - " "
+        - "&bClick to host..."
+        - "&8&m--------------------------------"
+    OITC:
+      NAME: "&b&lOITC"
+      SLOT: 13
+      ICON: BOW
+      SHOW: true
+      LORE:
+        - "&8&m--------------------------------"
+        - "&7Use your bow and sword"
+        - "&7to eliminate opponents"
+        - "&7and score points!"
+        - " "
+        - "&7The player with the"
+        - "&7highest score wins."
+        - " "
+        - "&bClick to host..."
+        - "&8&m--------------------------------"
+    GULAG:
+      NAME: "&b&lGulag"
+      SLOT: 14
+      ICON: IRON_FENCE
+      SHOW: true
+      LORE:
+        - "&8&m--------------------------------"
+        - "&7Fight for your life and"
+        - "&7beat your opponent in"
+        - "&71v1 duels with guns."
+        - " "
+        - "&bClick to host..."
+        - "&8&m--------------------------------"
+    TNT_TAG:
+      NAME: "&b&lTNT Tag"
+      SLOT: 15
+      ICON: TNT
+      SHOW: true
+      LORE:
+        - "&8&m--------------------------------"
+        - "&7Pass the TNT to other"
+        - "&7players. You got a few"
+        - "&7seconds before it blows up!"
+        - " "
+        - "&bClick to host..."
+        - "&8&m--------------------------------"
+    CORNERS:
+      NAME: "&b&lFour Corners"
+      SLOT: 16
+      ICON: BEACON
+      SHOW: true
+      LORE:
+        - "&8&m--------------------------------"
+        - "&7Try your luck and trust"
+        - "&7yourself, choose a color and"
+        - "&7hope you chose the right color!"
+        - " "
+        - "&bClick to host..."
+        - "&8&m--------------------------------"
+    THIMBLE:
+      NAME: "&b&lThimble"
+      SLOT: 19
+      ICON: WATER_BUCKET
+      SHOW: true
+      LORE:
+        - "&8&m--------------------------------"
+        - "&7Jump from the top of the platform"
+        - "&7and try to land on the water!"
+        - " "
+        - "&bClick to host..."
+        - "&8&m--------------------------------"
+    BRACKETS:
+      NAME: "&b&lBrackets"
+      SLOT: 20
+      ICON: DIAMOND_SWORD
+      SHOW: true
+      LORE:
+        - "&8&m--------------------------------"
+        - "&7Fight through rounds and"
+        - "&7beat your opponent in 1v1"
+        - "&7duels. The last player wins!"
+        - " "
+        - "&bClick to host..."
+        - "&8&m--------------------------------"
+    KNOCKOUT:
+      NAME: "&b&lKnockout"
+      SLOT: 21
+      ICON: NETHER_STAR
+      SHOW: true
+      LORE:
+        - "&8&m--------------------------------"
+        - "&7Knock all of your opponents"
+        - "&7out of the platform."
+        - "&7The last player wins!"
+        - " "
+        - "&bClick to host..."
+        - "&8&m--------------------------------"
+    DROPPER:
+      NAME: "&b&lDropper"
+      SLOT: 22
+      ICON: HOPPER
+      SHOW: true
+      LORE:
+        - "&8&m--------------------------------"
+        - "&7Jump from the top of the platform"
+        - "&7and try to land on the water!"
+        - "&7The first player to complete"
+        - "&7all stages wins the event!"
+        - " "
+        - "&bClick to host..."
+        - "&8&m--------------------------------"
+    PARKOUR:
+      NAME: "&b&lParkour"
+      SLOT: 23
+      ICON: FEATHER
+      SHOW: true
+      LORE:
+        - "&8&m--------------------------------"
+        - "&7Make your way through the"
+        - "&7course and beat the others!"
+        - "&7The player to reach the goal wins"
+        - " "
+        - "&bClick to host..."
+        - "&8&m--------------------------------"
+    STOPLIGHT:
+      NAME: "&b&lStop Light"
+      SLOT: 24
+      ICON: REDSTONE_LAMP_OFF
+      SHOW: true
+      LORE:
+        - "&8&m--------------------------------"
+        - "&7When the light is green, you're allowed to move,"
+        - "&7however, if you're caught moving when the"
+        - "&7light is red you're eliminated. First person to"
+        - "&7reach the finish line or last standing, wins!"
+        - " "
+        - "&bClick to host..."
+        - "&8&m--------------------------------"
+    SPLEEF:
+      NAME: "&b&lSpleef"
+      SLOT: 25
+      ICON: SNOW_BALL
+      SHOW: true
+      LORE:
+        - "&8&m--------------------------------"
+        - "&7Break the snow blocks below players"
+        - "&7to make them fall into the water and"
+        - "&7be eliminated. Last standing wins!"
+        - " "
+        - "&bClick to host..."
+        - "&8&m--------------------------------"
+LEADERBOARDS-INVENTORY:
+  TOP-SPLITTER: "&8&m----------------------------"
+  BOTTOM-SPLITTER: "&8&m----------------------------"
+  KITS-STATS:
+    TITLE: "&b<kit> &7&l| &fTop 10"
+    LINE: "&a<position> &7&l| &b<player>&8: &f<elo> &7(<rating>)"
+  GLOBAL-ELO:
+    TITLE: "&bGlobal &7&l| &fTop 10"
+    LINE: "&a<position> &7&l| &b<player>&8: &f<elo> &7(<rating>)"
+  PREMIUM-ELO:
+    TITLE: "&cPremium &7&l| &f<premium_kit>"
+    LINE: "&c<position> &7&l| &b<player>&8: &f<elo> &7(<rating>)"
+  PLAYER-STATS:
+    TITLE: "&b<player> &7&l| &fStatistics"
+    LORE:
+      - "&8&m--------------------------------"
+      - "&7Click here to open your"
+      - "&7personal stats profile!"
+      - "&8&m--------------------------------"
+  LEADERBOARDS-ITEM:
+    NAME: "&bELO Leaderboards"
+    MATERIAL: CARPET
+    DATA: 11
+    LORE:
+      - "&8&m--------------------------------"
+      - "&7Click here to open the"
+      - "&7ELO leaderboards!"
+      - "&8&m--------------------------------"
+  WINSTREAK-OPEN-ITEM:
+    NAME: "&bWinstreak Leaderboards"
+    MATERIAL: CARPET
+    DATA: 14
+    LORE:
+      - "&8&m--------------------------------"
+      - "&7Click here to open the"
+      - "&7winstreak leaderboards!"
+      - "&8&m--------------------------------"
+  WINSTREAK-KIT-ITEM:
+    NAME: "&b<kit> &7&l| &fTop 10"
+    LORE: "&a<position> &7&l| &b<player>&8: &f<winstreak>"
+  WINSTREAK-GLOBAL-ITEM:
+    NAME: "&bWinstreak Global &7&l| &fTop 10"
+    LINE: "&a<position> &7&l| &b<player>&8: &f<winstreak>"
+MAP-SELECTOR:
+  SELECT: "&b<arena_displayname>"
+  RANDOM: "&bRandom Arena"
+  RANDOM-ITEM: "STAINED_CLAY"
+  RANDOM-DATA: 5
+QUEUES:
+  TITLE: "&8Queues"
+  SIZE: 5
+  PLACEHOLDER-ITEMS-ENABLED: true # Takes the same placeholder item from the other queueing menus.
+  TYPES:
+    UNRANKED:
+      ENABLED: true
+      NAME: "&b&lUnranked"
+      SLOT: 11
+      ICON: IRON_SWORD
+      DATA: 0
+      LORE:
+        - "&8&m--------------------------------"
+        - "&7Casual 1v1's matches"
+        - "&7with no loss penalty."
+        - " "
+        - "&fFighting: &b<fighting>"
+        - "&fQueueing: &b<queued>"
+        - " "
+        - "&bClick to play!"
+        - "&8&m--------------------------------"
+    RANKED:
+      ENABLED: true
+      NAME: "&b&lRanked"
+      SLOT: 13
+      ICON: DIAMOND_SWORD
+      DATA: 0
+      LORE:
+        - "&8&m--------------------------------"
+        - "&7Casual 1v1's matches with"
+        - "&7a ranked aspect to them. This"
+        - "&7includes ELO."
+        - " "
+        - "&fFighting: &b<fighting>"
+        - "&fQueueing: &b<queued>"
+        - " "
+        - "&bClick to play!"
+        - "&8&m--------------------------------"
+    FFA:
+      ENABLED: true
+      NAME: "&b&lFFA"
+      SLOT: 15
+      ICON: GOLD_AXE
+      DATA: 0
+      LORE:
+        - "&8&m--------------------------------"
+        - "&7Free for all with infinite respawns"
+        - " "
+        - "&fPlaying: &b<players>"
+        - " "
+        - "&bClick to play!"
+        - "&8&m--------------------------------"
+    TOURNAMENT: # This will show whenever there's a current tournament going on.
+      ENABLED: true
+      NAME: "&b&lTournament"
+      SLOT: 30
+      ICON: EYE_OF_ENDER
+      DATA: 0
+      LORE:
+        - "&8&m--------------------------------"
+        - "&7Compete in a Tournament that"
+        - "&7is fun with no penalty losses!"
+        - " "
+        - "&fPlaying: &b<tournament_players>&7/&b<tournament_max_players>"
+        - "&fRound: &b<tournament_round>"
+        - "&fTeam Size: &b<tournament_team_size>"
+        - "&fKit: &b<tournament_kit>"
+        - " "
+        - "&bClick to play!"
+        - "&8&m--------------------------------"
+    EVENT: # This will show whenever there's a current event going on.
+      ENABLED: true
+      NAME: "&b&l<event_name>"
+      SLOT: 32
+      ICON: "<current_event>"
+      DATA: 0
+      LORE:
+        - "&8&m--------------------------------"
+        - "&7Compete in a fun Event that"
+        - "&7is fun with no penalty losses!"
+        - " "
+        - "&fPlaying: &b<event_players>&7/&b<event_max_players>"
+        - "&fCurrent Event: &b<event_name>"
+        - " "
+        - "&bClick to play!"
+        - "&8&m--------------------------------"
+FFA-MENU:
+  TITLE: "&8FFA Gamemodes"
+  SIZE: 3
+  PLACEHOLDER-ITEMS-ENABLED: true # Takes the same placeholder item from the other queueing menus.
+  KIT-DISPLAY:
+    NAME: "&b<kit>"
+    LORE:
+      - "&8&m--------------------------------"
+      - "&fPlaying: &b<players>"
+      - " "
+      - "&bClick to play!"
+      - "&8&m--------------------------------"
+DEATH-EFFECTS-INVENTORY:
+  TITLE: "&8Manage Death Effects"
+  SIZE: 1
+  SPECIAL-EFFECTS:
+    NAME: "&9"
+    SLOT: 1
+    SELECTED: "&a ▶ &f"
+    UNSELECTED: "&c ▷ &f"
+    CLICK-TO-CHANGE: "&bClick to change your effect!"
+PLAYER-PROFILE:
+  TITLE: "&b<player>'s Stats"
+  SIZE: 5
+  PLAYER:
+    NAME: "&b<player> &7&l| &fStatistics"
+    LORE:
+      - "&8&m------------------------------------"
+      - "&bGlobal ELO: &f<globalElo>"
+      - "&cPremium ELO: &f<premiumElo>"
+      - " "
+      - "&bMatches Remaining: &f<premiumMatches>"
+      - "&8&m------------------------------------"
+  KIT:
+    NAME: "&b<kit>"
+    LORE:
+      - "&8&m------------------------------------"
+      - "&bELO: &f<elo>"
+      - " "
+      - "&bWins: &f<wins>"
+      - "&bLosses: &f<losses>"
+      - " "
+      - "&bW/L Ratio: &f<ratio>"
+      - "&8&m------------------------------------"
+MATCH-HISTORY:
+  TITLE: "&3&lRecent Matches &7(&3<current>/<last>&7)"
+  MATCH:
+    NAME: "&b<winner> &fvs. &b<loser>"
+    LORE:
+      - "&7<date>"
+      - " "
+      - "&fKit: &b<kit>"
+      - "&8 • &fWinner Elo: &a<winner_elo> (+<winner_elo_modifier>)"
+      - "&8 • &fLoser Elo: &c<loser_elo> (<loser_elo_modifier>)"
+      - " "
+      - "&aClick to view!"
+KIT-EDITOR-INVENTORY:
+  TITLE: "&8Kit Editor"
+  NAME-COLOR: "&b"
+  SIZE: 3
+  LORE:
+    - ""
+    - "&7Click here to edit &b<kit_name>&7."
+    - ""
+ONGOING-MATCHES-INVENTORY:
+  TITLE: "&8Current matches &7(<amount>)"
+  SIZE: 3
+  NAME: "&b&l%p1% vs %p2%"
+  LORE:
+    - "&7%type%"
+    - ""
+    - "&fKit: &b%kit%"
+    - "&fArena: &b%arena%"
+    - "&fDuration: &b%duration%"
+    - "&fSpectators: &b%spectators%"
+    - ""
+    - "&b» Click to spectate «"
+  EVENT-ITEM:
+    NAME: "&b&l<eventName>"
+    LORE:
+      - " "
+      - "&fHost: &b<host>"
+      - "&fPlaying: &b<playing>&7/&b<limit>"
+      - "&fCurrent Event: &b<eventName>"
+      - " "
+      - "&b» Click to spectate «"
+EVENT-SETTINGS-MENU:
+  TITLE: "&8Event Settings"
+  SIZE: 1 #The size is calculated like this 9 rows = 1, 18 rows = 2, 27 rows = 3, and so on, until 6
+  KIT-SELECTION:
+    COLOR: "&b"
+    SLOT: 0
+    LORE:
+      - "&8&m------------------------------------"
+      - "&7Current Kit: &b<kit>"
+      - "&7"
+      - "&f ● &aRight-Click to select next kit"
+      - "&f ● &cLeft-Click to select previous kit"
+      - "&8&m------------------------------------"
+  TEAM-SIZE-SELECTION:
+    COLOR: "&b"
+    SLOT: 1
+    LORE:
+      - "&8&m------------------------------------"
+      - "&7Current Teams Type: &b<team>v<team>"
+      - "&7"
+      - "&f ● &aRight-Click to increase team size"
+      - "&f ● &cLeft-Click to decrease team size"
+      - "&8&m------------------------------------"
+  MAX-PLAYERS-SELECTION:
+    COLOR: "&b"
+    SLOT: 2
+    LORE:
+      - "&8&m------------------------------------"
+      - "&7Maximum Players: &b<maxPlayers>"
+      - "&7"
+      - "&f ● &aRight-Click to increase (+10)"
+      - "&f ● &cLeft-Click to decrease (-10)"
+      - "&8&m------------------------------------"
+  START:
+    NAME: "&aStart!"
+    SLOT: 8
+    LORE:
+      - "&8&m------------------------------------"
+      - "&b&lCurrent Settings"
+      - "&f ● Kit: &a<kit>"
+      - "&f ● Type: &a<team>v<team>"
+      - "&f ● Max Players: &a<maxPlayers>"
+      - "&7"
+      - "&eClick here to start it!"
+      - "&8&m------------------------------------"
+PLAYERS-MENU:
+  TITLE: "&bPlayers In This <current> &7(<amount>)"
+  ITEM-NAME: "&b&l<name>"
+  ITEM-LORE:
+    - " "
+    - "&b» Click to teleport to &b&l<name> &b«"

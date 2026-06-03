@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.3.86.53
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1771176720447
+  login: 1771173035726
+money: '0'
+last-account-name: bzxf_
+lastlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: -3.9786319315876355
+  y: 5.0625
+  z: 597.0078296266091
+  yaw: -270.0
+  pitch: -1.0
+logoutlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: -4.5
+  y: 5.0625
+  z: 597.5
+  yaw: -89.94110107421875
+  pitch: -1.2512983083724976

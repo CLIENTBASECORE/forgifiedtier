@@ -1,0 +1,5 @@
+name: ForgifiedChat
+main: dev.forgified.chat.ForgifiedChat
+version: 1.0.0
+author: Codex
+description: API for sending interactive chat buttons.

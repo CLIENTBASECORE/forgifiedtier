@@ -1,0 +1,146 @@
+# Divisions Configuration
+# You can customize the chat format and the divisions here.
+# <division> is the player's division string.
+# <format> is the original chat format (from EssentialsChat/LPC).
+
+# Current Format (per user request: no separator)
+chat-format: "<division> <format>"
+
+# Define your divisions based on unranked wins
+# Colors:
+# Iron: &8 (Dark Gray)
+# Bronze: &c (Red) or &4 (Dark Red) - Let's use &6 (Gold/Orange-ish) for Bronze feel? No, &c/&4 is more typical. 
+# Actually let's use:
+# Iron: &8
+# Bronze: &6
+# Silver: &f
+# Gold: &e
+# Platinum: &3
+# Diamond: &b
+# Master: &d
+# Grandmaster: &c
+# Global Elite: &4
+divisions:
+  global_elite:
+    wins: 3500
+    prefix: "&4&lGLOBAL ELITE"
+  grandmaster_v:
+    wins: 3100
+    prefix: "&cGrandMaster V"
+  grandmaster_iv:
+    wins: 2900
+    prefix: "&cGrandMaster IV"
+  grandmaster_iii:
+    wins: 2700
+    prefix: "&cGrandMaster III"
+  grandmaster_ii:
+    wins: 2500
+    prefix: "&cGrandMaster II"
+  grandmaster_i:
+    wins: 2300
+    prefix: "&cGrandMaster I"
+  master_v:
+    wins: 2100
+    prefix: "&dMaster V"
+  master_iv:
+    wins: 1950
+    prefix: "&dMaster IV"
+  master_iii:
+    wins: 1800
+    prefix: "&dMaster III"
+  master_ii:
+    wins: 1650
+    prefix: "&dMaster II"
+  master_i:
+    wins: 1500
+    prefix: "&dMaster I"
+  diamond_v:
+    wins: 1400
+    prefix: "&bDiamond V"
+  diamond_iv:
+    wins: 1300
+    prefix: "&bDiamond IV"
+  diamond_iii:
+    wins: 1200
+    prefix: "&bDiamond III"
+  diamond_ii:
+    wins: 1100
+    prefix: "&bDiamond II"
+  diamond_i:
+    wins: 1000
+    prefix: "&bDiamond I"
+  platinum_v:
+    wins: 950
+    prefix: "&3Platinum V"
+  platinum_iv:
+    wins: 880
+    prefix: "&3Platinum IV"
+  platinum_iii:
+    wins: 820
+    prefix: "&3Platinum III"
+  platinum_iv:
+    wins: 760
+    prefix: "&3Platinum II"
+  platinum_i:
+    wins: 700
+    prefix: "&3Platinum I"
+  gold_v:
+    wins: 650
+    prefix: "&eGold V"
+  gold_iv:
+    wins: 600
+    prefix: "&eGold IV"
+  gold_iii:
+    wins: 550
+    prefix: "&eGold III"
+  gold_ii:
+    wins: 500
+    prefix: "&eGold II"
+  gold_i:
+    wins: 450
+    prefix: "&eGold I"
+  silver_v:
+    wins: 400
+    prefix: "&fSilver V"
+  silver_iv:
+    wins: 360
+    prefix: "&fSilver IV"
+  silver_iii:
+    wins: 320
+    prefix: "&fSilver III"
+  silver_ii:
+    wins: 280
+    prefix: "&fSilver II"
+  silver_i:
+    wins: 240
+    prefix: "&fSilver I"
+  bronze_v:
+    wins: 200
+    prefix: "&6Bronze V"
+  bronze_iv:
+    wins: 170
+    prefix: "&6Bronze IV"
+  bronze_iii:
+    wins: 140
+    prefix: "&6Bronze III"
+  bronze_ii:
+    wins: 110
+    prefix: "&6Bronze II"
+  bronze_i:
+    wins: 80
+    prefix: "&6Bronze I"
+  iron_v:
+    wins: 60
+    prefix: "&8Iron V"
+  iron_iv:
+    wins: 40
+    prefix: "&8Iron IV"
+  iron_iii:
+    wins: 25
+    prefix: "&8Iron III"
+  iron_ii:
+    wins: 10
+    prefix: "&8Iron II"
+  iron_i:
+    wins: 0
+    prefix: "&8Iron I"

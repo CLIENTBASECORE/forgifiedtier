@@ -1,0 +1,71 @@
+Groups:
+  Owner:
+    Permission: nte.owner
+    Prefix: '&6Owner &f| &6'
+    Suffix: ''
+    SortPriority: -1
+  GoldenAdmin:
+    Permission: nte.goldenadmin
+    Prefix: '&6GoldenAdmin &f| &6'
+    Suffix: ''
+    SortPriority: -1
+  Admin+:
+    Permission: nte.admin+
+    Prefix: '&fAdmin+ &f| &f'
+    Suffix: ''
+    SortPriority: -1
+  Admin:
+    Permission: nte.admin
+    Prefix: '&9Admin &f| &9'
+    Suffix: '&f'
+    SortPriority: 1
+  Manager+:
+    Permission: nte.manager+
+    Prefix: '&5Manager+ &f| &5'
+    Suffix: ''
+    SortPriority: -1
+  Manager:
+    Permission: nte.manager
+    Prefix: '&aManager &f| &a'
+    Suffix: ''
+    SortPriority: -1
+  Developer:
+    Permission: nte.developer
+    Prefix: '&0Developer &f| &0'
+    Suffix: ''
+    SortPriority: -1
+  Moderator+:
+    Permission: nte.moderator+
+    Prefix: '&cModerator+ &f| &c'
+    Suffix: ''
+    SortPriority: -1
+  Moderator:
+    Permission: nte.moderator
+    Prefix: '&eModerator &f| &e'
+    Suffix: '&f'
+    SortPriority: 2
+  Helper:
+    Permission: nte.helper
+    Prefix: '&2Helper &f| &2'
+    Suffix: ''
+    SortPriority: -1
+  Famous:
+    Permission: nte.famous
+    Prefix: '&eFamous &f| &e'
+    Suffix: ''
+    SortPriority: -1
+  Famous+:
+    Permission: nte.famous+
+    Prefix: '&eFamous+ &f| &e'
+    Suffix: ''
+    SortPriority: -1
+  YouTube:
+    Permission: nte.youtube
+    Prefix: '&4YouTube &f| &4'
+    Suffix: ''
+    SortPriority: -1
+  YouTube+:
+    Permission: nte.youtube+
+    Prefix: '&4YouTube+ &f| &4'
+    Suffix: ''
+    SortPriority: -1

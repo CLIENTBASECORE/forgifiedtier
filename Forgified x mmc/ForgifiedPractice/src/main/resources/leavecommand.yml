@@ -1,0 +1,13 @@
+# ForgifiedPractice Leave Command Configuration
+
+# The command executed by the plugin to force-leave external games (like FastBridge)
+# when a player returns to the lobby.
+external-leave-command: "fp leave"
+
+# Additional commands that will trigger the 'return to lobby' logic.
+# Note: /lobby, /hub, /spawn, and /l are already handled by default.
+# You can add more here, like "leave", "exit", etc.
+leave-aliases:
+  - "leave"
+  - "exit"
+  - "quit"

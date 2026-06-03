@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 73.242.13.167
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1776702807002
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1777119242308
+  login: 1777118907625
+money: '0'
+last-account-name: Megatron_031
+lastlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: 6.5
+  y: 6.0
+  z: 638.0230780145107
+  yaw: -180.046875
+  pitch: 0.045891646295785904
+logoutlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: 6.674189726654195
+  y: 6.0
+  z: 634.2351145859539
+  yaw: -183.43255615234375
+  pitch: 5.5678839683532715

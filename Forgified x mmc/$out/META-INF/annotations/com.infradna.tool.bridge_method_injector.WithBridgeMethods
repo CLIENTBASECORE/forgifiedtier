@@ -1,0 +1,12 @@
+org.kohsuke.github.GHAppInstallationToken
+org.kohsuke.github.GHCheckRun
+org.kohsuke.github.GHCompare$InnerCommit
+org.kohsuke.github.GHContentUpdateResponse
+org.kohsuke.github.GHIssue
+org.kohsuke.github.GHMemberChanges$FromToPermission
+org.kohsuke.github.GHObject
+org.kohsuke.github.GHPullRequestCommitDetail$Commit
+org.kohsuke.github.GHRepository
+org.kohsuke.github.GHUser
+org.kohsuke.github.GitCommit
+org.kohsuke.github.GitHub

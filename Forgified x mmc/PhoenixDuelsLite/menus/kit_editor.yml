@@ -1,0 +1,63 @@
+items:
+  bottom-filler:
+    slot: 27-35
+    material: STAINED_GLASS_PANE:15
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&a'
+    lore: []
+    actions: []
+  close:
+    slot: '31'
+    material: FEATHER
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&aClose'
+    lore: []
+    actions:
+    - '[CLOSE_INVENTORY]'
+settings:
+  type: KIT_EDITOR
+  title: Kit Editor
+  rows: 4
+  refresh:
+    enabled: false
+    rate: 20
+  on-open-actions: []
+prekit-item:
+  slot: '12'
+  material: ENDER_PEARL
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aPre-Kit Layouts'
+  lore:
+  - '&7Click here to access all'
+  - '&7of your pre-kit layouts.'
+  - ''
+  - '&6Left-Click: &eManage pre-kits.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+playerkit-item:
+  slot: '14'
+  material: NETHER_STAR
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aPlayer Kits'
+  lore:
+  - '&7Click here to access all'
+  - '&7of your custom kit.'
+  - ''
+  - '&7Here, you can create your own kits'
+  - '&7and challenge your friends to a duel.'
+  - ''
+  - '&6Left-Click: &eManage custom kits.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'

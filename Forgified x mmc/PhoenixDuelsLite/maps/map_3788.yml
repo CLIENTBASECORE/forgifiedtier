@@ -1,0 +1,76 @@
+sort-order: 1000
+enabled: true
+type: FREE_MODE
+identifier: nether
+display-name: Nether
+display-icon: NETHERRACK
+template:
+  universal-region:
+    minimum:
+      x: -65.0
+      y: -17.0
+      z: -64.0
+    maximum:
+      x: 64.0
+      y: 18.0
+      z: 63.0
+  battle-region:
+    minimum:
+      x: -65.0
+      y: -17.0
+      z: -64.0
+    maximum:
+      x: 64.0
+      y: 18.0
+      z: 63.0
+  spectator-position:
+    x: -46.5
+    y: -15.0
+    z: -1.5
+    yaw: -89.98367
+    pitch: 0.036608316
+  teams:
+    '0':
+      positions:
+        '0':
+          x: 45.5
+          y: -15.0
+          z: -1.5
+          yaw: -269.9889
+          pitch: -0.007882964
+    '1':
+      positions:
+        '0':
+          x: -46.5
+          y: -15.0
+          z: -1.5
+          yaw: -89.98367
+          pitch: 0.036608316
+  extras: {}
+regeneration: true
+teleport-to-lobby: true
+allowed-modes:
+- gapple
+- invaded
+- classic
+- nodebuff
+- combo
+team-colors:
+- RED
+- BLUE
+arenas:
+  '0':
+    reference:
+      world: world
+      x: -176
+      y: 19
+      z: -540
+  '1':
+    reference:
+      world: world
+      x: -470
+      y: 59
+      z: -535
+dont-edit:
+  assistance-stage: 4
+  blob-key: 9b94ade080a4418b9aebc1befc45c6d9

@@ -1,0 +1,43 @@
+deletedAnIsland: <gold><bold>»</bold> <yellow>Island %s has been deleted!
+alreadyInAIsland: <red>⚠ You're already on an island!
+notInAIsland: <red>⚠ You're not on an island!
+emptySelect: <red>⚠ You haven't modified anything...
+setupCancelled: <gold><bold>»</bold> <yellow>The setup has been cancelled.
+reloaded: <gold><bold>»</bold> <yellow>The config has been reloaded!
+unknownSchematic: <red>⚠ Schematic "%s" cannot be found
+noArgument: <gold><bold>»</bold> <yellow>Type <hover:show_text:'<yellow>Click to run /speedbridge help'><click:run_command:'/speedbridge help'>/speedbridge help for further information.
+startingSetupProcess: <gold><bold>»</bold> <yellow>You're now setting up %s island.
+islandSetupNotification: <gold><bold>»</bold> <yellow>You can complete your %slot% island setup by setting up the spawn point.
+invalidSpawnPoint: <red>⚠ The spawn point has to be set inside the regions.
+validSelect: <gold><bold>»</bold> <yellow>Island %s has selected "%s" as a %s!
+inASetup: <red>⚠ You're already in a setup.
+generalSetupIncomplete: <red>⚠ Incomplete setup. Please try again later.
+playerDoesntExist: <red>⚠ %s does not exist.
+blockChangeCooldown: <red>⚠ You can't do that yet! Please wait for %s seconds.
+inAGame: <red>⚠ You cannot execute this command while playing
+islandHasBeenCreatedSchematic: <gold><bold>»</bold> <yellow>Island %s has been created with '%s' chosen as the schematic!
+playerScoreReset: <gold><bold>»</bold> <yellow>%s's scores has been reset.
+playerStatsReset: <gold><bold>»</bold> <yellow>%s's stats has been reset.
+lobbyMissing: <red>⚠ Incomplete setup. Please ensure to set up SpeedBridge's lobby to complete the process.\n<red>Type <hover:show_text:'<yellow>Click to run /speedbridge setlobby'><click:run_command:'/speedbridge setlobby'>/speedbridge setlobby to set the lobby.
+setupComplete: <gold><bold>»</bold> <yellow>The setup is now complete.
+invalidUuid: <red>⚠ %s is not a valid uuid format. Please try again
+noAvailableIsland: <red>⚠ There is no island available at the moment... please try again later!
+playerWiped: <gold><bold>»</bold> <yellow>%s's data has been reset.
+somethingWentWrong: <red>⚠ Something went wrong... check your console
+joinedAnIsland: <gold><bold>»</bold> <yellow>You're now on island %s!
+invalidIslandArgument: <red>⚠ Invalid argument. Please choose a slot, or an island category.\n<red>⚠ Alternatively, you could run the '<hover:show_text:'<yellow>Click to run /randomjoin'><click:run_command:'/randomjoin'>/randomjoin' command.
+timeStarted: <gold>⟳<yellow> The timer is now ticking!
+setSpawnPoint: <gold><bold>»</bold> <yellow>You have set the island's spawnpoint.
+emptyScoreFormat: 
+leftAnIsland: <gold><bold>»</bold> <yellow>You left from island %s!
+scoreTitle: <yellow>--------<gold><bold> YOUR SCORES</bold></gold> --------
+notLoaded: <red>⚠ Your data has not been loaded yet. Please try again later!
+completeNotification: <gold><bold>»</bold> <yellow>You can complete the setup by typing <hover:show_text:'<yellow>Click to run /sb setup finish'><click:run_command:'/sb setup finish'>/sb setup finish
+islandAlreadyExists: <red>⚠ Island %s already exists!
+scored: <gold>★<yellow> You scored <yellow>%s</yellow> seconds!
+setupIncomplete: <red>⚠ The setup is incomplete. Please ensure that the spawn point is set.
+notInASetup: <red>⚠ You're not setting up anything.
+islandReset: <yellow>⚠ The island has been reset!
+emptySessionLeaderboard: <strikethrough><gray>----
+lobbySetLocation: <gold><bold>»</bold> <yellow>The lobby location has been set!
+invalidIsland: <red>⚠ Island %s cannot be found!

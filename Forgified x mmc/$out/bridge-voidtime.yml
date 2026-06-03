@@ -1,0 +1,15 @@
+bridge:
+  # Bridge void deaths go straight back to spawn with a fresh kit.
+  void-instant-respawn: true
+  void-title: "&6Respawned"
+  void-subtitle: "&fGet back in the fight."
+  spawn-protection-seconds: 3
+
+  # Bridge-only void height. By default this triggers this many blocks under each spawn.
+  void:
+    blocks-under-spawn: 25
+    use-absolute-y: false
+    absolute-y: 0
+
+  # Used after somebody scores in the portal. Set to 0 for no reset countdown.
+  respawn-countdown-seconds: 3

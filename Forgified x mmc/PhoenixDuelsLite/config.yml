@@ -1,0 +1,80 @@
+#  ____   _                          _         ____                _      
+# |  _ \ | |__    ___    ___  _ __  (_)__  __ |  _ \  _   _   ___ | | ___ 
+# | |_) || '_ \  / _ \  / _ \| '_ \ | |\ \/ / | | | || | | | / _ \| |/ __|
+# |  __/ | | | || (_) ||  __/| | | || | >  <  | |_| || |_| ||  __/| |\__ \
+# |_|    |_| |_| \___/  \___||_| |_||_|/_/\_\ |____/  \__,_| \___||_||___/
+#                                                                         
+#
+# Discord: https://discord.gg/NyawUnyyVk
+join-reminder: false
+notify-if-new-version: true
+debug: false
+performance:
+  internal-pool-size: 5
+worlds:
+  should-use: DISABLED_WORLDS
+  enabled: []
+  disabled:
+  - world_nether
+allowed-types:
+- CHALLENGE
+- UNRANKED
+- RANKED
+match:
+  default-finishing-seconds: 5
+  extended-finishing-seconds: 60
+  commands:
+    mode: WHITELIST
+    whitelist-commands: []
+    blacklist-commands: []
+  restore-last-inventory: true
+  launch-fireworks-for-winner: true
+  custom-nametags:
+    enabled: true
+    prefix: '%color%[%team%] '
+betting:
+  money-enabled: true
+  items-enabled: true
+items-betting:
+  max-items-per-player: 10
+cache:
+  use-memory-for-performance: true
+stats-update-interval: 60
+commands:
+  require-permission: false
+  duel:
+    enabled: true
+    alternative: duel
+  queue:
+    enabled: true
+    alternative: queue
+  duelsettings:
+    enabled: true
+    alternative: duelsettings
+  lostitems:
+    enabled: true
+    alternative: duellostitems
+  toggleduelrequest:
+    enabled: true
+    alternative: toggleduelrequest
+  kiteditor:
+    enabled: true
+    alternative: kiteditor
+  stats:
+    enabled: true
+    alternative: stats
+  spectate:
+    enabled: true
+    alternative: spectate
+  party:
+    enabled: true
+    alternative: party
+  leave:
+    alternative: leave
+invitation-expiration-time: 60
+ranked:
+  unranked-requirement:
+    enabled: false
+    amount: 10
+    bypass-permission: phoenixduels.ranked.bypass
+leaderboard-fetch-interval: 60

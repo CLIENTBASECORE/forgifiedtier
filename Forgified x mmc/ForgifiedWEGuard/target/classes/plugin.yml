@@ -1,0 +1,9 @@
+name: ForgifiedWEGuard
+version: 1.0.0
+main: dev.forgified.weguard.ForgifiedWEGuard
+api-version: 1.8
+description: Disables WorldEdit commands while players are in a game session.
+author: Forgified
+depend: [ForgifiedPractice, Fastbridge]
+softdepend: [FastBuilder, WorldEdit]
+loadbefore: [WorldEdit]

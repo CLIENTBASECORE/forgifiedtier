@@ -1,0 +1,223 @@
+SCOREBOARD:
+  LMS:
+    WAITING:
+      - "&7&m-------------------"
+      - "&fHost: &6<event_host>"
+      - "&fEvent: &6LMS"
+      - "&fPlayers: &6<event_joined>/<event_max>"
+      - "&fStarting in: &6<event_countdown>"
+      - "&7&m-------------------"
+    PLAYING:
+      - "&7&m-------------------"
+      - "&fEvent: &6LMS"
+      - "&fAlive: &6<alive_players>/<event_max>"
+      - "&7&m-------------------"
+
+  KNOCKOUT:
+    WAITING:
+      - "&7&m-------------------"
+      - "&fHost: &6<event_host>"
+      - "&fEvent: &6Knockout"
+      - "&fPlayers: &6<event_joined>/<event_max>"
+      - "&fStarting in: &6<event_countdown>"
+      - "&7&m-------------------"
+    PLAYING:
+      - "&7&m-------------------"
+      - "&fEvent: &6Knockout"
+      - "&fAlive: &6<alive_players>/<event_max>"
+      - "&7&m-------------------"
+
+  SKYWARS:
+    WAITING:
+      - "&7&m-------------------"
+      - "&fEvent: &6SkyWars"
+      - "&fPlayers: &6<event_joined>/<event_max>"
+      - "&fStarting in: &6<event_countdown>"
+      - "&fKit: &6<event_kit>"
+      - "&fHost: &6<event_host>"
+      - "&7&m-------------------"
+    PLAYING:
+      - "&7&m-------------------"
+      - "&fPlayers: &6<alive_players>"
+      - "&fKit: &6<event_kit>"
+      - "&fHost: &6<event_host>"
+      - "&7&m-------------------"
+
+  SUMO:
+    WAITING:
+      - "&7&m-------------------"
+      - "&fHost: &6<event_host>"
+      - "&fEvent: &6Sumo"
+      - "&fPlayers: &6<event_joined>/<event_max>"
+      - "&fStarting in: &6<event_countdown>"
+      - "&7&m-------------------"
+    PLAYING:
+      - "&7&m-------------------"
+      - "&fEvent: &6Sumo"
+      - "&fCurrent Round: &6#<current_round>"
+      - "&fPlayers: &6<alive_players>/<event_max>"
+      - "&6<playerA> &f(<playerA_ping>ms)"
+      - "&fvs"
+      - "&6<playerB> &f(<playerB_ping>ms)"
+      - "&7&m-------------------"
+
+  OITC:
+    WAITING:
+      - "&7&m-------------------"
+      - "&fHost: &6<event_host>"
+      - "&fEvent: &6OITC"
+      - "&fPlayers: &6<event_joined>/<event_max>"
+      - "&fStarting in: &6<event_countdown>"
+      - "&7&m-------------------"
+    PLAYING:
+      - "&7&m-------------------"
+      - "&fEvent: &6OITC"
+      - "&fPlayers: &6<alive_players>"
+      - "&fYour Score: &6<player_score>"
+      - "&6&lTop Kills"
+      - "&f 1. &6<first_place>&f: &6<first_place_score>"
+      - "&f 2. &6<second_place>&f: &6<second_place_score>"
+      - "&f 3. &6<third_place>&f: &6<third_place_score>"
+      - "&7&m-------------------"
+
+  GULAG:
+    WAITING:
+      - "&7&m-------------------"
+      - "&fHost: &6<event_host>"
+      - "&fEvent: &6Gulag"
+      - "&fPlayers: &6<event_joined>/<event_max>"
+      - "&fStarting in: &6<event_countdown>"
+      - "&7&m-------------------"
+    PLAYING:
+      - "&7&m-------------------"
+      - "&fEvent: &6Gulag"
+      - "&fCurrent Round: &6#<current_round>"
+      - "&fPlayers: &6<alive_players>/<event_max>"
+      - "&6<playerA> &f(<playerA_ping>ms)"
+      - "&fvs"
+      - "&6<playerB> &f(<playerB_ping>ms)"
+      - "&7&m-------------------"
+
+  TNT-TAG:
+    WAITING:
+      - "&7&m-------------------"
+      - "&fHost: &6<event_host>"
+      - "&fEvent: &6TNT-Tag"
+      - "&fPlayers: &6<event_joined>/<event_max>"
+      - "&fStarting in: &6<event_countdown>"
+      - "&7&m-------------------"
+    PLAYING:
+      - "&7&m-------------------"
+      - "&fEvent: &6TNT-Tag"
+      - "&fPlayers Alive: &6<alive_players>"
+      - "&fTNT Explosion in: &6<tnt_time>s"
+      - "&7&m-------------------"
+
+  PARKOUR:
+    WAITING:
+      - "&7&m-------------------"
+      - "&fHost: &6<event_host>"
+      - "&fEvent: &6Parkour"
+      - "&fPlayers: &6<event_joined>/<event_max>"
+      - "&fStarting in: &6<event_countdown>"
+      - "&7&m-------------------"
+    PLAYING:
+      - "&7&m-------------------"
+      - "&fEvent: &6Parkour"
+      - "&fPlayers: &6<alive_players>/<event_max>"
+      - "&fCheckpoint: &6#<checkpoint_id>"
+      - "&7&m-------------------"
+
+  CORNERS:
+    WAITING:
+      - "&7&m-------------------"
+      - "&fHost: &6<event_host>"
+      - "&fEvent: &64Corners"
+      - "&fPlayers: &6<event_joined>/<event_max>"
+      - "&fStarting in: &6<event_countdown>"
+      - "&7&m-------------------"
+    PLAYING:
+      - "&7&m-------------------"
+      - "&fEvent: &64Corners"
+      - "&fPlayers: &6<alive_players>/<event_max>"
+      - "&fCurrent Round: &6#<current_round>"
+      - "&fDropping Colors: &6<next_round>s"
+      - "&7&m-------------------"
+
+  THIMBLE:
+    WAITING:
+      - "&7&m-------------------"
+      - "&fHost: &6<event_host>"
+      - "&fEvent: &6Thimble"
+      - "&fPlayers: &6<event_joined>/<event_max>"
+      - "&fStarting in: &6<event_countdown>"
+      - "&7&m-------------------"
+    PLAYING:
+      - "&7&m-------------------"
+      - "&fEvent: &6Thimble"
+      - "&fRound: &6#<current_round>"
+      - "&fAlive: &6<alive_players>/<event_max>"
+      - "&7&m-------------------"
+
+  DROPPER:
+    WAITING:
+      - "&7&m-------------------"
+      - "&fHost: &6<event_host>"
+      - "&fEvent: &6Dropper"
+      - "&fPlayers: &6<event_joined>/<event_max>"
+      - "&fStarting in: &6<event_countdown>"
+      - "&7&m-------------------"
+    PLAYING:
+      - "&7&m-------------------"
+      - "&fEvent: &6Dropper"
+      - "&fPhase: &6<current_map>/<maps_total>"
+      - "&fAlive: &6<alive_players>/<event_max>"
+      - "&7&m-------------------"
+
+  STOPLIGHT:
+    WAITING:
+      - "&7&m-------------------"
+      - "&fHost: &6<event_host>"
+      - "&fEvent: &6Stop Light"
+      - "&fPlayers: &6<event_joined>/<event_max>"
+      - "&fStarting in: &6<event_countdown>"
+      - "&7&m-------------------"
+    PLAYING:
+      - "&7&m-------------------"
+      - "&fEvent: &6Stop Light"
+      - "&fStatus: &6<status>"
+      - "&fPlayers: &6<alive_players>/<event_max>"
+      - "&7&m-------------------"
+
+  SPLEEF:
+    WAITING:
+      - "&7&m-------------------"
+      - "&fHost: &6<event_host>"
+      - "&fEvent: &6Spleef"
+      - "&fPlayers: &6<event_joined>/<event_max>"
+      - "&fStarting in: &6<event_countdown>"
+      - "&7&m-------------------"
+    PLAYING:
+      - "&7&m-------------------"
+      - "&fEvent: &6Spleef"
+      - "&fPlayers: &6<event_max>"
+      - "&fRemaining: &6<alive_players>"
+      - "&7&m-------------------"
+
+  BRACKETS:
+    WAITING:
+      - "&7&m-------------------"
+      - "&fHost: &6<event_host>"
+      - "&fEvent: &6Brackets"
+      - "&fPlayers: &6<event_joined>/<event_max>"
+      - "&fStarting in: &6<event_countdown>"
+      - "&7&m-------------------"
+    PLAYING:
+      - "&7&m-------------------"
+      - "&fEvent: &6Brackets"
+      - "&fCurrent Round: &6#<current_round>"
+      - "&fPlayers: &6<alive_players>/<event_max>"
+      - "&6<playerA> &f(<playerA_ping>ms)"
+      - "&fvs"
+      - "&6<playerB> &f(<playerB_ping>ms)"
+      - "&7&m-------------------"

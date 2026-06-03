@@ -1,0 +1,90 @@
+bungeecord:
+  enabled: false
+  map: default
+
+pvp: true
+
+inv:
+  # All valid options are:
+  # Required
+  # - Item (the actual item type)
+  # Optional
+  # - Name (the displayname of the item)
+  # - Enchants (A list of enchantments the item has)
+  # - Amount (how many of the item should be given)
+  0:
+    # name: "Sword"
+    # See https://pies.cf/etc/MaterialUtil.html for some for info on this.
+    item: WOOD_SWORD:0
+    # amount: 1
+  1:
+    item: WOOD_PICKAXE:0
+  2:
+    item: SANDSTONE:0
+    amount: 64
+  3:
+    item: WOOD_AXE:0
+  4:
+    name: "&bKnockback Stick"
+    item: STICK:0
+    enchants:
+      # Enchants are read as "EnchantName Level"
+      # So this is knockback 1 and example "DIG_SPEED 3" is efficiency 3
+      - "KNOCKBACK 1"
+  8: # this is the custom dye to clutch
+    item: clutch
+
+commands:
+  # If you enable join/leave when a player joins or leaves it will run the commands
+  enabled:
+    join: false
+    leave: false
+  # These are the commands it wil run
+  join_arena:
+    - "/DoSomething"
+  leave_arena:
+    - "/DoSomething"
+
+menu:
+  size: 1 # 2 lines in the gui
+  options:
+    0: # this is the slot of the hit
+      displayName: "&bStick Hit" # this shows in the gui
+      name: "&b&lStick" # this shows when you're getting hit (as the title)
+      lore: "&7Basic stick hit" # empty for nothing
+      block: "STICK:0"
+      hit:
+        power: 1
+        vertical: 0.45
+        hits: 2
+        diagonal: false
+    1:
+      displayName: "&bDiagonal Stick Hit"
+      name: "&b&lDiagonal"
+      lore: "&7Basic stick hit but diagonal"
+      block: "WOOD_STAIRS:0"
+      hit:
+        power: 0.7
+        vertical: 0.45
+        hits: 2
+        diagonal: true
+    2:
+      displayName: "&4Bamsi"
+      name: "&4&lBamsi"
+      lore: "&7Bamsi Clutch"
+      block: "REDSTONE_BLOCK:0"
+      hit:
+        power: 1.3
+        vertical: 0.42
+        hits: 2
+        diagonal: false
+    3:
+      displayName: "&9Megatron_031"
+      name: "&9&lMegatron_031"
+      lore: "&7Megatron_031s Clutch"
+      block: "DIAMOND:0"
+      hit:
+        power: 1.2
+        vertical: 0.40
+        hits: 1
+        diagonal: false

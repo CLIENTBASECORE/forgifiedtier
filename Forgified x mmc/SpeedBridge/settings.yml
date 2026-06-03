@@ -1,0 +1,15 @@
+settings:
+  teleport: true
+  block: SANDSTONE:0
+  leaderboard:
+    size: 30
+    format:
+      header: '&6&lLeaderboard'
+      style: '&f[{position}] {name} &a&l({score})'
+    header: '&6&lLeaderboard'
+    style: '&f[{position}] {name} &a&l({score})'
+mode:
+  default: hard
+  list:
+    standard: 0-10
+    hard: 11-20

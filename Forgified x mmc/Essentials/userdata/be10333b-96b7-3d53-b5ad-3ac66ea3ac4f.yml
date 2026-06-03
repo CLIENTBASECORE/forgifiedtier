@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 190.2.148.232
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1778764043885
+  login: 1778763837474
+money: '0'
+last-account-name: itzClearzy
+lastlocation:
+  world: c595096a-d0b0-417e-89f2-0708a70d8665
+  world-name: world
+  x: 13.483048693601905
+  y: 37.0
+  z: -172.61877930513236
+  yaw: 180.0367431640625
+  pitch: 0.5447627305984497
+logoutlocation:
+  world: c595096a-d0b0-417e-89f2-0708a70d8665
+  world-name: world
+  x: 36.812779245439515
+  y: 29.0
+  z: -221.4765454357063
+  yaw: 265.1844177246094
+  pitch: -0.2204442024230957

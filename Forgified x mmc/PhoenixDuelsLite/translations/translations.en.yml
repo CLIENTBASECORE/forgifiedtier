@@ -1,0 +1,522 @@
+#  ____   _                          _         ____                _
+# |  _ \ | |__    ___    ___  _ __  (_)__  __ |  _ \  _   _   ___ | | ___
+# | |_) || '_ \  / _ \  / _ \| '_ \ | |\ \/ / | | | || | | | / _ \| |/ __|
+# |  __/ | | | || (_) ||  __/| | | || | >  <  | |_| || |_| ||  __/| |\__ \
+# |_|    |_| |_| \___/  \___||_| |_||_|/_/\_\ |____/  \__,_| \___||_||___/
+en:
+  error-processing:
+  - '&cAn error occurred while processing this action (Check console):'
+  - '&7%message%'
+  unknown-argument: '&cUnknown Argument!'
+  no-permission: '&cYou are not allowed to do this! (Need %permission%)'
+  command-not-allowed: '&cYou are not allowed to execute this command!'
+  only-ingame-players: '&cCommand only allowed for in-game players.'
+  data-not-available: '&cHold on! We''re still loading your data. Try again in a moment!'
+  labels:
+    last-one: Last One
+    swap-option: Swap option
+    option: Option
+    item: Item
+    all: All
+    go-back: Go Back
+    navigate: Navigate
+    reload: Reload
+    switch-state: Switch State
+    empty: '&7(Empty)'
+    default: '&7(Default)'
+    undefined: '&7Undefined'
+    yes-word: '&aYes'
+    no-word: '&cNo'
+    location: Location
+    region: Region
+    material: Material
+    enabled: Enabled
+    command: Command
+    required: Required
+    line: Line
+    frame: Frame
+    team: Team
+    first: First
+    second: Second
+    confirm: Confirm
+    decline: Decline
+    leader: Leader
+    cooldown: Cooldown
+    ready: Ready
+    not-ready: Not Ready
+    selected: Selected
+    opponent: Opponent
+    opponents: Opponents
+    players: Players
+    empty-title: Empty Title
+    empty-description: Empty Description
+    display-name: Display Name
+    none: None
+    more: More %value%
+    kit-preview: Kit Preview
+    extra-slot: Extra Slot
+    armor-slot: Armor Slot
+    content-slot: Content Slot
+    hotbar-slot: Hotbar Slot
+    effect-type: Effect Type
+    rounds: Rounds
+    money-betting: Money betting
+    items-betting: Items Betting
+    dead: Dead
+  time:
+    day: Day
+    days: Days
+    hour: Hour
+    hours: Hours
+    minute: Minute
+    minutes: Minutes
+    second: Second
+    seconds: Seconds
+  plans:
+    unlock-premium: §cOnly available in the Premium Version.
+    upgrade-at: §4Upgrade at myphoenixstore.com
+  commands:
+    info:
+    - ''
+    - '&e➥ Phoenix Duels Commands'
+    - '%commands%'
+    - ''
+    - '&e➥ Additional information:'
+    - ' &9<argument> - required argument'
+    - ' &3[argument] - optional argument'
+    usage: '&e➥ Usage:'
+    create-map: ' &f/%command% createMap &9<identifier> &8- &7Create map'
+    create-mode: ' &f/%command% createMode &9<identifier> &8- &7Create map mode'
+    delete-map: ' &f/%command% deleteMap &9<identifier> &8- &7Delete map'
+    delete-mode: ' &f/%command% deleteMode &9<identifier> &8- &7Delete map mode'
+    tp-arena: ' &f/%command% tpArena &9<identifier> <position> &8- &7Teleport to an
+      arena instance'
+    restore-arena: ' &f/%command% restoreArena &9<identifier> <position> &8- &7Restore
+      the schematic of an arena instance'
+    set-rating: ' &f/%command% setRating &9<player> &9<mode> &9<score> &8- &7Set player
+      rating score (Ranked ELO)'
+    add-rating: ' &f/%command% addRating &9<player> &9<mode> &9<score> &8- &7Add player
+      rating score (Ranked ELO)'
+    remove-rating: ' &f/%command% removeRating &9<player> &9<mode> &9<score> &8- &7Remove
+      player rating score (Ranked ELO)'
+    reset-rating: ' &f/%command% resetRating &9<player> &9<mode> &8- &7Reset player
+      rating score (Ranked ELO)'
+    set-lobby: ' &f/%command% setLobby &8- &7Define the duels lobby'
+    validate-arenas: ' &f/%command% validateArenas &8- &7Validate all arenas'
+    duel: ' &f/%command% &9<player> &3[mode] [rounds] &8- &7Challenges a player to
+      a duel'
+    challenge: ' &f/%command%  challenge &9<player> &8- &7Challenge a player/party
+      to a fight.'
+    invitation-accept: ' &f/%command% accept &9<player> &8- &7Accept party invitation'
+    invitation-decline: ' &f/%command% accept &9<player> &8- &7Accept party invitation'
+    duels-spectate: ' &f/%command% spectate &9<player> &8- &7Spectate a player in
+      match'
+    spectate: ' &f/%command% &9<player> &8- &7Spectate a player in match'
+    editor: ' &f/%command% editor &8- &7Allows you to edit all features in-game'
+    reload: ' &f/%command% reload &8- &7Reload all Phoenix Duels configuration files'
+  errors:
+    map-does-not-exist: '&cThere is no arena with the identifier "%identifier%"!'
+    unknown-arena-instance: '&cUnknown arena instance!'
+    mode-does-not-exist: '&cThere is no arena mode with the identifier "%identifier%"!'
+    arena-already-exist: '&cThere is already an arena with the identifier "%identifier%"!'
+    mode-already-exist: '&cThere is already an arena mode with the identifier "%identifier%"!'
+    no-region-set: '&cThe arena has no defined region.'
+    no-regeneration-enabled: '&cArena regeneration is not enabled.'
+    arena-not-available: '&cThis arena is not available, there is a match in progress.'
+    mode-no-permission: '&cYou don''t have permission to play on this mode.'
+  successfully-created: '&aCreated successfully.'
+  successfully-deleted: '&aDeleted successfully.'
+  successfully-teleported: '&aTeleported successfully.'
+  successfully-setted: '&aSetted successfully.'
+  successfully-added: '&aAdded successfully.'
+  successfully-removed: '&aRemoved successfully.'
+  successfully-reseted: '&aReseted successfully.'
+  arena-restored: '&aArena restored.'
+  duels-request-on: '&aDuels requests on.'
+  duels-request-off: '&cDuels requests off.'
+  lobby-set: '&aLobby has been set successfully.'
+  lobby-not-defined: '&cLobby is not defined'
+  player-offline: '&cPlayer %name% is not online!'
+  not-a-number: '&cThe amount placed is not a number.'
+  plugin-reloaded: '&aPhoenixDuels have been successfully reloaded.'
+  insufficient-unranked-games:
+  - '&cYou need %missing% more &8Unranked Wins &cto queue here!'
+  - '&cPurchase a rank at &6(your website here) &cto bypass this restriction.'
+  broadcasts:
+    challenge:
+      normal:
+        no-money-bet:
+        - ''
+        - '&d%winner% &fhas defeated &d%loser% &fin duel. &7(Challenge)'
+        - '&b☄ &fMode: &b%mode% &8┃ &c❤ &fHP Left: &c%health_left%'
+        - ''
+        with-money-bet:
+        - ''
+        - '&d%winner% &fhas defeated &d%loser% &fin duel. &7(Challenge)'
+        - '&b☄ &fMode: &b%mode% &8┃ &c❤ &fHP Left: &c%health_left% &8┃ &6❂ &fMoney
+          bet: &6%money%$'
+        - ''
+    unranked:
+    - ''
+    - '&d%winner% &fhas defeated &d%loser% &fin duel. &7(Unranked)'
+    - '&b☄ &fMode: &b%mode% &8┃ &c❤ &fHP Left: &c%health_left%'
+    - ''
+    ranked:
+    - ''
+    - '&d%winner% &fhas defeated &d%loser% &fin duel. &7(Ranked)'
+    - '&b☄ &fMode: &b%mode% &8┃ &c❤ &fHP Left: &c%health_left% &8┃ &a⇄ &fElo: &a%elo%'
+    - ''
+  no-available-arenas: '&cNo available arenas.'
+  match-mode-disabled: '&cThese game mode are disabled on this server.'
+  team:
+    errors:
+      no-slots-available: '&cThere are no slots available on this team.'
+  invitations-message:
+    separator: ' &7/ '
+    accept:
+      message: '&a&nClick to accept'
+      when-hover: '&7Click here to accept this invitation.'
+    decline:
+      message: '&c&nClick to decline'
+      when-hover: '&7Click here to decline this invitation.'
+  leaderboard:
+    all: All
+    daily: Daily
+    weekly: Weekly
+    monthly: Monthly
+    ranked: Ranked
+    unranked: Unranked
+    score: Score
+    total_kills: Total Kills
+    total_deaths: Total Deaths
+    total_wins: Total Wins
+    total_losses: Total Losses
+  requests-off: '&cThis player has invite requests turned off.'
+  party:
+    errors:
+      not-exist: '&cYou don''t have a party.'
+      invite-yourself: '&cYou can''t invite yourself.'
+      player-in-match: '&cThis player is already in a match.'
+      already-member: '&c%player% is already a member of the party.'
+      already-invited: '&c%player% has already been invited.'
+      already-in-other: '&cYou are already in other party.'
+      already-in: '&cYou are already inside this party.'
+      no-invite: '&cThat player didn''t invite you.'
+      no-invitation: '&cInvitation not found or has expired.'
+      player-invitation-expired: '&c%player%''s invitation has expired.'
+      invitation-expired: '&c%leader%''s party invitation has expired.'
+      player-not-in: '&cPlayer is not in party.'
+      only-party-owner: '&cOnly the party owner can perform this action.'
+      many-members: '&cYour party has too many players for this mode.'
+      leader-not-online: '&cParty Leader not online.'
+    info:
+      created: '&aParty created.'
+      player-accepted-invitation: '&a%player% accepted the party invitation.'
+      invitation-accepted: '&aInvitation accepted.'
+      player-declined-invitation: '&a%player% declined the party invitation.'
+      invitation-declined: '&aInvitation declined.'
+      player-kicked: '&c%player% was kicked out of the party.'
+      kicked: '&cYou have been kicked from the party.'
+      promoted-to-leader: '&a%player% has been promoted to party leader.'
+      disbanded: '&cThe party was disbanded.'
+      divided: '&aThe party was been divided.'
+      player-left-party: '&c%player% left the party.'
+      left-party: '&cYou left the party.'
+      been-invited: '&aYou have been invited to player %leader%''s party. &eYou have
+        %time% to accept'
+      player-invited: '&aPlayer %player% has been invited. &eThey have %time% to accept
+        the invitation.'
+  match:
+    errors:
+      invite-yourself: '&cYou can''t invite yourself.'
+      spectate-yourself: '&cYou can''t spectate yourself.'
+      no-challenge: '&cThat player didn''t challenge you.'
+      challenge-expired: '&cChallenge expired.'
+      already-invited: '&cYou already invited someone.'
+      already-in: '&cYou are already inside this challenge.'
+      already-member: '&c%player% is already your opponent.'
+      already-challenged: '&c%player% has already been challenged.'
+      opponent-present: '&cYou already chosen an opponent.'
+      no-mode-selected: '&cUnable to start, no arena mode selected.'
+      no-opponent-selected: '&cNo opponent selected.'
+      pending-opponent: '&cYour opponent''s invitation is pending.'
+      pending-invitations: '&cUnable to start, your party have pending invitations.'
+      opponent-pending-invitations: '&cUnable to start, opponent party have pending
+        invitations.'
+      offline-players: '&cUnable to start, there are offline players.'
+      opponent-offline-players: '&cUnable to start, opponent party contains offline
+        players.'
+      not-ready: '&cUnable to start, not everyone is ready.'
+      not-enough-players: '&cUnable to start, not enough players.'
+      empty-team: '&cUnable to start, no players in a team.'
+      different-team-size: '&cUnable to start, teams must have the same size.'
+      no-ffa-support: '&cUnable to start, selected mode does not support FFA.'
+      no-teams-support: '&cUnable to start, selected mode does not support teams.'
+      not-leader: '&cYou have to be the leader to manage this party.'
+      player-not-in: '&cPlayer is not in match.'
+      already-in-match: '&c%player% is already in a match.'
+      not-in-match: '&c%player% is not in a match.'
+      in-matchmaking: '&cYou are in matchmaking queue.'
+      matchmaking-overflow: '&cYou can only have %players% player(s) because you have
+        %type% party.'
+      missing-unranked-games: '&cUnable to start, a player can''t still play ranked
+        games. (%player%)'
+      on-cooldown: '&cUnable to start, some players are on cooldown. (%players%)'
+      not-enough-money: '&cUnable to start, some players don''t have %amount%$. (%players%)'
+      not-betted: '&cIt is not possible to start, the bet has not yet been started.'
+      no-arena-available: '&cNo arena is available for this mode. Please try again
+        later.'
+      in-queue: '&cUnable to start, some players are in queue. (%players%)'
+      break-blocks: '&cYou can''t break blocks here.'
+      place-blocks: '&cYou can''t place blocks here.'
+      interact-blocks: '&cYou can''t interact with blocks.'
+      use-buckets: '&cYou can''t use buckets.'
+      blacklisted-command: '&cYou can''t execute this command inside a match.'
+      teleport-to-arena: '&c%player% was unable to teleport to the arena. The match
+        was cancelled.'
+      teleport-last-position: '&cUnable to teleport you to your last position, so
+        you were teleported to the lobby.'
+      forcibly-ended: '&cThe match was forcibly ended for internal reasons.'
+      already-ingame-match: §cYou are already playing or spectating this match.
+      cannot-spectate-after-disconnect: §cYou can't spectate a match you previously disconnected from.
+      external-spectator-disabled: '&cThis match is not accepting spectators.'
+      in-combat: '&cThe match was canceled because %player% is in combat.'
+    info:
+      matchmaking: '&bParty in matchmaking, looking for teams...'
+      preparing-match: '&aPreparing match...'
+      settings-changed: '&eYour match settings have been changed. Make sure to take
+        a look.'
+      player-accepted-invitation: '&a%player% accepted the match invitation.'
+      invitation-accepted: '&aInvitation accepted.'
+      player-declined-invitation: '&c%player% declined the match invitation.'
+      player-kicked: '&c%player% was kicked out of the match.'
+      kicked: '&cYou have been kicked from the match.'
+      invitation-declined: '&aInvitation declined.'
+      opponent-left-match: '&cThe opponent left the match.'
+      disbanded: '&cThe match was disbanded.'
+      promoted-to-leader: '&a%player% has been promoted to leader.'
+      been-invited:
+      - '&aYour party has been challenging by %leader%. &eYou have %time% to accept.'
+      - '&fMode: &7%mode% &8| &fRounds: &7%rounds%'
+      opponent-invited: '&aOpponent %player% has been invited to the game. &eThey
+        have %time% to accept the invitation.'
+      removed-from-queue: '&eMatch removed from matchmaking queue.'
+      added-to-queue: '&eGMatch added to matchmaking queue...'
+      queue-cancelled-leader-changed: '&eThe match queue was canceled because leader
+        was changed.'
+      queue-cancelled-player-added: '&eThe match queue was cancelled because %player%
+        &ejoined the party.'
+      queue-cancelled-player-removed: '&eThe match queue was cancelled because %player%
+        &eleft the party.'
+      bet-requirement: '&6&lATTENTION: &eThis match has a %money%$ bet requirement!'
+    warning:
+      empty-player-kit: '&e&lWarning: &eIt looks like your selected kit is empty.
+        Make sure to set it up in the lobby.'
+      queue-no-arenas: '&e&lWarning: &eIt looks like you are queuing for a game mode
+        that has no arena.'
+    others:
+      player-left: '&7%player% left.'
+      player-died: '&7%player% died.'
+      player-killed-by: '&7%player% was killed by %killer%'
+      you-died: '&cYou died. If you want to leave this game, you can type &4/leave&c.'
+      spectator-joined: '&6%player% &eis spectating this match.'
+    defeat:
+      round:
+        solo:
+          title: '&c&lDEFEAT!'
+          subtitle: '&6Round %round% &7(&a%your_score% &7: &c%enemy_score%&7)'
+        team:
+          title: '&c&lDEFEAT!'
+          subtitle: '&6Round %round% &7(&a%your_score% &7: &c%enemy_score%&7)'
+      match:
+        solo:
+          title: '&c&lDEFEAT!'
+          subtitle: '&c%player% &fwon the Duel!'
+        team:
+          title: '&c&lDEFEAT!'
+          subtitle: '&cOpposite team &fwon the Duel!'
+    win:
+      round:
+        solo:
+          title: '&6&lVICTORY!'
+          subtitle: '&6Round %round% &7(&a%your_score% &7: &c%enemy_score%&7)'
+          message: '&7%player% &awon the round.'
+        team:
+          title: '&6&lVICTORY!'
+          subtitle: '&6Round %round% &7(&a%your_score% &7: &c%enemy_score%&7)'
+          message: '&aTeam &7%team% &awon the round.'
+      match:
+        solo:
+          title: '&6&lVICTORY!'
+          subtitle: '&6You &fwon the Duel!'
+          message: '&7%player% &awon the duel.'
+        team:
+          title: '&6&lVICTORY!'
+          subtitle: '&6Your team &fwon the Duel!'
+          message: '&aTeam &7%team% &awon the duel.'
+    draw:
+      title: '&e&lDRAW!'
+      subtitle: '&7The time is over.'
+      player-draw: '&eThere was a draw, neither player won!'
+      team-draw: '&eThere was a draw, neither team won!'
+    go:
+      title: '&a&lGO!'
+      subtitle: '&r'
+  exceeded-betting-limit: '&cYou have already exceeded your limit of items you can
+    bet.'
+  bet-minimum-requirement: '&cYou have to place at least one item as a bet.'
+  bet-cancelled: '&cThe bet was canceled because %player% left the menu.'
+  golden-head:
+    display-name: '&eGolden Head'
+    lore:
+    - '&7Click to consume.'
+  items-to-redeem: '&eYou have lost items to redeem. Type &6/duels lostitems &eto
+    access them.'
+  region-not-allowed: '&cThe region to which you are teleporting is not allowed.'
+  cant-cross-boundaries: '&cYou can''t cross the boundaries of this arena.'
+  item-banned: '&cYou tried to interact with an item that is banned.'
+  block-banned: '&cYou tried to interact with a block that is banned.'
+  your-new-elo: '&aYour new elo score: &e%score%&a.'
+  round-start: '&eA new round will start in &c%time% seconds'
+  round-started: '&aRound started!'
+  match-started: '&aMatch started!'
+  match-founded: '&aA match has been found for you.'
+  countdown:
+    title: '%color%%countdown%'
+    subtitle: ''
+  game-starts: '&eThe game starts in &c%time%&e seconds!'
+  preparing-arena: '&eThe match will start. Preparing arena.'
+  arena-close: '&eThis arena will close in &c%time% seconds'
+  round-over: '&6The round is over! &eA new round will start in &c%time% seconds&e.'
+  match-over: '&6The match is over! &eThe arena will close in &c%time% seconds&e.'
+  lost-money-bet: '&cYou lost %money%$ due to your bet.'
+  won-money-bet: '&aYou won %money%$ due to your bet.'
+  no-money-for-bet: '%player% don''t have %money%$'
+  type-to-leave: '&cType &4/leave &cif you want to leave.'
+  exited-spectator-mode: '&7You have exited the spectator mode.'
+  rules:
+    elytra-disabled: '&cElytra is disabled.'
+    ender-pearls-disabled: '&cEnder Pearls are disabled.'
+    ender-pearls-cooldown: '&cEnder Pearls are on cooldown.'
+    god-apples-cooldown: '&cGod Apples are in cooldown.'
+    golden-apples-cooldown: '&cGolden Apples are in cooldown.'
+  queue:
+    on-join:
+    - '&aYou just joined the queue. &7If you want to exit just type &e/leave'
+    - ''
+    - '&e⚠ Warning:'
+    - '&7While you are in queue you can start your game at'
+    - '&7any time so try to avoid doing dangerous actions.'
+    - ''
+    on-leave: '&7You have just exited this queue.'
+    already-in: '&cYou are already in queue, if you want to cancel type /leave'
+    reminder: '&eYou are in a duel queue. &7To cancel type &6/leave'
+    player-quit: '&c%player% left the server while you were in the queue. Queue cancelled.'
+    player-cancelled: '&c%player% canceled the queue for all players.'
+  actions:
+    menu-not-found: '&cCan''t open "%menu%" menu because it doesn''t exist.'
+  menus:
+    previous-page:
+      name: '&6Previous page - Page %page%'
+      description: '&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<'
+    next-page:
+      name: '&6Next page - Page %page%'
+      description: '&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>'
+  layout:
+    actions:
+      left-click: '&6Left-Click: &e%action%.'
+      right-click: '&6Right-Click: &e%action%.'
+      left-right-click: '&6Left/Right-Click: &e%action%.'
+      shift-left-click: '&6Shift + Left-Click: &e%action%.'
+      shift-right-click: '&6Shift + Right-Click: &e%action%.'
+      drag-drop-click: '&6Drag & Drop: &e%action%.'
+      description:
+        add: Add %value%
+        set: Set %value%
+        create: Create %value%
+        remove: Remove %value%
+        edit: Edit %value%
+        delete: Delete %value%
+        clear: Clear %value%
+        choose: Choose %value%
+        change: Change %value%
+        select: Select %value%
+        replace: Replace %value%
+        swap: Swap %value%
+        select-swap: Select/Swap %value%
+    displays:
+      state: '&fIs %type%: &7%state%'
+      value: '&f%type%: &7%value%'
+      material: '&fMaterial: &7%material%'
+      location:
+        empty: '&fLocation: &7Empty'
+        populated:
+        - '&fLocation: '
+        - ' &fWorld: &7%world%'
+        - ' &fX axis: &7%x%'
+        - ' &fY axis: &7%y%'
+        - ' &fZ axis: &7%z%'
+        - ' &fYaw: &7%yaw%'
+        - ' &fPitch: &7%pitch%'
+      region:
+        empty: '&fRegion: &7Empty'
+        populated:
+        - '&fRegion: '
+        - ' &fWorld: &7%world%'
+        - ' &fPosition #1: &7%minimum%'
+        - ' &fPosition #2: &7%maximum%'
+      item:
+        empty: '&fItem: &7Empty'
+        populated:
+        - '&fItem: '
+        - ' &fName: &7%name%'
+        - ' &fLore: &7%lore_if_empty%'
+        - ' &f- &5&o%lore%'
+    extras:
+      previous-page:
+        title: '&aPrevious page - Page %page%'
+        description:
+        - '&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<'
+      next-page:
+        title: '&aNext page - Page %page%'
+        description:
+        - '&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>'
+      no-data-found:
+        title: '&cNo data found.'
+        description:
+        - '&7No data were found using this filter.'
+      filter:
+        title: '&aFilter'
+        description:
+        - '&7By clicking here you will be able'
+        - '&7to filter by name.'
+        - ''
+        - '&fFilter: &e%filter%'
+        - ''
+        - '&6Left-Click: &eSet filter.'
+        - '&6Right-Click: &eClear filter.'
+  editor:
+    messages:
+      write-identifier-chat: '&eWrite the new identifier in the chat.'
+      identifier-updated: '&aIdentifier successfully updated to "%identifier%&a"!'
+      write-displayname-chat: '&eWrite the new display name in the chat.'
+      displayname-updated: '&aDisplay name successfully updated to "%display_name%&a"!'
+      write-in-chat: '&aWrite in the chat.'
+      value-updated: '&aValue successfully updated!'
+      write-lore-line-chat: '&eWrite the new lore line in the chat.'
+      lore-line-added: '&aLore Line successfully added!'
+      lore-cleared: '&aLore successfully cleared.'
+      opening-animation-changed: '&aOpening Animation successfully changed.'
+      crate-type-deleted: Crate Type deleted successfully.
+    errors:
+      identifier-already-in-use: '&cThis identifier is already in use.'
+      no-spaces: '&cCan''t have spaces!'
+      invalid-input: '&cInvalid input!'
+      invalid-number: '&cInvalid number!'
+      inventory-full: '&cYour inventory is full.'
+      invalid-rewards: There are %amount% reward(s) that are invalid!
+      invalid-reward-display: 'Invalid Reward: Founded empty display item!'
+      invalid-reward-items: 'Invalid Reward: Empty content items!'
+  readers:
+    exit-session: '&aTo exit this session type &e"cancel"&a.'
+    write-chat: '&aWrite in the chat.'

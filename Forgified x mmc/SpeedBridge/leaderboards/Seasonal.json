@@ -1,0 +1,111 @@
+{
+  "identifier": "Seasonal",
+  "capacity": 30,
+  "positions": [
+    {
+      "name": "ln9d",
+      "uniqueId": "ad4dae44-4dc6-4fe6-9118-f65fa803f726",
+      "score": 1.299
+    },
+    {
+      "name": "itzClearzy",
+      "uniqueId": "8a671cd6-5301-4173-8b06-9b599318e28b",
+      "score": 1.701
+    },
+    {
+      "name": "xmaf",
+      "uniqueId": "ec9d57e7-6495-47dc-a15b-cd5f1ede4707",
+      "score": 1.799
+    },
+    {
+      "name": "MicorHD",
+      "uniqueId": "959ce626-be47-4905-a2ad-a35c15041c6a",
+      "score": 2.0
+    },
+    {
+      "name": "qClicks",
+      "uniqueId": "614fdfdd-d5fb-4823-8d59-f1e6944aa7c5",
+      "score": 2.1
+    },
+    {
+      "name": "Megatron_031",
+      "uniqueId": "210733fc-29b1-4154-9488-e064b51bf83c",
+      "score": 2.301
+    },
+    {
+      "name": "Romik111",
+      "uniqueId": "f88b8181-21d5-4b55-bd27-ace1ff5a668c",
+      "score": 2.401
+    },
+    {
+      "name": ".WilledEar4388",
+      "uniqueId": "00000000-0000-0000-0009-01fe88bb6ec4",
+      "score": 2.499
+    },
+    {
+      "name": ".Zunayed_Boss",
+      "uniqueId": "00000000-0000-0000-0009-01f67b61dc81",
+      "score": 2.5
+    },
+    {
+      "name": ".Optimus9479",
+      "uniqueId": "00000000-0000-0000-0009-01f3d4b61717",
+      "score": 2.6
+    },
+    {
+      "name": "HedgehogMr",
+      "uniqueId": "1e071c5c-f2e0-40d6-8f20-beb01caabd4b",
+      "score": 2.601
+    },
+    {
+      "name": "r5x9",
+      "uniqueId": "c5e36000-5879-403e-a3c5-966d5dca0b29",
+      "score": 2.601
+    },
+    {
+      "name": "amzq",
+      "uniqueId": "10b2b4e7-75ce-4a27-a2f7-c7bcc1137e2f",
+      "score": 2.601
+    },
+    {
+      "name": "Megatron_031",
+      "uniqueId": "fccb1860-de37-3ddf-b96c-b114373ea540",
+      "score": 2.601
+    },
+    {
+      "name": "Loser178",
+      "uniqueId": "dd5a489c-2d2b-45cd-a8e3-5fbe28935e38",
+      "score": 3.302
+    },
+    {
+      "name": "HamsterPrank",
+      "uniqueId": "186d9965-ee09-4e5b-afae-6dfde4d88617",
+      "score": 3.801
+    },
+    {
+      "name": "coastalmining",
+      "uniqueId": "b38f7cab-f8fd-4e17-926f-1d1cacfcb150",
+      "score": 4.0
+    },
+    {
+      "name": "INROW",
+      "uniqueId": "f17d7b12-5a93-412c-bd4c-307fbddd6bde",
+      "score": 4.405
+    },
+    {
+      "name": "DonArkada7",
+      "uniqueId": "5d4dfde9-ac44-4872-b35f-18075934da90",
+      "score": 4.603
+    },
+    {
+      "name": "Sarip1",
+      "uniqueId": "8978109e-9388-42d3-827a-1a9e02d2e875",
+      "score": 6.406
+    },
+    {
+      "name": ".shehab5676897",
+      "uniqueId": "00000000-0000-0000-0009-01f013e66035",
+      "score": 7.201
+    }
+  ]
+}

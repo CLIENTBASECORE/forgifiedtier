@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 6.95.232.111
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1772228681259
+  login: 1772228511985
+money: '0'
+lastlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: 6.5
+  y: 7.0
+  z: 641.5
+  yaw: -180.0
+  pitch: 0.0
+last-account-name: MiniBossMC
+logoutlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: 9.421958527927625
+  y: 7.0
+  z: 630.0209791640597
+  yaw: -190.2786865234375
+  pitch: 30.61119270324707

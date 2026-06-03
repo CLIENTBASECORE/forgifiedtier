@@ -1,0 +1,57 @@
+items:
+  bottom-filler:
+    slot: 27-35
+    material: STAINED_GLASS_PANE:15
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&a'
+    lore: []
+    actions: []
+  close:
+    slot: '31'
+    material: FEATHER
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&cClose'
+    lore:
+    - '&7Click here to close.'
+    actions:
+    - '[CLOSE_INVENTORY]'
+  unknown:
+    slot: '14'
+    material: STAINED_GLASS_PANE:7
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&7'
+    lore: []
+    actions: []
+settings:
+  type: PARTY
+  title: Party
+  rows: 4
+  refresh:
+    enabled: true
+    rate: 20
+  on-open-actions: []
+create-party-item:
+  slot: '12'
+  material: NETHER_STAR
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aCreate Party'
+  lore:
+  - '&7Click here to create a party.'
+  - '&7This party will allow you to play'
+  - '&7dueling games together with friends.'
+  - ''
+  - '&6Left-Click: &eCreate Party.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'

@@ -1,0 +1,5 @@
+k-factor: 32
+min-rating: 0
+max-rating: 3500
+default-rating: 500
+tolerance: 200

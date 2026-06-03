@@ -1,0 +1,63 @@
+items:
+  bottom-filler:
+    slot: 27-35
+    material: STAINED_GLASS_PANE:15
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&a'
+    lore: []
+    actions: []
+  go-back:
+    slot: '31'
+    material: ARROW
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&6Go Back'
+    lore:
+    - '&7Click here to go back.'
+    - ''
+    - '&6Left-Click: &eGo back.'
+    actions:
+    - '[MENU] party'
+settings:
+  type: PARTY_MANAGE_MEMBER
+  title: Your Party - Manage Member
+  rows: 4
+  refresh:
+    enabled: false
+    rate: 20
+  on-open-actions: []
+promote-to-leader-item:
+  slot: 12
+  material: NETHER_STAR
+  custom-model-data: 0
+  glow: false
+  display-name: '&aPromote to Leader'
+  lore:
+  - '&7Click here to promote this'
+  - '&7member to leader of this party.'
+  - ''
+  - '&e&nAfter you promote this member'
+  - '&e&nto leader you will lose'
+  - '&e&nyour permissions on this party.'
+  - ''
+  - '&6Left-Click: &ePromote to leader.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+kick-member-item:
+  slot: 14
+  material: WOOD_DOOR
+  custom-model-data: 0
+  glow: false
+  display-name: '&aKick Member'
+  lore:
+  - '&7Click here to kick this'
+  - '&7member from your party.'
+  - ''
+  - '&6Left-Click: &eKick member.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'

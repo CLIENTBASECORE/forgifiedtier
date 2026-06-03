@@ -1,0 +1,32 @@
+Inventory:
+  TitleBlock: '&eSelect Block'
+  DontHaveTheBlock: '&cYou don''t have the block!'
+Game:
+  Finished: '&aYou have finished the Game!'
+  StayOnYourIsland: '&cPlease stay on your Insland!'
+ActionBar:
+  Seconds: '&eSeconds: '
+Scoreboard:
+  SelectMap: '&ePlease Select your Map!'
+  Player: '&cPlayer: &7'
+  CustomMessageLine1: ''
+  CustomMessageLine2: '&7>>> &bInformation:'
+  CustomMessageLine3: '&fTS: &7Fastbridge.com'
+  CustomMessageLine4: '&eRate the Plugin with 5 stars!'
+Setup:
+  LobbySpawn: '&aYou set up the lobby spawn.'
+General:
+  NoPermissions: '&cYou can not do this!'
+  BuildModeActivate: '&aBuild mode is activated'
+  BuildModeDeactivate: '&aBuild mode is deactivated'
+  Prefix: '&f[&eFastbridge&f]'
+Stats:
+  Titel: '&aPlayerStats'
+  PlayerName: '&7Player Name: &f'
+  MapName: '&7Map Name: &f'
+  BestTime: '&7Best Time: &f'
+  Blocks: '&7Blocks Placed: &f'
+  TimesPlayed: '&7Times Played: &f'
+  BestTimeActionBar: '&cNew Record! &7Your Best Time: &f'
+  StatsBestTimeChat: '&cNew Record! &7You only needed [time] seconds'
+  OnlyOnMap: '&cYou only can you this command ingame!'

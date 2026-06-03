@@ -1,0 +1,323 @@
+sort-order: 3
+enabled: true
+identifier: combo
+display-name: Combo
+display-description:
+- '&7This is a custom description'
+display-icon: APPLE
+allowed-player-type:
+- UNRANKED_SOLO
+- UNRANKED_DUO
+- UNRANKED_TRIO
+- UNRANKED_QUAD
+- RANKED_SOLO
+- RANKED_DUO
+- RANKED_TRIO
+- RANKED_QUAD
+- CUSTOM_SOLO
+- CUSTOM_DUO
+- CUSTOM_TRIO
+- CUSTOM_QUAD
+- SOLO_CHALLENGE
+- PARTY_CHALLENGE
+loadout:
+  type: PREMADE_KIT
+  items:
+    '0':
+      slot: 37
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          repair-cost: 3
+    '1':
+      slot: 38
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          repair-cost: 3
+    '2':
+      slot: 39
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          repair-cost: 3
+    '3':
+      slot: 40
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          repair-cost: 3
+    '4':
+      slot: 1
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 5
+            DURABILITY: 3
+            FIRE_ASPECT: 2
+          repair-cost: 7
+    '5':
+      slot: 2
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          repair-cost: 3
+    '6':
+      slot: 3
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          repair-cost: 3
+    '7':
+      slot: 4
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          repair-cost: 3
+    '8':
+      slot: 5
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          repair-cost: 3
+    '9':
+      slot: 6
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+        damage: 1
+        amount: 64
+    '10':
+      slot: 7
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8233
+    '11':
+      slot: 8
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16418
+    '12':
+      slot: 9
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16418
+    '13':
+      slot: 18
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16418
+    '14':
+      slot: 17
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16418
+    '15':
+      slot: 16
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16418
+    '16':
+      slot: 25
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16418
+    '17':
+      slot: 26
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16418
+    '18':
+      slot: 27
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16418
+    '19':
+      slot: 36
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16418
+    '20':
+      slot: 35
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16418
+    '21':
+      slot: 34
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16418
+    '22':
+      slot: 33
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8233
+    '23':
+      slot: 24
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8233
+    '24':
+      slot: 15
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8233
+    '25':
+      slot: 32
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8233
+    '26':
+      slot: 23
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8233
+    '27':
+      slot: 14
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8233
+scoreboard:
+  enabled: false
+  header-frames:
+  - '&5&lPHOENIX DUELS'
+  - '&d&lP&5&lHOENIX DUELS'
+  - '&d&lPH&5&lOENIX DUELS'
+  - '&5&lP&d&lHO&5&lENIX DUELS'
+  - '&5&lPH&d&lOE&5&lNIX DUELS'
+  - '&5&lPHO&d&lEN&5&lIX DUELS'
+  - '&5&lPHOE&d&lNI&5&lX DUELS'
+  - '&5&lPHOEN&d&lIX&5&l DUELS'
+  - '&5&lPHOENI&d&lX D&5&lUELS'
+  - '&5&lPHOENIX &d&lDU&5&lELS'
+  - '&5&lPHOENIX D&d&lUE&5&lLS'
+  - '&5&lPHOENIX DU&d&lEL&5&lS'
+  - '&5&lPHOENIX DUE&d&lLS'
+  - '&5&lPHOENIX DUEL&d&lS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&d&lPHOENIX DUELS'
+  - '&d&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&d&lPHOENIX DUELS'
+  - '&d&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  - '&5&lPHOENIX DUELS'
+  lines:
+  - ''
+  - '&7⌚ &fTime Left: &7%time_left%'
+  - ''
+  - '&f%opponents%'
+  - ''
+  - '[B@5db3c77c'
+  - '[B@9451828'
+  - ''
+  - '    &dwww.phoenixplugins.com  '
+rules:
+- DISABLE_BLOCK_BREAK_PLACE
+- NO_HIT_DELAY_RULE
+permission:
+  required: false
+  permission: phoenixduels.mode.example
+rounds-to-win: 1
+pre-fight-delay-seconds: 3
+duration-seconds: 900
+cooldown-seconds: 0
+public-broadcast: true
+commands:
+  when-starting: []
+  when-ending: []
+  when-winning: []
+  when-losing: []

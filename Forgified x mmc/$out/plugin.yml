@@ -1,0 +1,23 @@
+name: KnockbackSync
+version: 1.3.6-dev-b132
+main: me.caseload.knockbacksync.BukkitLoaderPlugin
+api-version: '1.13' # We actually support 1.12.2, api-version was added later though
+authors: [ Caseload, Axionize ]
+description: Synchronizes player knockback for smoother gameplay.
+folia-supported: true
+depends: []
+permissions:
+  knockbacksync.update:
+    default: op
+  knockbacksync.toggle.global:
+    default: op
+  knockbacksync.toggle.other:
+    default: op
+  knockbacksync.toggle.self:
+    default: op
+  knockbacksync.ping:
+    default: op
+  knockbacksync.reload:
+    default: op
+  knockbacksync.toggleoffground:
+    default: op

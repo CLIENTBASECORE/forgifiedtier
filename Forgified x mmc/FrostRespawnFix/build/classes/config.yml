@@ -1,0 +1,12 @@
+respawn-delay-seconds: 3
+target-kits:
+  - FireballFight
+  - BedFight
+  - BattleRush
+  - StickFight
+  - PearlFight
+messages:
+  title: "&bRespawning"
+  subtitle: "&7You can move in &b<seconds>&7..."
+  done-title: "&aGo!"
+  done-subtitle: "&7You have respawned."

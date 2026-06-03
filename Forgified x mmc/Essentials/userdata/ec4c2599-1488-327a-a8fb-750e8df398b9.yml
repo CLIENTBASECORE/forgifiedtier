@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 83.22.41.36
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1778766802845
+  login: 1778765646980
+money: '0'
+last-account-name: jalapala
+lastlocation:
+  world: c595096a-d0b0-417e-89f2-0708a70d8665
+  world-name: world
+  x: 13.33923508406719
+  y: 37.0
+  z: -172.58412208470074
+  yaw: 180.04037475585938
+  pitch: -0.03942061960697174
+logoutlocation:
+  world: c595096a-d0b0-417e-89f2-0708a70d8665
+  world-name: world
+  x: 13.016373194327196
+  y: 37.0
+  z: -176.6309868203381
+  yaw: 176.13694763183594
+  pitch: 2.232379198074341

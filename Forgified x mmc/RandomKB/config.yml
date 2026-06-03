@@ -1,0 +1,30 @@
+knockback-horizontal:
+  HorizontalMin: 0.8
+  HorizontalMax: 0.8
+  ExtraHorizontalMin: 0.0
+  ExtraHorizontalMax: 0.0
+  KnockbackReduction: 1.0
+knockback-vertical:
+  VerticalMin: 0.5
+  VerticalMax: 0.5
+  AirVerticalMin: 0.0
+  AirVerticalMax: 0.0
+  ExtraVerticalMin: 0.0
+  ExtraVerticalMax: 0.0
+  KnockbackReduction: 1.0
+  VerticalLimit: 0.35
+  DistanceKBFrictionMin: 3.5
+  DistanceKBFrictionMax: 4.0
+  AirKnockback: false
+  EnableDistanceKB: false
+other:
+  FrictionMin: 2.0
+  FrictionMax: 2.0
+  BetterSprint: false
+  BetterSprintStatusReset: true
+  KnockbackResistance: false
+  DeltaKnockback: false
+  UseTrigonometryOnAllKB: false
+  BetterSprintReductionOnAllKB: false
+experimental:
+  DoNotGoBackToOldVelocity: false

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 199.127.254.194
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1771207961217
+  login: 1771207961775
+money: '0'
+last-account-name: mangoslayer100
+lastlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: -3.9786319315876355
+  y: 5.0625
+  z: 597.0078296266091
+  yaw: -270.0
+  pitch: -1.0
+logoutlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: -16.545242549860394
+  y: 4.0
+  z: 608.05832524657
+  yaw: -11.40203857421875
+  pitch: 75.06428527832031

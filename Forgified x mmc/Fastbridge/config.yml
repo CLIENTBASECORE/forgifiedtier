@@ -1,0 +1,31 @@
+PlayerResetPoint: 80
+Function:
+  CheckUpdate: true
+  Scoreboard: true
+  ActionBar: true
+Game:
+  Block0:
+    Permission: Fastbridge.block0
+  Block1:
+    Permission: Fastbridge.block1
+  Block2:
+    Permission: Fastbridge.block2
+  Block3:
+    Permission: Fastbridge.block3
+  Block4:
+    Permission: Fastbridge.block4
+  Block5:
+    Permission: Fastbridge.block5
+  Block6:
+    Permission: Fastbridge.block6
+  Block7:
+    Permission: Fastbridge.block7
+  Block8:
+    Permission: Fastbridge.block8
+Database:
+  useMySQL: false
+  Host: localhost
+  Port: 3306
+  Database: fastbridge
+  Username: root
+  Password: password

@@ -1,0 +1,68 @@
+##############################
+#    Spyglass Config File    #
+#   Developed by nubDotDev   #
+##############################
+
+# Placeholders are listed above their respective messages
+messages:
+  no-perms: "&cInsufficient permissions!"
+  no-player: "&cPlayer not found!"
+  reload: "&aSuccessfully reloaded the config file!"
+  # %spy%: either 'social' or 'command'
+  # %mode%: either 'enabled' or 'disabled'
+  # %player%: name of the player
+  toggle: "&a%spy% spy %mode% for %player%"
+  # %sender%: name of the message sender
+  # %recipient%: name of the message recipient
+  # %message%: message being sent
+  command-spy: "&8[&bCOMMAND&8] &r%sender%&8: &7%command%"
+  # %sender%: name of the command sender
+  # %command%: command being executed
+  social-spy: "&8[&bSOCIAL&8] &r%sender% &8> &r%recipient%&8: &7%message%"
+
+# Enter commands without their first slash
+# If you would like to include all commands from a plugin, use '{PLUGIN}:*' (This doesn't work with some plugins like WorldEdit)
+
+# Will make command spy detect social and reply commands if true
+command-spy-on-social-commands: false
+# Will ignore commands that do not belong to a plugin (this includes vanilla commands)
+ignore-unregistered-commands: false
+# Will ignore command aliases
+# Ex: If 'command-blacklist' contains 'gamemode' command spy will not detect its alias 'gm'
+ignore-aliases: false
+# Will make the blacklist the only commands that can be spied on without the permission 'spyglass.command.bypass' if true
+blacklist-is-whitelist: false
+# These commands cannot be spied on without the permission 'spyglass.command.bypass'
+command-blacklist:
+  - 'blacklisted-command'
+# Will make the ignored commands the only commands that can be spied on regardless of permissions
+invert-ignored-commands: false
+# These commands cannot be spied on regardless of permissions
+ignored-commands:
+  - 'ignored-command'
+
+# These commands will be detected by social spy
+# Their format must be: /{COMMAND} {RECIPIENT} {MESSAGE}
+social-commands:
+  - 'msg'
+  - 'w'
+  - 'm'
+  - 't'
+  - 'pm'
+  - 'emsg'
+  - 'epm'
+  - 'tell'
+  - 'etell'
+  - 'whisper'
+  - 'ewhisper'
+
+# These commands will also be detected by social spy
+# Their format must be: /<COMMAND> <MESSAGE>
+reply-commands:
+  - 'r'
+  - 'er'
+  - 'reply'
+  - 'ereply'
+
+# Will make social spy detect the vanilla command '/teammsg'
+spy-teammsg: false

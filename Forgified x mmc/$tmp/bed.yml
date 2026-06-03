@@ -1,0 +1,14 @@
+# BedFight Titles Configuration
+# Enable or disable the titles shown when a bed is broken.
+
+# Shown to the player whose bed was broken
+bed-destroyed-title:
+  enabled: true
+  title: "&cBED DESTROYED!"
+  subtitle: "&fYou will no longer respawn!"
+
+# Shown to the player who broke the bed
+bed-broken-title:
+  enabled: true
+  title: "&aBED BROKEN!"
+  subtitle: "&fYour opponent can no longer respawn!"

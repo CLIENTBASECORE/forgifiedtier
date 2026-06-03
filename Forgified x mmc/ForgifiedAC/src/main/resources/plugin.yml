@@ -1,0 +1,13 @@
+name: ForgifiedAC
+main: dev.forgified.anticheat.ForgifiedAC
+version: 1.0.0
+author: Codex
+description: Lightweight standalone anticheat for Forgified server.
+commands:
+  alerts:
+    description: Toggle ForgifiedAC alerts.
+    permission: forgifiedac.admin
+permissions:
+  forgifiedac.admin:
+    description: Access to ForgifiedAC alerts and bypass.
+    default: op

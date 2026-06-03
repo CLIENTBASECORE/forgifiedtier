@@ -1,0 +1,32 @@
+respawn-delay-seconds: 3
+force-respawn-after-ticks: 2
+pseudo-death:
+  enabled: true
+  apply-to-any-frost-fight-if-kit-unknown: true
+  apply-if-frost-state-is-unknown: true
+  lock-after-damage-ticks: 2
+  teleport-detection-window-millis: 4000
+  void-y: 0
+anti-frost-teleport:
+  enabled: true
+  block-all-during-respawn: true
+  block-plugin-teleports-always: true
+  after-release-ticks: 40
+  max-distance-from-respawn: 1.5
+arena-spawns:
+  remember-distance: 14.0
+target-kits:
+  - FireballFight
+  - BedFight
+  - BattleRush
+  - StickFight
+  - PearlFight
+messages:
+  countdown-title: "&bRespawning"
+  countdown-subtitle: "&7You can move in &b<seconds>&7..."
+  released-title: "&aGo!"
+  released-subtitle: "&7You have respawned."
+chat-filter:
+  enabled: true
+  cooldown-millis: 2500
+debug: false

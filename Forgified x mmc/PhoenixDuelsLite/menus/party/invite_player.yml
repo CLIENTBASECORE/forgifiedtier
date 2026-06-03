@@ -1,0 +1,110 @@
+items:
+  bottom-filler:
+    slot: 45-53
+    material: STAINED_GLASS_PANE:15
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&a'
+    lore: []
+    actions: []
+  go-back:
+    slot: '49'
+    material: ARROW
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&aGo back'
+    lore:
+    - '&7Click here to go back.'
+    - ''
+    - '&6Left-Click: &eCancel.'
+    actions:
+    - '[MENU] party_info'
+settings:
+  type: PARTY_INVITE_PLAYER
+  title: Party - Invite Player
+  rows: 6
+  refresh:
+    enabled: false
+    rate: 20
+  on-open-actions: []
+pagination:
+  direction-items: HORIZONTAL
+  align-items: LEFT
+  slots: 10-16, 19-25, 28-34
+  fill-item:
+    material: STAINED_GLASS_PANE:7
+    custom-model-data: 1
+    glow: false
+    display-name: '&a'
+    lore: []
+    actions: []
+  previous-item:
+    slot: '18'
+    material: ARROW
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&aPrevious page'
+    lore:
+    - '&8(Page %page%)'
+    - '&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<'
+    actions: []
+  next-item:
+    slot: '26'
+    material: ARROW
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&aNext page'
+    lore:
+    - '&8(Page %page%)'
+    - '&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>'
+    actions: []
+player-item:
+  material: SKULL_ITEM:3
+  custom-model-data: 0
+  glow: false
+  display-name: '%player%'
+  lore:
+  - ''
+  - '&6Left-Click: &eInvite player.'
+  actions: []
+player-filter:
+  slot: '51'
+  material: HOPPER
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aPlayer Filter'
+  lore:
+  - '&7By clicking here you will be able'
+  - '&7to filter by player name.'
+  - ''
+  - '&fFilter: &e%filter%'
+  - ''
+  - '&6Left-Click: &eSet filter.'
+  - '&6Right-Click: &eClear filter.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+no-records:
+  slot: '22'
+  material: BARRIER
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&cNo players found.'
+  lore:
+  - '&7No players were found in this filter.'
+  - ''
+  - '&7This could mean that the player'
+  - '&7is not online or the player'
+  - '&7has duel invites turned off.'
+  actions: []

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 143.177.106.9
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1778762599950
+  login: 1778762649177
+money: '0'
+last-account-name: Enlock
+lastlocation:
+  world: c595096a-d0b0-417e-89f2-0708a70d8665
+  world-name: world
+  x: 13.483048693601905
+  y: 37.0
+  z: -172.61877930513236
+  yaw: 180.0367431640625
+  pitch: 0.5447627305984497
+logoutlocation:
+  world: c595096a-d0b0-417e-89f2-0708a70d8665
+  world-name: world
+  x: 17826.5
+  y: 104.0
+  z: 17772.5
+  yaw: 269.6231384277344
+  pitch: -4.405373573303223

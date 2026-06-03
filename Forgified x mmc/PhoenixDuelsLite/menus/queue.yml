@@ -1,0 +1,51 @@
+items: {}
+settings:
+  type: QUEUE
+  title: Queue Options
+  rows: 3
+  refresh:
+    enabled: false
+    rate: 20
+  on-open-actions: []
+unranked-game-item:
+  slot: '12'
+  material: SLIME_BALL
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aPlay Unranked Game'
+  lore:
+  - '&7By clicking here you will'
+  - '&7be able to play unranked game where'
+  - '&7you can invite your friends.'
+  - ''
+  - '&fWhat is an unranked game?'
+  - '&7Unranked matchs allow you and your'
+  - '&7friends to fight against unknown'
+  - '&7players but you don''t have ELO.'
+  - ''
+  - '&6Left-Click: &ePlay Unranked Game.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+ranked-game-item:
+  slot: '14'
+  material: MAGMA_CREAM
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aPlay Ranked Game'
+  lore:
+  - '&7By clicking here you will'
+  - '&7be able to play ranked game where'
+  - '&7you can invite your friends.'
+  - ''
+  - '&fWhat is a ranked game?'
+  - '&7Unranked matchs allow you and your'
+  - '&7friends to fight against unknown'
+  - '&7players and rise in ELO.'
+  - ''
+  - '&6Left-Click: &ePlay Ranked Game.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'

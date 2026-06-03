@@ -1,0 +1,159 @@
+items: {}
+settings:
+  type: DUEL_PLAYER
+  title: '&8Create Duel - %player%'
+  rows: 3
+  refresh:
+    enabled: false
+    rate: 20
+  on-open-actions: []
+mode:
+  selected:
+    slot: '11'
+    material: IRON_CHESTPLATE
+    amount: 1
+    custom-model-data: 0
+    glow: true
+    hide-attributes: false
+    display-name: '&aMode'
+    lore:
+    - '&7Use this option to define'
+    - '&7the mode you will play.'
+    - ''
+    - '&fMode: &7%name%'
+    - '&7%description%'
+    - ''
+    - '&6Left-Click: &eSelect mode.'
+    actions:
+    - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+  empty:
+    slot: '11'
+    material: IRON_CHESTPLATE
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: true
+    display-name: '&aMode'
+    lore:
+    - '&7Use this option to define'
+    - '&7the mode you will play.'
+    - ''
+    - '&fMode:'
+    - '&8(Not Selected)'
+    - ''
+    - '&6Left-Click: &eSelect mode.'
+    actions:
+    - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+map:
+  slot: '12'
+  material: STORAGE_MINECART
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: true
+  display-name: '&aMap'
+  lore:
+  - '&7By clicking here you will be able'
+  - '&7to define which map you want to play.'
+  - ''
+  - '&fMap: &7%map%'
+  - ''
+  - '&6Left-Click: &eSelect map.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+rounds:
+  slot: '13'
+  material: FIREBALL
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aRounds To Win'
+  lore:
+  - '&7Click here to define how many rounds'
+  - '&7you will be playing in this match.'
+  - ''
+  - '&fRounds: &7%rounds%'
+  - ''
+  - '&6Left-Click: &eAdd 1.'
+  - '&6Right-Click: &eRemove 1.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+external-spectator:
+  slot: '-1'
+  material: EYE_OF_ENDER
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aExternal Spectator'
+  lore:
+  - '&7Click here to toggle where this game'
+  - '&7accepts external spectators who are'
+  - '&7not playing in the match or not.'
+  - ''
+  - '&fIs Enabled: &7%state%'
+  - ''
+  - '&6Left-Click: &eSwitch state.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+money-wage:
+  slot: '14'
+  material: GOLD_INGOT
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aMoney Wage'
+  lore:
+  - '&7Click here to set the amount'
+  - '&7of money that a player will have to pay'
+  - '&7to play this match.'
+  - ''
+  - '&fMoney Betting: &7%money%$'
+  - ''
+  - '&6Left-Click: &eChange.'
+  - '&6Right-Click: &eDisable.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+items-betting:
+  slot: '15'
+  material: LEATHER
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aItems Betting'
+  lore:
+  - '&7Click here to toggle wheither this match'
+  - '&7will accept items betting.'
+  - ''
+  - '&fIs Enabled: &7%state%'
+  - ''
+  - '&6Left-Click: &eSwitch state.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+cancel-request:
+  slot: '10'
+  material: STAINED_GLASS_PANE:14
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&cCancel'
+  lore:
+  - '&7Click to cancel request.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+send-request:
+  slot: '16'
+  material: STAINED_GLASS_PANE:5
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aSend'
+  lore:
+  - '&7Click to send request.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'

@@ -1,0 +1,242 @@
+DEFAULT-KIT: "&aDefault Kit"
+PLAY-AGAIN:
+  NAME: "&aPlay Again! &7(Right Click)"
+  MATERIAL: PAPER
+  DATA: 0
+  AMOUNT: 1
+  SLOT: 2
+  ENABLED: true
+# If you want your HotbarItem to execute a command, change the action to EXECUTABLE_COMMAND
+IN-SPAWN:
+  QUEUES_MENU:
+    NAME: "&6Join a Queue &7(Right Click)"
+    MATERIAL: IRON_SWORD
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 0
+    ACTION: QUEUES_MENU
+    COMMAND: ""
+    ENABLED: true
+  UNRANKED:
+    NAME: "&aUnranked Queue &7(Right Click)"
+    MATERIAL: STONE_SWORD
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 0
+    ACTION: JOIN_UNRANKED
+    COMMAND: ""
+    ENABLED: false
+  RANKED:
+    NAME: "&cRanked Queue &7(Right Click)"
+    MATERIAL: IRON_SWORD
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 1
+    ACTION: JOIN_RANKED
+    COMMAND: ""
+    ENABLED: false
+  PREMIUM:
+    NAME: "&6Premium Queue &7(Right Click)"
+    MATERIAL: DIAMOND_SWORD
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 2
+    ACTION: JOIN_PREMIUM
+    COMMAND: ""
+    ENABLED: false
+  FFA:
+    NAME: "&eJoin FFA &7(Right Click)"
+    MATERIAL: GOLD_SWORD
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 3
+    ACTION: JOIN_FFA
+    COMMAND: ""
+    ENABLED: false
+  CREATE-PARTY:
+    NAME: "&bCreate a Party &7(Right Click)"
+    MATERIAL: NAME_TAG
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 1
+    ACTION: CREATE_PARTY
+    COMMAND: ""
+    ENABLED: true
+  HOST-EVENT:
+    NAME: "&aHost an Event &7(Right Click)"
+    MATERIAL: EYE_OF_ENDER
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 3
+    ACTION: EVENTS_MENU
+    COMMAND: ""
+    ENABLED: true
+  LEADERBOARDS:
+    NAME: "&bLeaderboards &7(Right Click)"
+    MATERIAL: BEACON
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 4
+    ACTION: LEADERBOARDS_MENU
+    COMMAND: ""
+    ENABLED: true
+  KIT-EDITOR:
+    NAME: "&3Kit Editor &7(Right Click)"
+    MATERIAL: BOOK
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 7
+    ACTION: EDITOR_MENU
+    COMMAND: ""
+    ENABLED: true
+  SETTINGS:
+    NAME: "&dSettings &7(Right Click)"
+    MATERIAL: SKULL_ITEM
+    DATA: 3
+    AMOUNT: 1
+    SLOT: 8
+    ACTION: SETTINGS_MENU
+    COMMAND: ""
+    ENABLED: true
+  MATCHES_MENU:
+    NAME: "&7Current Matches &7(Right Click)"
+    MATERIAL: COMPASS
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 5
+    ACTION: OPEN_CURRENT_MATCHES
+    COMMAND: ""
+    ENABLED: true
+IN-QUEUE:
+  LEAVE:
+    NAME: "&cLeave Queue &7(Right Click)"
+    MATERIAL: INK_SACK
+    DATA: 1
+    AMOUNT: 1
+    SLOT: 8
+    ACTION: LEAVE_QUEUE
+    COMMAND: ""
+    ENABLED: true
+IN-PARTY:
+  UNRANKED:
+    NAME: "&3Join Unranked 2v2 &7(Right Click)"
+    MATERIAL: STONE_SWORD
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 0
+    ACTION: JOIN_UNRANKED_2V2
+    COMMAND: ""
+    ENABLED: true
+  INFO:
+    NAME: "&bParty Info &7(Right Click)"
+    MATERIAL: NETHER_STAR
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 3
+    ACTION: PARTY_INFO
+    COMMAND: ""
+    ENABLED: true
+  PARTY-EVENT:
+    NAME: "&6Party Events &7(Right Click)"
+    MATERIAL: GOLD_AXE
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 4
+    ACTION: PARTY_EVENTS
+    COMMAND: ""
+    ENABLED: true
+  OTHER-PARTIES:
+    NAME: "&aOther Parties &7(Right Click)"
+    MATERIAL: PAPER
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 5
+    ACTION: OTHER_PARTIES
+    COMMAND: ""
+    ENABLED: true
+  LEAVE-PARTY:
+    NAME: "&cLeave Party &7(Right Click)"
+    MATERIAL: INK_SACK
+    DATA: 1
+    AMOUNT: 1
+    SLOT: 8
+    ACTION: PARTY_LEAVE
+    COMMAND: ""
+    ENABLED: true
+IN-PARTY-SPEC:
+  LEAVE:
+    NAME: "&cLeave Spectator Mode &7(Right Click)"
+    MATERIAL: EYE_OF_ENDER
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 8
+    ACTION: LEAVE_SPECTATOR
+    COMMAND: ""
+    ENABLED: true
+  VIEW-PLAYERS:
+    NAME: "&aView Players &7(Right Click)"
+    MATERIAL: COMPASS
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 4
+    ACTION: PLAYERS_MENU
+    COMMAND: ""
+    ENABLED: true
+IN-TOURNAMENT:
+  LEAVE:
+    NAME: "&cLeave Tournament &7(Right Click)"
+    MATERIAL: INK_SACK
+    DATA: 1
+    AMOUNT: 1
+    SLOT: 8
+    ACTION: LEAVE_TOURNAMENT
+    COMMAND: ""
+    ENABLED: true
+IN-EVENT:
+  LEAVE:
+    NAME: "&cLeave Event &7(Right Click)"
+    MATERIAL: INK_SACK
+    DATA: 1
+    AMOUNT: 1
+    SLOT: 8
+    ACTION: LEAVE_EVENT
+    COMMAND: ""
+    ENABLED: true
+IN-SPEC:
+  LEAVE:
+    NAME: "&cLeave Spectator Mode &7(Right Click)"
+    MATERIAL: EYE_OF_ENDER
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 8
+    ACTION: LEAVE_SPECTATOR
+    COMMAND: ""
+    ENABLED: true
+  VIEW-PLAYERS:
+    NAME: "&aView Players &7(Right Click)"
+    MATERIAL: COMPASS
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 4
+    ACTION: PLAYERS_MENU
+    COMMAND: ""
+    ENABLED: true
+PARKOUR-EVENT:
+  PLAYER-HIDER:
+    NAME: "&aHide Players &7(Right Click)"
+    MATERIAL: EYE_OF_ENDER
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 0
+    ACTION: HIDE_PLAYERS
+    COMMAND: ""
+    ENABLED: true
+  LEAVE:
+    NAME: "&cLeave Event &7(Right Click)"
+    MATERIAL: INK_SACK
+    DATA: 1
+    AMOUNT: 1
+    SLOT: 8
+    ACTION: LEAVE_EVENT
+    COMMAND: ""
+    ENABLED: true

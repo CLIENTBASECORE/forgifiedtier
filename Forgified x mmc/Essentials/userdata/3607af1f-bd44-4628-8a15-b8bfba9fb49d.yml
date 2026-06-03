@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 112.202.234.167
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1771972619837
+  login: 1771972083130
+money: '0'
+last-account-name: BlazeSpott
+lastlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: -332.895133892586
+  y: 1.2000000476837158
+  z: 548.28375634296
+  yaw: -38.40567398071289
+  pitch: -1.6263484954833984
+logoutlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: -4.5
+  y: 5.0625
+  z: 597.5
+  yaw: -89.94110107421875
+  pitch: -1.2512983083724976

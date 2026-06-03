@@ -1,0 +1,7 @@
+width:
+  # The maximum allowed block distance perpendicular to the main axis of the arena. Set to 0 to disable.
+  blocks-from-center: 0
+  bedfight: 0
+  fireballfight: 0
+  bridge: 0
+  battlerush: 0

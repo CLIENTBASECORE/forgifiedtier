@@ -1,0 +1,30 @@
+name: FrostPractice
+main: dev.forgified.practice.ForgifiedPracticePlugin
+version: 0.4.0
+author: Codex
+description: Standalone practice core driven by the Frost folder files.
+commands:
+  frostpractice:
+    aliases: [fgpractice]
+    description: Opens the FrostPractice menu or runs practice commands.
+  practice:
+    aliases: [fp, frostpractice]
+    description: Opens the practice menu or runs practice commands.
+  queue:
+    aliases: [q]
+    description: Queue for a Frost kit.
+  duel:
+    description: Duel another player.
+  party:
+    aliases: [p]
+    description: Party commands.
+  settings:
+    description: Opens player settings.
+  unqueue:
+    aliases: [leavequeue]
+    description: Leave the current queue.
+  spawn:
+    aliases: [lobby, hub]
+    description: Return to spawn.
+  leave:
+    description: Leave the current match.

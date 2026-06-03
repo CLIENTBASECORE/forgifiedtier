@@ -1,0 +1,286 @@
+SCOREBOARD:
+  TITLE: "&6&lForgified Practice"
+
+  FOLLOWING:
+    - " "
+    - "&fFollowing: &6<FPL>"
+    - " "
+
+  SILENT:
+    - " "
+    - "&6&lSilent Mode Enabled"
+    - " "
+
+  BRIDGES-GOAL: "&6⬤"
+
+  BRIDGES:
+    - " "
+    - "&cRed &8» &6<rGoal>"
+    - "&9Blue &8» &6<bGoal>"
+    - " "
+    - "&fKills: &6<kills>"
+    - " "
+
+  MLGRUSH:
+    - " "
+    - "&cRed &8» &6<rGoal>"
+    - "&9Blue &8» &6<bGoal>"
+    - " "
+
+  BATTLERUSH:
+    - " "
+    - "&cRed &8» &6<rGoal>"
+    - "&9Blue &8» &6<bGoal>"
+    - " "
+
+  BEDWARS-ALIVE: "&a&l✓"
+  BEDWARS-DEAD: "&c&l✗"
+
+  BEDWARS:
+    - " "
+    - "&cRed &8» &6<rBed>"
+    - "&9Blue &8» &6<bBed>"
+    - " "
+
+  STICKFIGHT:
+    - " "
+    - "&fLives:"
+    - " &cRed &8» &6<rLives>"
+    - " &9Blue &8» &6<bLives>"
+    - " "
+  BOXING:
+    - " "
+    - "&fYou: &6<your_hits>"
+    - "&fThem: &6<opponent_hits>"
+    - " "
+
+  BRIDGES-SPEC:
+    - " "
+    - "&cRed &8» &6<rGoal>"
+    - "&9Blue &8» &6<bGoal>"
+    - " "
+
+  MLGRUSH-SPEC:
+    - " "
+    - "&cRed &8» &6<rGoal>"
+    - "&9Blue &8» &6<bGoal>"
+    - " "
+  BEDWARS-SPEC:
+    - " "
+    - "&cRed &8» &6<rBed>"
+    - "&9Blue &8» &6<bBed>"
+    - " "
+
+  BATTLERUSH-SPEC:
+    - " "
+    - "&cRed &8» &6<rGoal>"
+    - "&9Blue &8» &6<bGoal>"
+    - " "
+
+  STICKFIGHT-SPEC:
+    - " "
+
+  UNRESTRICTED-PING:
+    - "&fPing range:"
+    - " &6Unrestricted"
+
+  RESTRICTED-PING:
+    - "&fPing range:"
+    - " &6[<cPingRange> &8→ &6<nPingRange>]"
+
+  RESTRICTED-PING-NOT-TICKED:
+    - "&fPing range:"
+    - " &6Calculating..."
+
+  IN-LOBBY:
+    - "&8&m-------------------"
+    - "&6&lStats"
+    - "&f• &fWins: <wins>"
+    - "&f• &fStreak: <winstreak>"
+    - " "
+    - "&6&lOnline"
+    - "&f• Global: &6<online_players>"
+    - "&7  <online_players> Region"
+    - "&8&m-------------------"
+
+  PARTY-IN-LOBBY:
+    - "&8&m-------------------"
+    - "&fOnline: &6<online_players>"
+    - "&fPlaying: &6<fighting>"
+    - "&6Party:"
+    - " &fLeader: &6<party_leader>"
+    - " &fMembers: &6<party_members>/<party_max>"
+    - "&8&m-------------------"
+
+  IN-SPAWN-FFA:
+    - "&8&m-------------------"
+    - "&6Playing FFA:"
+    - " &6<kit>"
+    - " &fKillstreak: &6<ks>"
+    - " &fPlayers: &6<kit_ffa_players>"
+    - " &fYour Ping: &6<ping>ms"
+    - "&8&m-------------------"
+
+  IN-UNRANKED-QUEUE:
+    - "&8&m-------------------"
+    - "&fOnline: &6<online_players>"
+    - "&fPlaying: &6<fighting>"
+    - "&6Queue:"
+    - " &6<queued_type> <queued_kit>"
+    - "&fTime:"
+    - " &6<queued_time>"
+    - "&8&m-------------------"
+
+  IN-RANKED-QUEUE:
+    - "&8&m-------------------"
+    - "&fOnline: &6<online_players>"
+    - "&fPlaying: &6<fighting>"
+    - "&6Queue:"
+    - " &6<queued_type> <queued_kit>"
+    - "&fTime:"
+    - " &6<queued_time>"
+    - "&8&m-------------------"
+
+  IN-PREMIUM-QUEUE:
+    - "&8&m-------------------"
+    - "&fOnline: &6<online_players>"
+    - "&fPlaying: &6<fighting>"
+    - "&fPremium Matches: &6<premium_matches>"
+    - "&6Queue:"
+    - " &6<queued_type> <queued_kit>"
+    - "&fTime:"
+    - " &6<queued_time>"
+    - "&8&m-------------------"
+
+  IN-MATCH:
+    - "&8&m-------------------"
+    - "&fFighting: &6<opponent_name>"
+    - "&fDuration: &6<match_duration>"
+    - "<isBridges>"
+    - "<isBattleRush>"
+    - "<isBedWars>"
+    - "<isBoxing>"
+    - "<isStickFight>"
+    - "<isMlgRush>"
+    - "&8&m-------------------"
+
+  IN-MATCH-END:
+    - "&8&m-------------------"
+    - "&fMatch ended"
+    - "&8&m-------------------"
+
+  IN-MATCH-PING:
+    - "&8&m-------------------"
+    - "&fFighting: &6<opponent_name>"
+    - "&fDuration: &6<match_duration>"
+    - "<isBridges>"
+    - "<isBattleRush>"
+    - "<isBedWars>"
+    - "<isBoxing>"
+    - "<isStickFight>"
+    - "<isMlgRush>"
+    - "&fYour Ping: &6<your_ping>ms"
+    - "&fTheir Ping: &6<opponent_ping>ms"
+    - "&8&m-------------------"
+
+  IN-MATCH-PARTY-FFA:
+    - "&8&m-------------------"
+    - "&fRemaining: &6<ffa_alive>"
+    - "&fDuration: &6<match_duration>"
+    - "&8&m-------------------"
+
+  IN-MATCH-PARTY-SPLIT:
+    - "&8&m-------------------"
+    - "&fYour Team: &6<your_team_alive>&f/&6<your_team>"
+    - "&fTheir Team: &6<opponent_team_alive>&f/&6<opponent_team>"
+    - "&fDuration: &6<match_duration>"
+    - "<isBridges>"
+    - "<isBattleRush>"
+    - "<isBedWars>"
+    - "<isBoxing>"
+    - "<isStickFight>"
+    - "<isMlgRush>"
+    - "&8&m-------------------"
+
+  SPECTATING-MATCH:
+    - "&8&m-------------------"
+    - "&fKit: &6<kitName>"
+    - "&fArena: &6<arenaName>"
+    - "&fDuration: &6<match_duration>"
+    - "&fRanked: &6<isRanked>"
+    - "<isBridges>"
+    - "<isBattleRush>"
+    - "<isBedWars>"
+    - "<isStickFight>"
+    - "<isMlgRush>"
+    - "&6<playerA>"
+    - "&fvs"
+    - "&6<playerB>"
+    - "&8&m-------------------"
+
+  SPECTATING-MATCH-PARTY-SPLIT:
+    - "&8&m-------------------"
+    - "&fKit: &6<kitName>"
+    - "&fArena: &6<arenaName>"
+    - "&fDuration: &6<match_duration>"
+    - "<isBridges>"
+    - "<isBattleRush>"
+    - "<isBedWars>"
+    - "<isStickFight>"
+    - "<isMlgRush>"
+    - "&6<playerA>&f's Party"
+    - "&8vs"
+    - "&6<playerB>&f's Party"
+    - "&8&m-------------------"
+
+  SPECTATING-MATCH-PARTY-FFA:
+    - "&8&m-------------------"
+    - "&fKit: &6<kitName>"
+    - "&fArena: &6<arenaName>"
+    - "&fDuration: &6<match_duration>"
+    - "&6<party_leader>&f's Party"
+    - "&fRemaining: &6<alive>&f/&6<players>"
+    - "&8&m-------------------"
+
+  SPECTATING-MATCH-AFTER-DEATH:
+    - "&8&m-------------------"
+    - "&fKit: &6<kitName>"
+    - "&fArena: &6<arenaName>"
+    - "&fDuration: &6<match_duration>"
+    - "&fRanked: &6<isRanked>"
+    - "&6<playerA>"
+    - "&8vs"
+    - "&6<playerB>"
+    - "&8&m-------------------"
+
+  SPECTATING-MATCH-PARTY-SPLIT-AFTER-DEATH:
+    - "&8&m-------------------"
+    - "&fKit: &6<kitName>"
+    - "&fArena: &6<arenaName>"
+    - "&fDuration: &6<match_duration>"
+    - "&6<playerA>&f's Party"
+    - "&8vs"
+    - "&6<playerB>&f's Party"
+    - "&8&m-------------------"
+
+  IN-TOURNAMENT:
+    - "&8&m-------------------"
+    - "&fOnline: &6<online_players>"
+    - "&fPlaying: &6<fighting>"
+    - "&fTournament (&6<tournament_team_size>v<tournament_team_size>&f)"
+    - "&6 ● &fKit: &6<tournament_kit>"
+    - "&6 ● &fRound: &6#<tournament_round>"
+    - "&6 ● &fPlayers: &6<tournament_players>&f/&6<tournament_max_players>"
+    - "&8&m-------------------"
+
+  IN-PARTY-TOURNAMENT:
+    - "&8&m-------------------"
+    - "&fOnline: &6<online_players>"
+    - "&fPlaying: &6<fighting>"
+    - "&fParty Leader: &6<party_leader>"
+    - "&fParty Members: &6<party_members>/<party_max>"
+    - "&fTournament (&6<tournament_team_size>v<tournament_team_size>&f)"
+    - "&6 ● &fKit: &6<tournament_kit>"
+    - "&6 ● &fRound: &6#<tournament_round>"
+    - "&6 ● &fPlayers: &6<tournament_players>&f/&6<tournament_max_players>"
+    - "&8&m-------------------"

@@ -1,0 +1,101 @@
+# Your Frost license key.
+# Join https://demeng.dev/discord and create a support ticket to obtain your key.
+LICENSE-KEY: "RandomStirngh"
+
+# Mongo connection details.
+MONGO:
+  # The connection URI.
+  URI: "mongodb://127.0.0.1:27017"
+  # The database name.
+  DATABASE: "frost"
+
+PLACEHOLDER-API:
+  PLAYER-KIT-ELO-FORMAT: "&b<kit> &f<position>&8. <player> &7(&f<elo>&7)"
+  PLAYER-KIT-WINSTREAK-FORMAT: "&b<kit> &f<position>&8. <player> &7(&f<wins>&7)"
+
+SETTINGS:
+  OVERRIDE-PLAYER:
+    SHOW-PLAYERS: true # This will override the player-visibility on spawn and show all the online players in the server.
+    VANILLA-TABLIST: false # This will override the tablist and show the vanilla tablist regardless of the setting from the player.
+  GENERAL:
+    TABLIST-ENABLED: true
+    PREMIUM-ENABLED: false
+    NAMETAGS-ENABLED: true
+    GULAG-PVP-WHILE-WAITING: false
+    MAXIMUM-PARTY-SIZE: 32
+    FFA-SAFEZONE-RADIUS: 10
+    PARTY-ALERT-COOLDOWN: 180 # The time is calculated in seconds
+    TOGGLE-PLAYERS-COOLDOWN: 16 # The time is calculated in seconds
+    PARTY-LIMIT-BY-DEFAULT: 12
+    RATIO-DECIMALS: 2
+    NAMETAGS-PREFIX: ""
+    PREMIUM-QUEUE-KIT: "NoDebuff"
+    PARTY-COOLDOWN-MESSAGE: "&cYou must wait &l<time> <left> &cbefore announcing your party again."
+    TOGGLE-PLAYERS-COOLDOWN-MESSAGE: "&cYou must wait &l<time> <left> &cbefore using that command again."
+  MATCH:
+    REMOVE-BOTTLE: true
+    SHOW-COUNTDOWN-TITLE: true
+    MAX-RANKED-PING: 1000
+    RANKEDS-REQUIRED: 0 # If you want to allow players to play ranked instantly set this to 0
+    PING-TOO-HIGH-MESSAGE: "&cYour ping is too high to play ranked... Maximum ping allowed: 1000ms"
+    BLOCKED-COMMANDS:
+      - "/gamemode creative"
+      - "/gamemode c"
+      - "/gamemode 1"
+      - "/gmc"
+      - "/kill"
+      - "/disguise"
+      - "/undisguise"
+    QUEUE-PING-LIMIT-SETTING:
+      RANKED: true
+      PREMIUM: false
+      UNRANKED: true
+      MIN-PING-PLUS-PROBABILITY: 0.65
+      MAX-PING-MINUS-PROBABILITY: 0.80
+    EXPLOSIONS:
+      BLOCKS:
+        - "WOOD"
+        - "WOOL"
+        - "LADDER"
+        - "ENDER_STONE"
+      KNOCKBACK:
+        TNT:
+          RADIUS-FORCE: 2
+          HEIGHT-FORCE: 1.25
+        FIREBALL:
+          RADIUS-FORCE: 2
+          HEIGHT-FORCE: 10
+  LEADERBOARDS:
+    STYLE: "MMC" # Available styles: MMC, MHQ, Silex
+    MENU-TITLE: "&6&lLeaderboards"
+    GENERAL-FORMAT: "&f<position> &8| &a"
+    SHOW-UPDATE-MESSAGE: false
+    UPDATE-TIME: 15 # The time is calculated in minutes
+    UPDATE-MESSAGE: "&8[&b&lNigger&8] &7&oUpdating leaderboards! This could cause minor lag..."
+    WINSTREAK:
+      MENU-TITLE: "&6&lWinstreak Leaderboards"
+
+HOLOGRAM:
+  UPDATE-TIME: 20 # Seconds
+  FORMAT:
+    FORMAT: "&b<number># &f<name> &7» &f<value> &7» <elo_rating>"
+    LINES:
+      - "&6&lPractice"
+      - "&6&lLeaderboards"
+      - " "
+      - "&6▶ <kit> ◀"
+      - " "
+      - "<top>"
+      - " "
+      - "&fNext update in &b<update>"
+  WINSTREAK:
+    FORMAT: "&6<number># &f<name> &7» &f<value>"
+    LINES:
+      - "&6&lPractice Winstreak"
+      - "&6&lLeaderboards"
+      - " "
+      - "&6▶ <kit> ◀"
+      - " "
+      - "<top>"
+      - " "
+      - "&fNext update in &b<update>"

@@ -1,0 +1,37 @@
+&6&lClient Rules:
+&6[1] No cheating, hacking, or use of unfair modifications
+&6[2] No autoclickers, macros, or external click‑boosting tools
+&6[3] No exploiting bugs, glitches, or unintended mechanics
+&6[4] No using alternate accounts to evade punishments
+&6[5] No teaming in modes where teaming is not allowed (e.g., Practice)
+
+
+
+
+&6&lChat Rules:
+&6[1] No toxicity, harassment, or targeted insults
+&6[2] No spamming, flooding, or excessive caps
+&6[3] No racism, discrimination, or hate speech
+&6[4] No advertising other servers or communities
+&6[5] Keep chat competitive but respectful
+
+
+
+
+&6&lTechnical Rules:
+&6[1] No VPNs or proxies unless approved by staff.
+&6[2] No lag machines or intentional server disruption.
+&6[2] Do not attempt to DDoS, dox, or threaten players.
+
+
+
+
+
+
+&4&lPunishments:
+&c&oDepending on severity:
+&6[1] Warning
+&6[2] Temporary mute
+&6[3] Temporary ban
+&6[4] Permanent ban (for severe or repeated offenses)
+

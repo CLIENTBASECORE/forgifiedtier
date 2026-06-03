@@ -1,0 +1,17 @@
+spawns:
+  default:
+    world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+    world-name: world
+    x: 6.5202000912375695
+    y: 7.0
+    z: 641.6021290572207
+    yaw: -0.486602783203125
+    pitch: -0.33215221762657166
+  megatron_031:
+    world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+    world-name: world
+    x: 6.5
+    y: 7.0
+    z: 641.5
+    yaw: -180.03872680664062
+    pitch: 0.03493238240480423

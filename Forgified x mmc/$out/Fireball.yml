@@ -1,0 +1,6 @@
+enable KB: true
+enable trow fireball: true
+
+fireball:
+  speed: 1.5
+  kb-multiplier: 1.8

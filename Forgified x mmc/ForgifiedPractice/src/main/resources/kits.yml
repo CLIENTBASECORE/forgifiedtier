@@ -1,0 +1,4280 @@
+kits:
+  Gapple:
+    displayName: eGapple
+    kbProfile: speed
+    unrankedPos: 32
+    rankedPos: 20
+    editorPos: 32
+    spawnFfaPos: 0
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bGapple§b§c§d§e
+        lore:
+        - §8§m------------------------------------
+        - '§7Current Tournament Kit: §bGapple'
+        - §7
+        - §f ● §aRight-Click to select next kit
+        - §f ● §cLeft-Click to select previous kit
+        - §8§m------------------------------------
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 5
+          FIRE_ASPECT: 2
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      damage: 1
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8233
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8233
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8233
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8233
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+    kitEditContents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lQueues
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lKit Editor
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: NAME_TAG
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lCreate Party
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: EYE_OF_ENDER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lHost an Event
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lLeaderboards
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lSettings
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    arenaWhitelist:
+    - Ghosts
+    - Grasslands
+    - Graveyards
+    - End
+    - Poisons
+    - Secluded
+    matchStartCmds: []
+    matchEndCmds: []
+    enabled: true
+    ranked: true
+    combo: false
+    sumo: false
+    build: false
+    spleef: false
+    parkour: false
+    boxing: false
+    bridges: false
+    noRegen: false
+    noHunger: false
+    noFall: false
+    skyWars: false
+    bedWars: false
+    battleRush: false
+    stickFight: false
+    mlgRush: false
+    lives: 0
+    damageTicks: 20
+    goals: 5
+    matchStartCountdown: 5
+    showHealth: true
+    allowCrafting: false
+    allowPotionFill: false
+    allowSpawnFfa: false
+    refillableItems:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    potionEffects: ''
+  SkyWars:
+    displayName: eSkyWars
+    kbProfile: nospeed
+    unrankedPos: 24
+    rankedPos: 24
+    editorPos: 24
+    spawnFfaPos: 0
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: EYE_OF_ENDER
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aSkyWars
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: FISHING_ROD
+    - ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+    - ==: org.bukkit.inventory.ItemStack
+      type: LAVA_BUCKET
+    - ==: org.bukkit.inventory.ItemStack
+      type: STONE
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      amount: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: EGG
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      type: WATER_BUCKET
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16418
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: SNOW_BALL
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      type: SNOW_BALL
+      amount: 16
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: FLINT_AND_STEEL
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: LAVA_BUCKET
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: SNOW_BALL
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      type: STONE
+      amount: 64
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 1
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: WATER_BUCKET
+    - null
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          PROTECTION_FALL: 4
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+    kitEditContents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: FISHING_ROD
+    - ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+    - ==: org.bukkit.inventory.ItemStack
+      type: LAVA_BUCKET
+    - ==: org.bukkit.inventory.ItemStack
+      type: STONE
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      amount: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: EGG
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      type: WATER_BUCKET
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16418
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: SNOW_BALL
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      type: SNOW_BALL
+      amount: 16
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: FLINT_AND_STEEL
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: LAVA_BUCKET
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: SNOW_BALL
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      type: STONE
+      amount: 64
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 1
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: WATER_BUCKET
+    - null
+    arenaWhitelist:
+    - Farmland
+    - retro[skywars]
+    - Beach[sw]
+    - submarine[sw]
+    - Jungle
+    - Barren
+    - Medival
+    - Safari
+    matchStartCmds: []
+    matchEndCmds: []
+    enabled: true
+    ranked: true
+    combo: false
+    sumo: false
+    build: true
+    spleef: false
+    parkour: false
+    boxing: false
+    bridges: false
+    noRegen: false
+    noHunger: false
+    noFall: false
+    skyWars: true
+    bedWars: false
+    battleRush: false
+    stickFight: false
+    mlgRush: false
+    lives: 0
+    damageTicks: 20
+    goals: 5
+    matchStartCountdown: 5
+    showHealth: true
+    allowCrafting: false
+    allowPotionFill: false
+    allowSpawnFfa: false
+    refillableItems:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    potionEffects: ''
+  NoDebuff:
+    displayName: eNoDebuff
+    kbProfile: speed
+    unrankedPos: 13
+    rankedPos: 10
+    editorPos: 13
+    spawnFfaPos: 0
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16453
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: §aNoDebuff
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 3
+          DURABILITY: 3
+          FIRE_ASPECT: 2
+    - ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8259
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: COOKED_BEEF
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 3
+          PROTECTION_FALL: 4
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 3
+    kitEditContents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 3
+          DURABILITY: 3
+          FIRE_ASPECT: 2
+    - ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8259
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: COOKED_BEEF
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    arenaWhitelist:
+    - Graveyard
+    - Fountain
+    - Ghost
+    - Sakuras
+    - Orchid
+    - Rocky
+    - Secluded
+    matchStartCmds: []
+    matchEndCmds: []
+    enabled: true
+    ranked: true
+    combo: false
+    sumo: false
+    build: false
+    spleef: false
+    parkour: false
+    boxing: false
+    bridges: false
+    noRegen: false
+    noHunger: false
+    noFall: false
+    skyWars: false
+    bedWars: false
+    battleRush: false
+    stickFight: false
+    mlgRush: false
+    lives: 0
+    damageTicks: 20
+    goals: 5
+    matchStartCountdown: 5
+    showHealth: false
+    allowCrafting: false
+    allowPotionFill: false
+    allowSpawnFfa: false
+    refillableItems:
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_CARROT
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: GRILLED_PORK
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: COOKED_BEEF
+      amount: 64
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    potionEffects: ''
+  Sumo:
+    displayName: eSumo
+    kbProfile: nospeed
+    unrankedPos: 15
+    rankedPos: 15
+    editorPos: 15
+    spawnFfaPos: 0
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEASH
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bSumo§b§c§d§e
+        lore:
+        - §8§m------------------------------------
+        - '§7Current Tournament Kit: §bSumo'
+        - §7
+        - §f ● §aRight-Click to select next kit
+        - §f ● §cLeft-Click to select previous kit
+        - §8§m------------------------------------
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+    contents:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    kitEditContents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lQueues
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: NAME_TAG
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lCreate Party
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lKit Editor
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: EYE_OF_ENDER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lHost an Event
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lLeaderboards
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lSettings
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    arenaWhitelist:
+    - Imperial
+    - Modern
+    - Rose
+    - Ruins
+    - Seashore
+    - Nether
+    - Pokemon
+    - West
+    matchStartCmds: []
+    matchEndCmds: []
+    enabled: true
+    ranked: true
+    combo: false
+    sumo: true
+    build: false
+    spleef: false
+    parkour: false
+    boxing: false
+    bridges: false
+    noRegen: false
+    noHunger: true
+    noFall: false
+    skyWars: false
+    bedWars: false
+    battleRush: false
+    stickFight: false
+    mlgRush: false
+    lives: 0
+    damageTicks: 20
+    goals: 5
+    matchStartCountdown: 5
+    showHealth: false
+    allowCrafting: false
+    allowPotionFill: false
+    allowSpawnFfa: false
+    refillableItems:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    potionEffects: ''
+  Boxing:
+    displayName: eBoxing
+    kbProfile: speed
+    unrankedPos: 12
+    rankedPos: 11
+    editorPos: 12
+    spawnFfaPos: 0
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lBoxing Sword
+        enchants:
+          DAMAGE_ALL: 10
+          DURABILITY: 10
+        Unbreakable: true
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    kitEditContents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lBoxing Sword
+        enchants:
+          DAMAGE_ALL: 10
+          DURABILITY: 10
+        Unbreakable: true
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    arenaWhitelist:
+    - Grassland
+    - Sakura
+    - Sierra
+    - Tsunami
+    - Winter
+    matchStartCmds: []
+    matchEndCmds: []
+    enabled: true
+    ranked: true
+    combo: false
+    sumo: false
+    build: false
+    spleef: false
+    parkour: false
+    boxing: true
+    bridges: false
+    noRegen: false
+    noHunger: true
+    noFall: true
+    skyWars: false
+    bedWars: false
+    battleRush: false
+    stickFight: false
+    mlgRush: false
+    lives: 0
+    damageTicks: 20
+    goals: 5
+    matchStartCountdown: 5
+    showHealth: false
+    allowCrafting: false
+    allowPotionFill: false
+    allowSpawnFfa: false
+    refillableItems:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    potionEffects: n@SPEED:d@19999734:a@1;
+  FireballFight:
+    displayName: '&bFireballFight'
+    kbProfile: nospeed
+    unrankedPos: 10
+    rankedPos: 0
+    editorPos: 10
+    spawnFfaPos: 0
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: FIREBALL
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: STONE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Unbreakable: true
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOL
+      damage: 11
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: ENDER_STONE
+      amount: 8
+    - ==: org.bukkit.inventory.ItemStack
+      type: FIREBALL
+      amount: 6
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lFireball §7(Right Click)
+        lore:
+        - ' '
+        - §7Right-click to shoot!
+        ItemFlags: !!set
+          HIDE_ATTRIBUTES: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: TNT
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: SHEARS
+    - ==: org.bukkit.inventory.ItemStack
+      type: LADDER
+      amount: 8
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        Unbreakable: true
+        color: &id001
+          ==: Color
+          RED: 0
+          BLUE: 255
+          GREEN: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        Unbreakable: true
+        color: *id001
+    - ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        Unbreakable: true
+        color: *id001
+    - ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        enchants:
+          WATER_WORKER: 1
+        repair-cost: 1
+        Unbreakable: true
+        color: *id001
+    kitEditContents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: STONE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Unbreakable: true
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOL
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: ENDER_STONE
+      amount: 8
+    - ==: org.bukkit.inventory.ItemStack
+      type: FIREBALL
+      amount: 6
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lFireball §7(Right Click)
+        lore:
+        - ' '
+        - §7Right-click to shoot!
+        ItemFlags: !!set
+          HIDE_ATTRIBUTES: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: TNT
+      amount: 2
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: SHEARS
+    - ==: org.bukkit.inventory.ItemStack
+      type: LADDER
+      amount: 8
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    arenaWhitelist:
+    - Watchtower
+    - Persia
+    - SkyCave
+    - HayTown
+    matchStartCmds: []
+    matchEndCmds: []
+    enabled: true
+    ranked: false
+    combo: false
+    sumo: false
+    build: true
+    spleef: false
+    parkour: false
+    boxing: false
+    bridges: false
+    noRegen: false
+    noHunger: true
+    noFall: true
+    skyWars: false
+    bedWars: true
+    battleRush: false
+    stickFight: false
+    mlgRush: false
+    lives: 0
+    damageTicks: 20
+    goals: 0
+    matchStartCountdown: 6
+    showHealth: true
+    allowCrafting: false
+    allowPotionFill: false
+    allowSpawnFfa: false
+    refillableItems:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    potionEffects: ''
+  Spleef:
+    displayName: eSpleef
+    kbProfile: nospeed
+    unrankedPos: 23
+    rankedPos: 25
+    editorPos: 23
+    spawnFfaPos: 0
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SPADE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bSpleef§b§c§d§e
+        lore:
+        - §8§m------------------------------------
+        - '§7Current Tournament Kit: §bSpleef'
+        - §7
+        - §f ● §aRight-Click to select next kit
+        - §f ● §cLeft-Click to select previous kit
+        - §8§m------------------------------------
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SPADE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 10
+          DURABILITY: 10
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    kitEditContents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lQueues
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lKit Editor
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: NAME_TAG
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lCreate Party
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: EYE_OF_ENDER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lHost an Event
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lLeaderboards
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lSettings
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    arenaWhitelist:
+    - spruce[spleef]
+    - Estates
+    - Santa
+    - Colloseum
+    - Hike
+    matchStartCmds: []
+    matchEndCmds: []
+    enabled: true
+    ranked: false
+    combo: false
+    sumo: false
+    build: true
+    spleef: true
+    parkour: false
+    boxing: false
+    bridges: false
+    noRegen: false
+    noHunger: false
+    noFall: false
+    skyWars: false
+    bedWars: false
+    battleRush: false
+    stickFight: false
+    mlgRush: false
+    lives: 0
+    damageTicks: 20
+    goals: 5
+    matchStartCountdown: 5
+    showHealth: false
+    allowCrafting: false
+    allowPotionFill: false
+    allowSpawnFfa: false
+    refillableItems:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    potionEffects: ''
+  PearlFight:
+    displayName: ePearlFight
+    kbProfile: nospeed
+    unrankedPos: 19
+    rankedPos: 21
+    editorPos: 19
+    spawnFfaPos: 0
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bPearlFight§b§c§d§e
+        lore:
+        - §8§m------------------------------------
+        - '§7Current Tournament Kit: §bPearlFight'
+        - §7
+        - §f ● §aRight-Click to select next kit
+        - §f ● §cLeft-Click to select previous kit
+        - §8§m------------------------------------
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          KNOCKBACK: 1
+        repair-cost: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+      amount: 8
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOL
+      damage: 14
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      type: SHEARS
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    kitEditContents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          KNOCKBACK: 1
+        repair-cost: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+      amount: 8
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOL
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      type: SHEARS
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    arenaWhitelist:
+    - Isamu
+    - Ender
+    - Plain
+    - Xmas
+    matchStartCmds: []
+    matchEndCmds: []
+    enabled: true
+    ranked: true
+    combo: false
+    sumo: false
+    build: true
+    spleef: false
+    parkour: false
+    boxing: false
+    bridges: false
+    noRegen: false
+    noHunger: false
+    noFall: true
+    skyWars: false
+    bedWars: false
+    battleRush: false
+    stickFight: true
+    mlgRush: false
+    lives: 3
+    damageTicks: 20
+    goals: 5
+    matchStartCountdown: 5
+    showHealth: false
+    allowCrafting: false
+    allowPotionFill: false
+    allowSpawnFfa: false
+    refillableItems:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    potionEffects: ''
+  BattleRush:
+    displayName: eBattleRush
+    kbProfile: nospeed
+    unrankedPos: 14
+    rankedPos: 13
+    editorPos: 14
+    spawnFfaPos: 0
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: WATER_LILY
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bBattleRush§b§c§d§e
+        lore:
+        - §8§m------------------------------------
+        - '§7Current Tournament Kit: §bBattleRush'
+        - §7
+        - §f ● §aRight-Click to select next kit
+        - §f ● §cLeft-Click to select previous kit
+        - §8§m------------------------------------
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+    contents:
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOL
+      damage: 14
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: SHEARS
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    kitEditContents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bUnranked Queue §7(Right Click)
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bRanked Queue §7(Right Click)
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bKit Editor §7(Right Click)
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: NAME_TAG
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bCreate Party §7(Right Click)
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bLeaderboards §7(Right Click)
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: EYE_OF_ENDER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bHost Events §7(Right Click)
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §bSettings §7(Right Click)
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    arenaWhitelist:
+    - NorthPole
+    - Graveyard
+    - Farmhousr[br]
+    - Farmhouse
+    - swordsman[battlerush]
+    - Candy
+    - Clockwork
+    - Hands
+    - Mansion
+    - Tree
+    matchStartCmds: []
+    matchEndCmds: []
+    enabled: true
+    ranked: true
+    combo: false
+    sumo: false
+    build: true
+    spleef: false
+    parkour: false
+    boxing: false
+    bridges: false
+    noRegen: false
+    noHunger: true
+    noFall: true
+    skyWars: false
+    bedWars: false
+    battleRush: true
+    stickFight: false
+    mlgRush: false
+    lives: 0
+    damageTicks: 20
+    goals: 3
+    matchStartCountdown: 5
+    showHealth: false
+    allowCrafting: false
+    allowPotionFill: false
+    allowSpawnFfa: false
+    refillableItems:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    potionEffects: ''
+  Combo:
+    displayName: eCombo
+    kbProfile: combo
+    unrankedPos: 31
+    rankedPos: 29
+    editorPos: 31
+    spawnFfaPos: 0
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: RAW_FISH
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aCombo
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+      damage: 6
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 2
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      damage: 1
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      damage: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      damage: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 3
+    kitEditContents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lQueues
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lKit Editor
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: EGG
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: NAME_TAG
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lCreate Party
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: EYE_OF_ENDER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lHost an Event
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lLeaderboards
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §b§lSettings
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    arenaWhitelist:
+    - Clouds
+    - Joy
+    - Pepe
+    - Yoda
+    - Secluded
+    matchStartCmds: []
+    matchEndCmds: []
+    enabled: true
+    ranked: false
+    combo: true
+    sumo: false
+    build: false
+    spleef: false
+    parkour: false
+    boxing: false
+    bridges: false
+    noRegen: false
+    noHunger: false
+    noFall: true
+    skyWars: false
+    bedWars: false
+    battleRush: false
+    stickFight: false
+    mlgRush: false
+    lives: 0
+    damageTicks: 3
+    goals: 5
+    matchStartCountdown: 5
+    showHealth: false
+    allowCrafting: false
+    allowPotionFill: false
+    allowSpawnFfa: false
+    refillableItems:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    potionEffects: ''
+  Classic:
+    displayName: eClassic
+    kbProfile: nospeed
+    unrankedPos: 22
+    rankedPos: 19
+    editorPos: 22
+    spawnFfaPos: 0
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aClassic
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      type: FISHING_ROD
+    - ==: org.bukkit.inventory.ItemStack
+      type: BOW
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      amount: 8
+    - null
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: COOKED_BEEF
+      amount: 32
+    - ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      amount: 10
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+    kitEditContents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lQueues
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lKit Editor
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: NAME_TAG
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lCreate Party
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: EYE_OF_ENDER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lHost an Event
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lLeaderboards
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lSettings
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    arenaWhitelist:
+    - Outbuilding
+    - Snowflake
+    - Sunflower
+    - Wilderness
+    - Obby
+    - Fall
+    - Mountains
+    - YinYang
+    - Winters
+    - Posion
+    - Secluded
+    matchStartCmds: []
+    matchEndCmds: []
+    enabled: true
+    ranked: true
+    combo: false
+    sumo: false
+    build: false
+    spleef: false
+    parkour: false
+    boxing: false
+    bridges: false
+    noRegen: false
+    noHunger: false
+    noFall: false
+    skyWars: false
+    bedWars: false
+    battleRush: false
+    stickFight: false
+    mlgRush: false
+    lives: 0
+    damageTicks: 20
+    goals: 5
+    matchStartCountdown: 5
+    showHealth: true
+    allowCrafting: false
+    allowPotionFill: false
+    allowSpawnFfa: false
+    refillableItems:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    potionEffects: ''
+  Axe:
+    displayName: eAxe
+    kbProfile: speed
+    unrankedPos: 28
+    rankedPos: 25
+    editorPos: 28
+    spawnFfaPos: 0
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aAxe
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      amount: 16
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_CHESTPLATE
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_HELMET
+    kitEditContents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lQueues
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lKit Editor
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: NAME_TAG
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lCreate Party
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: EYE_OF_ENDER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lHost an Event
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lLeaderboards
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - ==: org.bukkit.inventory.ItemStack
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lSettings
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    arenaWhitelist:
+    - Outbuilding
+    - Snowflake
+    - Wilderness
+    - Obby
+    matchStartCmds: []
+    matchEndCmds: []
+    enabled: true
+    ranked: true
+    combo: false
+    sumo: false
+    build: false
+    spleef: false
+    parkour: false
+    boxing: false
+    bridges: false
+    noRegen: false
+    noHunger: false
+    noFall: false
+    skyWars: false
+    bedWars: false
+    battleRush: false
+    stickFight: false
+    mlgRush: false
+    lives: 0
+    damageTicks: 20
+    goals: 5
+    matchStartCountdown: 5
+    showHealth: true
+    allowCrafting: false
+    allowPotionFill: false
+    allowSpawnFfa: false
+    refillableItems:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    potionEffects: ''
+  Soup:
+    displayName: eSoup
+    kbProfile: speed
+    unrankedPos: 29
+    rankedPos: 31
+    editorPos: 29
+    spawnFfaPos: 0
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bSoup§b§c§d§e
+        lore:
+        - §8§m------------------------------------
+        - '§7Current Tournament Kit: §bSoup'
+        - §7
+        - §f ● §aRight-Click to select next kit
+        - §f ● §cLeft-Click to select previous kit
+        - §8§m------------------------------------
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: COOKED_BEEF
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_BOOTS
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_LEGGINGS
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_CHESTPLATE
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_HELMET
+    kitEditContents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: COOKED_BEEF
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    - ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 8226
+    arenaWhitelist: []
+    matchStartCmds: []
+    matchEndCmds: []
+    enabled: true
+    ranked: false
+    combo: false
+    sumo: false
+    build: false
+    spleef: false
+    parkour: false
+    boxing: false
+    bridges: false
+    noRegen: false
+    noHunger: false
+    noFall: false
+    skyWars: false
+    bedWars: false
+    battleRush: false
+    stickFight: false
+    mlgRush: false
+    lives: 0
+    damageTicks: 20
+    goals: 5
+    matchStartCountdown: 5
+    showHealth: true
+    allowCrafting: false
+    allowPotionFill: false
+    allowSpawnFfa: false
+    refillableItems:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    potionEffects: ''
+  Bridges:
+    displayName: eBridges
+    kbProfile: nospeed
+    unrankedPos: 16
+    rankedPos: 14
+    editorPos: 16
+    spawnFfaPos: 0
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: STAINED_CLAY
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aBridges
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Unbreakable: true
+    - ==: org.bukkit.inventory.ItemStack
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DURABILITY: 3
+        Unbreakable: true
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 2
+        Unbreakable: true
+    - ==: org.bukkit.inventory.ItemStack
+      type: STAINED_CLAY
+      damage: 11
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: STAINED_CLAY
+      damage: 11
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lHeal Apple
+        lore:
+        - ' '
+        - §7Gives you full health
+        - §7and 2 extra hearts.
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        Unbreakable: true
+        color: &id002
+          ==: Color
+          RED: 0
+          BLUE: 255
+          GREEN: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        Unbreakable: true
+        color: *id002
+    - ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        Unbreakable: true
+        color: *id002
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    kitEditContents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Unbreakable: true
+    - ==: org.bukkit.inventory.ItemStack
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DURABILITY: 3
+        Unbreakable: true
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 2
+        Unbreakable: true
+    - ==: org.bukkit.inventory.ItemStack
+      type: STAINED_CLAY
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: STAINED_CLAY
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §b§lHeal Apple
+        lore:
+        - ' '
+        - §7Gives you full health
+        - §7and 2 extra hearts.
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    arenaWhitelist:
+    - Aquatica[bridge]
+    - Atlantis[bridge]
+    - Boo[bridge]
+    - Chronon[bridge]
+    - Condo[bridge]
+    - Outpost[bridge]
+    - Urban[bridge]
+    - Twilight[bridge]
+    - Dojo[bridge]
+    - Aquatica
+    - Ashgate
+    - Boo
+    - Chronon
+    - Condo
+    - Galaxy
+    - HyperFrost
+    - Licorice
+    - LighthouseV2
+    - Outpost
+    - Stumped
+    - Twilight
+    - Urban
+    - Sorcery
+    - TreeHouse
+    - Palestra
+    matchStartCmds: []
+    matchEndCmds: []
+    enabled: true
+    ranked: true
+    combo: false
+    sumo: false
+    build: true
+    spleef: false
+    parkour: false
+    boxing: false
+    bridges: true
+    noRegen: false
+    noHunger: true
+    noFall: false
+    skyWars: false
+    bedWars: false
+    battleRush: false
+    stickFight: false
+    mlgRush: false
+    lives: 0
+    damageTicks: 20
+    goals: 5
+    matchStartCountdown: 5
+    showHealth: true
+    allowCrafting: false
+    allowPotionFill: false
+    allowSpawnFfa: false
+    refillableItems:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    potionEffects: ''
+  BuildUHC:
+    displayName: eBuildUHC
+    kbProfile: nospeed
+    unrankedPos: 30
+    rankedPos: 23
+    editorPos: 30
+    spawnFfaPos: 0
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: LAVA_BUCKET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bBuildUHC§b§c§d§e
+        lore:
+        - §8§m------------------------------------
+        - '§7Current Tournament Kit: §bBuildUHC'
+        - §7
+        - §f ● §aRight-Click to select next kit
+        - §f ● §cLeft-Click to select previous kit
+        - §8§m------------------------------------
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 3
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: FISHING_ROD
+    - ==: org.bukkit.inventory.ItemStack
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          ARROW_DAMAGE: 3
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: COOKED_BEEF
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      amount: 6
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6§lGolden Head
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      amount: 32
+    - ==: org.bukkit.inventory.ItemStack
+      type: COBBLESTONE
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: WATER_BUCKET
+    - ==: org.bukkit.inventory.ItemStack
+      type: WATER_BUCKET
+    - ==: org.bukkit.inventory.ItemStack
+      type: LAVA_BUCKET
+    - ==: org.bukkit.inventory.ItemStack
+      type: LAVA_BUCKET
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_FALL: 4
+          DURABILITY: 3
+          PROTECTION_PROJECTILE: 2
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_PROJECTILE: 2
+          DURABILITY: 2
+    kitEditContents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 3
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: FISHING_ROD
+    - ==: org.bukkit.inventory.ItemStack
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          ARROW_DAMAGE: 3
+          DURABILITY: 3
+    - ==: org.bukkit.inventory.ItemStack
+      type: COOKED_BEEF
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      amount: 6
+    - ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §6§lGolden Head
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_AXE
+    - ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      amount: 32
+    - ==: org.bukkit.inventory.ItemStack
+      type: COBBLESTONE
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: WATER_BUCKET
+    - ==: org.bukkit.inventory.ItemStack
+      type: WATER_BUCKET
+    - ==: org.bukkit.inventory.ItemStack
+      type: LAVA_BUCKET
+    - ==: org.bukkit.inventory.ItemStack
+      type: LAVA_BUCKET
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    arenaWhitelist:
+    - Industrial
+    - Mycelium
+    - Sweet
+    - Woods
+    - Secluded
+    matchStartCmds: []
+    matchEndCmds: []
+    enabled: true
+    ranked: true
+    combo: false
+    sumo: false
+    build: true
+    spleef: false
+    parkour: false
+    boxing: false
+    bridges: false
+    noRegen: true
+    noHunger: false
+    noFall: false
+    skyWars: false
+    bedWars: false
+    battleRush: false
+    stickFight: false
+    mlgRush: false
+    lives: 0
+    damageTicks: 20
+    goals: 5
+    matchStartCountdown: 5
+    showHealth: true
+    allowCrafting: false
+    allowPotionFill: false
+    allowSpawnFfa: false
+    refillableItems:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    potionEffects: ''
+  StickFight:
+    displayName: eStickFight
+    kbProfile: nospeed
+    unrankedPos: 20
+    rankedPos: 22
+    editorPos: 20
+    spawnFfaPos: 0
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §bStickFight§b§c§d§e
+        lore:
+        - §8§m------------------------------------
+        - '§7Current Tournament Kit: §bStickFight'
+        - §7
+        - §f ● §aRight-Click to select next kit
+        - §f ● §cLeft-Click to select previous kit
+        - §8§m------------------------------------
+        enchants:
+          KNOCKBACK: 1
+        repair-cost: 1
+        ItemFlags: !!set
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          KNOCKBACK: 1
+        repair-cost: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOL
+      amount: 5
+    - ==: org.bukkit.inventory.ItemStack
+      type: SHEARS
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    kitEditContents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          KNOCKBACK: 1
+        repair-cost: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOL
+      amount: 5
+    - ==: org.bukkit.inventory.ItemStack
+      type: SHEARS
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    arenaWhitelist:
+    - Rich
+    - Dessert[stickfight]
+    - Haven[StickFight]
+    - Ancient
+    - Capture
+    - Suburb
+    matchStartCmds: []
+    matchEndCmds: []
+    enabled: true
+    ranked: true
+    combo: false
+    sumo: false
+    build: true
+    spleef: false
+    parkour: false
+    boxing: false
+    bridges: false
+    noRegen: false
+    noHunger: true
+    noFall: true
+    skyWars: false
+    bedWars: false
+    battleRush: false
+    stickFight: true
+    mlgRush: false
+    lives: 5
+    damageTicks: 20
+    goals: 5
+    matchStartCountdown: 5
+    showHealth: false
+    allowCrafting: false
+    allowPotionFill: false
+    allowSpawnFfa: false
+    refillableItems:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    potionEffects: ''
+  TopFight:
+    displayName: eTopFight
+    kbProfile: nospeed
+    unrankedPos: 21
+    rankedPos: 21
+    editorPos: 21
+    spawnFfaPos: 0
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aTopFight
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 3
+        Unbreakable: true
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOL
+      damage: 14
+      amount: 5
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+        Unbreakable: true
+    - ==: org.bukkit.inventory.ItemStack
+      type: IRON_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+        Unbreakable: true
+    - ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+        Unbreakable: true
+        color: &id003
+          ==: Color
+          RED: 255
+          BLUE: 0
+          GREEN: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+        Unbreakable: true
+        color: *id003
+    kitEditContents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 3
+        Unbreakable: true
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOL
+      amount: 5
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    arenaWhitelist:
+    - Airshow
+    - Glacier
+    matchStartCmds: []
+    matchEndCmds: []
+    enabled: true
+    ranked: false
+    combo: false
+    sumo: false
+    build: true
+    spleef: false
+    parkour: false
+    boxing: false
+    bridges: false
+    noRegen: false
+    noHunger: true
+    noFall: true
+    skyWars: false
+    bedWars: false
+    battleRush: false
+    stickFight: false
+    mlgRush: false
+    lives: 0
+    damageTicks: 20
+    goals: 5
+    matchStartCountdown: 5
+    showHealth: false
+    allowCrafting: false
+    allowPotionFill: false
+    allowSpawnFfa: false
+    refillableItems:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    potionEffects: ''
+  BedFight:
+    displayName: eBedFight
+    kbProfile: nospeed
+    unrankedPos: 11
+    rankedPos: 12
+    editorPos: 11
+    spawnFfaPos: 0
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: BED
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Unbreakable: true
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOL
+      damage: 14
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: SHEARS
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 1
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        Unbreakable: true
+        color: &id004
+          ==: Color
+          RED: 255
+          BLUE: 0
+          GREEN: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        Unbreakable: true
+        color: *id004
+    - ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        Unbreakable: true
+        color: *id004
+    - ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        enchants:
+          WATER_WORKER: 1
+        repair-cost: 1
+        Unbreakable: true
+        color: *id004
+    kitEditContents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        Unbreakable: true
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOL
+      amount: 64
+    - ==: org.bukkit.inventory.ItemStack
+      type: SHEARS
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 1
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    arenaWhitelist:
+    - Bunglow
+    - Castle
+    - Estate
+    - Penguin
+    - Rocket
+    matchStartCmds: []
+    matchEndCmds: []
+    enabled: true
+    ranked: true
+    combo: false
+    sumo: false
+    build: true
+    spleef: false
+    parkour: false
+    boxing: false
+    bridges: false
+    noRegen: false
+    noHunger: true
+    noFall: true
+    skyWars: false
+    bedWars: true
+    battleRush: false
+    stickFight: false
+    mlgRush: false
+    lives: 0
+    damageTicks: 20
+    goals: 5
+    matchStartCountdown: 5
+    showHealth: true
+    allowCrafting: false
+    allowPotionFill: false
+    allowSpawnFfa: false
+    refillableItems:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    potionEffects: ''
+  MLGRush:
+    displayName: eMLGRush
+    kbProfile: nospeed
+    unrankedPos: 25
+    rankedPos: 16
+    editorPos: 25
+    spawnFfaPos: 0
+    icon:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aMLGRush
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          KNOCKBACK: 1
+        repair-cost: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 2
+    - ==: org.bukkit.inventory.ItemStack
+      type: SANDSTONE
+      amount: 64
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    armor:
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+      damage: -1
+      amount: 0
+    kitEditContents:
+    - ==: org.bukkit.inventory.ItemStack
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          KNOCKBACK: 1
+        repair-cost: 1
+    - ==: org.bukkit.inventory.ItemStack
+      type: WOOD_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 2
+    - ==: org.bukkit.inventory.ItemStack
+      type: SANDSTONE
+      amount: 64
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    arenaWhitelist:
+    - Birch[mlgrush]
+    - Glass
+    - TMR
+    - FootBall
+    - Youtube
+    - Ocean
+    - Blocks
+    matchStartCmds: []
+    matchEndCmds: []
+    enabled: true
+    ranked: true
+    combo: false
+    sumo: false
+    build: true
+    spleef: false
+    parkour: false
+    boxing: false
+    bridges: false
+    noRegen: false
+    noHunger: true
+    noFall: true
+    skyWars: false
+    bedWars: false
+    battleRush: false
+    stickFight: false
+    mlgRush: true
+    lives: 0
+    damageTicks: 20
+    goals: 5
+    matchStartCountdown: 5
+    showHealth: false
+    allowCrafting: false
+    allowPotionFill: false
+    allowSpawnFfa: false
+    refillableItems:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    potionEffects: ''

@@ -1,0 +1,9 @@
+# Ranks that are allowed to host events
+allowed-ranks:
+  - op
+  - VIP
+  - VIP+
+  - FORG
+
+# Message sent when a player does not have permission to host
+no-permission-message: "&cAvailable on VIP or higher"

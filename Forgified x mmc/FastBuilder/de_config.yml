@@ -1,0 +1,60 @@
+general:
+  notification_on_update: true
+ingame:
+  block_amount: 128
+  block_reset_delay: 1
+  max_distance_to_spawn: 100
+  default_distance_to_left_and_right: 5
+  default_respawn_height_difference_to_spawn_height: 4
+  finish_block: LIGHT_WEIGHTED_PRESSURE_PLATE
+  settings:
+    allow_item_move_in_inventory: false
+    open_while_bridging: true
+    not_available: '&cNicht verfügbar'
+    blocks:
+      '1': '&7Sandstein:SANDSTONE'
+      '2': '&9Prismarin:PRISMARINE'
+      '3': '&3Seelaterne:SEA_LANTERN'
+      '4': '&fWeißes &7Glas:WHITE_STAINED_GLASS'
+      '5': '&dMagenta &7Glas:MAGENTA_STAINED_GLASS'
+      '6': '&a&lSmaragdblock:EMERALD_BLOCK'
+      '7': '&b&lDiamantblock:DIAMOND_BLOCK'
+    animations:
+      '1': '&7Keine Animation:SNOWBALL'
+      '2': '&cZerstörende &7Blöcke:SLIME_BALL'
+      '3': '&c&lFallende &7Blöcke:MAGMA_CREAM'
+  items:
+    settings: '&eEinstellungen:COMPARATOR'
+  message_on_join: true
+  sound_on_setting_change: true
+  custom_sound_on_setting_change: ENTITY_PLAYER_LEVELUP
+  sound_on_join: true
+  custom_sound_on_join: ENTITY_PLAYER_LEVELUP
+  sound_on_respawn: false
+  custom_sound_on_respawn: BLOCK_ANVIL_LAND
+  sound_on_finish: true
+  custom_sound_on_finish: ENTITY_PLAYER_LEVELUP
+executing_commands:
+  commands_on_join_from_player: []
+  commands_on_join_from_console: []
+  commands_on_leave_from_player: []
+  commands_on_leave_from_console:
+  - /spawn [player]
+  commands_on_respawn_from_player: []
+  commands_on_respawn_from_console: []
+  commands_on_finish_from_player: []
+  commands_on_finish_from_console: []
+scoreboard:
+  title: '      &6&lFast&e&lBuilder      '
+  lines:
+    arena: '&a&lArena:'
+    highscore: '&c&lBestzeit:'
+    blocks: '&b&lBlöcke:'
+    time: '&6&lZeit:'
+  update_intervall: 1
+sign:
+  lines:
+    '0': '&8- &4Fast&cBuilder &8-'
+    '1': '&8[&b[current]&7/&3[max]&8]'
+    '2': '[arena]'
+    '3': '&aJoin'

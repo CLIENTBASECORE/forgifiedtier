@@ -1,0 +1,153 @@
+BridgePracticeOptions:
+  ###################
+  # General Options #
+  ###################
+  Inventory:
+    #Material of block given to players to use when bridging.
+    Block: "WHITE_WOOL"
+    #Whether to only allow those with empty inventories to start bridge practice.
+    #If false, the item held by the player will be swapped for the bridging block, then replaced afterwards.
+    #If true, the whole inventory of the player will be emptied, then replaced afterwards. 
+    MustEmpty: true
+  #Whether to block commands when player starts practice.
+  NoCommands: true
+  #Whether to disable flying when player starts practice.
+  NoFly: true
+
+  #######################
+  # Spawn Warp Settings #
+  #######################
+  #Options for teleportation on completion.
+  Warp:
+    #Location to warp players to on completion.
+    #This is also the location players get warped to if they are in a practice region when practice starts.
+    Location:
+      World: "world"
+      X: 0.0
+      Y: 80.0
+      Z: 0.0
+    #Time in seconds before player gets teleported back to spawn.
+    Delay: 3
+
+  ###################
+  # Region Settings #
+  ###################
+  #This prevents other players from getting into the practice regions.
+  Regions:
+    #If true, any other player that tries to go into an occupied region will be blocked.
+    #If true, any other player that is in the region when someone else starts practice will be teleported to spawn.
+    Forcefield: true
+
+  #################
+  # Path Settings #
+  #################
+  #List of all the bridge practice routes. Add more to have more.
+  #This defines all the start points for the difficulties below.
+  #Please ensure all the regions here are already made to let plugin load properly.
+  Paths:
+    #Take this first one for example. This will be a Simple difficulty track, starting at 100, 70, 100.
+    #The values for X, Y and Z stated below in the difficulties will be added to this for the end points and checkpoints.
+    #Make sure the starting coordinates, checkpoint coordinate and ending coordinate are all pressure plates.
+    #You can use any type of pressure plate you want.
+    1:
+      Difficulty: Simple
+      #WorldGuard region to limit practicing players in.
+      #Make sure the practice regions do not overlap.
+      Region: "practice_simple1"
+      Start:
+        #World to have practice route start and end points in.
+        World: "world"
+        X: 100.0
+        Y: 70.0
+        Z: 100.0
+    2:
+      Difficulty: Simple
+      Region: "pracitce_simple2"
+      Start:
+        World: "world"
+        X: 100
+        Y: 70
+        Z: 110
+    3:
+      Difficulty: Simple
+      Region: "pracitce_simple3"
+      Start:
+        World: "world"
+        X: 100
+        Y: 70
+        Z: 120
+    4:
+      Difficulty: Simple
+      Region: "pracitce_simple4"
+      Start:
+        World: "world"
+        X: 100
+        Y: 70
+        Z: 130
+    5:
+      Difficulty: Simple
+      Region: "pracitce_simple5"
+      Start:
+        World: "world"
+        X: 100
+        Y: 70
+        Z: 140
+    6:
+      Difficulty: Simple
+      Region: "pracitce_simple6"
+      Start:
+        World: "world"
+        X: 100
+        Y: 70
+        Z: 150
+    7:
+      Difficulty: Simple
+      Region: "pracitce_simple7"
+      Start:
+        World: "world"
+        X: 100
+        Y: 70
+        Z: 160
+
+  #######################
+  # Difficulty Settings #
+  #######################
+  Difficulty:
+    #Name of the bridge practice route. Will be used in commands, messages and /bp list.
+    Simple:
+      #Maximum duration (in seconds) player has to complete bridge.
+      #Set to 0 to disable.
+      Duration: 200
+      #Whether to end practice when player falls.
+      #If true, player will not be sent back to checkpoint on failure.
+      NoFail: false
+      #Whether to force players to pass through all checkpoints in order to complete stage.
+      ForceCheckpoints: false
+      #Options for ending block.
+      #How this works is that the ending block values you give here are the distance from the starting block.
+      #For example, if you set the X value here to 100, and the X value for Start to 100, then the end is at 200.
+      End:
+        X: 100
+        Y: 0
+        Z: 0
+      #Delete this (like the example below) if you don't want checkpoints.
+      #Add as many as you want.
+      #How this works is that the checkpoint block values you give here are the distance from the starting block.
+      #For example, if you set the X value here to 50, and the X value for Start to 100, then the checkpoint is at 150.
+      Checkpoints:
+        #ID of checkpoint. Will be used in messages and stuff.
+        1:
+          Location:
+            X: 50
+            Y: 0
+            Z: 0
+    #####################################################################################
+    Intermediate:
+      Duration: 300
+      ForceCheckpoints: false
+      #Options for ending block.
+      End:
+        Location:
+          X: 250
+          Y: 0
+          Z: 0

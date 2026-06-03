@@ -1,0 +1,48 @@
+bed-break-hits: 8
+sounds:
+  countdown:
+    enabled: true
+    name: NOTE_PLING
+    volume: 1.0
+    pitch: 1.4
+  fight:
+    enabled: true
+    name: LEVEL_UP
+    volume: 1.0
+    pitch: 1.0
+  victory:
+    enabled: true
+    name: LEVEL_UP
+    volume: 1.0
+    pitch: 1.2
+  defeat:
+    enabled: true
+    name: WITHER_DEATH
+    volume: 0.8
+    pitch: 0.8
+  abyss:
+    enabled: true
+    name: ENDERDRAGON_HIT
+    volume: 1.0
+    pitch: 0.8
+  bed-break:
+    enabled: true
+    name: DIG_WOOD
+    volume: 3.0
+    pitch: 0.9
+  bed-break-wither:
+    enabled: true
+    name: WITHER_DEATH
+    volume: 2.0
+    pitch: 1.0
+  bed-break-progress:
+    enabled: true
+    name: DIG_WOOD
+    volume: 0.8
+    pitch: 0.9
+
+  kill:
+    enabled: true
+    name: ORB_PICKUP
+    volume: 1.0
+    pitch: 1.0

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 156.60.188.23
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1771957542787
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1772300054155
+  login: 1772299987090
+money: '0'
+last-account-name: LauncherKushagra
+lastlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: -3.34549606189318
+  y: 5.0625
+  z: 599.1478633842763
+  yaw: 224.69989013671875
+  pitch: 9.900012969970703
+logoutlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: 1.4464353035320232
+  y: 6.0
+  z: 645.9501456841618
+  yaw: 283.64923095703125
+  pitch: 34.050045013427734

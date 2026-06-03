@@ -1,0 +1,6 @@
+name: FrostRespawnFix
+main: dev.forgified.frostrespawnfix.FrostRespawnFixPlugin
+version: 1.0.0
+author: Codex
+depend: [Frost]
+description: Adds clean respawn protection timers for selected Frost duel kits.

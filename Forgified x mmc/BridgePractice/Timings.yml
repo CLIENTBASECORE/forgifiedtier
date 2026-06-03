@@ -1,0 +1,40 @@
+#Do not edit this unless you know what you're doing.
+#I'll add some commands to reset this or delete a certain playing in future.
+#For now, use notepad++? ;)
+#This will be used to update and list the leaderboard.
+Timings:
+  #Individual difficulties' top scores.
+  Leaderboard: {}
+###########################################################################################
+# Just an example
+#    #Difficulty level.
+#    #Top 5 timings for stated path difficulty in seconds.
+#    #DO NOT LIST MORE THAN FIVE.
+#    Simple:
+#      - '100,Notch'
+#      - '110,Dinnerbone'
+#      - '120,xu_yukun'
+#      - '130,BadBones69'
+#      - '140,Steve'
+###########################################################################################
+  #Individual players' top scores.
+  Players: {}
+###########################################################################################
+# Just an example
+#    #Player name.
+#    xu_yukun:
+#      #Top 5 timings for stated path difficulty in seconds.
+#      #DO NOT LIST MORE THAN FIVE.
+#      Simple:
+#        - '100'
+#        - '110'
+#        - '120'
+#        - '130'
+#        - '140'
+#      Intermediate:
+#        - '100'
+#        - '110'
+#        - '120'
+#        - '130'
+#        - '140'
+###########################################################################################

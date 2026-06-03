@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 82.7.113.220
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1771098047190
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1773422121746
+  login: 1773422118277
+money: '0'
+last-account-name: qTwel
+lastlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: 6.105458717280943
+  y: 8.112654866612932
+  z: 646.9724953400346
+  yaw: 4.773727893829346
+  pitch: 22.24680519104004
+logoutlocation:
+  world: 134ebe2b-a4b1-4b82-ad10-155cd50e1cb9
+  world-name: world
+  x: 6.507168179799919
+  y: 6.0
+  z: 636.8646261235366
+  yaw: -180.7283477783203
+  pitch: -1.9422760009765625

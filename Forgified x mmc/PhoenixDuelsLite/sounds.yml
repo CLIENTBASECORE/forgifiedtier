@@ -1,0 +1,97 @@
+sounds: {}
+registry:
+  defeat:
+    '0':
+    - BLOCK_NOTE_BLOCK_BASS;1.0;0.5
+    '1':
+    - BLOCK_NOTE_BLOCK_SNARE;1.0;1.5
+    '2':
+    - BLOCK_NOTE_BLOCK_PLING;1.0;1.0
+    '3':
+    - BLOCK_NOTE_BLOCK_SNARE;1.0;1.5
+    '4':
+    - BLOCK_NOTE_BLOCK_BASS;1.0;0.5
+    '5':
+    - BLOCK_NOTE_BLOCK_SNARE;1.0;1.5
+    '6':
+    - BLOCK_NOTE_BLOCK_PLING;1.0;1.0
+    '7':
+    - BLOCK_NOTE_BLOCK_HAT;1.0;0.5
+  request:
+    '0':
+    - BLOCK_NOTE_BLOCK_BASS;1.0;0.8
+    '1':
+    - BLOCK_NOTE_BLOCK_PLING;1.0;1.0
+    '2':
+    - BLOCK_NOTE_BLOCK_BASS;1.0;1.2
+    '3':
+    - BLOCK_NOTE_BLOCK_PLING;1.0;0.8
+    '4':
+    - BLOCK_NOTE_BLOCK_BASS;1.0;1.0
+    '5':
+    - BLOCK_NOTE_BLOCK_PLING;1.0;1.2
+    '6':
+    - BLOCK_NOTE_BLOCK_BASS;1.0;0.8
+    '7':
+    - BLOCK_NOTE_BLOCK_PLING;1.0;1.0
+  invitation_accepted:
+    '0':
+    - ENTITY_ARROW_HIT_PLAYER;1.0;1.0
+  winning:
+    '0':
+    - BLOCK_NOTE_BLOCK_HAT;1.0;1.0
+    '1':
+    - BLOCK_NOTE_BLOCK_PLING;1.0;0.5
+    '2':
+    - BLOCK_NOTE_BLOCK_SNARE;1.0;1.5
+    '3':
+    - BLOCK_NOTE_BLOCK_PLING;1.0;1.0
+    '4':
+    - BLOCK_NOTE_BLOCK_BASS;1.0;0.5
+    '5':
+    - BLOCK_NOTE_BLOCK_SNARE;1.0;1.5
+    '6':
+    - BLOCK_NOTE_BLOCK_PLING;1.0;1.0
+    '7':
+    - BLOCK_NOTE_BLOCK_HAT;1.0;0.5
+  join_queue:
+    '0':
+    - BLOCK_NOTE_BLOCK_PLING;1.0;1.0
+  leave_queue:
+    '0':
+    - BLOCK_NOTE_BLOCK_PLING;1.0;1.0
+  spectator_join:
+    '0':
+    - BLOCK_NOTE_BLOCK_PLING;1.0;1.0
+  start:
+    '0':
+    - BLOCK_NOTE_BLOCK_BASS;1.0;1.0
+    '2':
+    - BLOCK_NOTE_BLOCK_PLING;1.0;1.0
+    '4':
+    - BLOCK_NOTE_BLOCK_HAT;1.0;1.0
+    - BLOCK_NOTE_BLOCK_BASS;1.0;1.0
+    - BLOCK_NOTE_BLOCK_SNARE;1.0;1.0
+    '6':
+    - BLOCK_NOTE_BLOCK_BASS;1.0;1.0
+    - BLOCK_NOTE_BLOCK_HAT;1.0;1.0
+    '8':
+    - BLOCK_NOTE_BLOCK_PLING;1.0;1.0
+  invitation_declined:
+    '0':
+    - ENTITY_ARROW_HIT_PLAYER;1.0;1.0
+  draw:
+    '0':
+    - BLOCK_NOTE_BLOCK_BASS;1.0;1.5
+    '12':
+    - BLOCK_NOTE_BLOCK_BASS;1.0;1.5
+    '2':
+    - BLOCK_NOTE_BLOCK_HARP;1.0;0.5
+    '4':
+    - BLOCK_NOTE_BLOCK_BASS;1.0;1.5
+    '6':
+    - BLOCK_NOTE_BLOCK_HARP;1.0;0.5
+    '8':
+    - BLOCK_NOTE_BLOCK_BASS;1.0;1.5
+    '10':
+    - BLOCK_NOTE_BLOCK_HARP;1.0;0.5

@@ -1,0 +1,26 @@
+# ForgifiedAC Configuration
+# Lightweight internal anticheat for basic detection.
+
+# Prefix for alerts
+prefix: "&8[&cForgifiedAC&8] "
+
+# Sensitivity settings
+checks:
+  reach:
+    enabled: true
+    max-distance: 3.8
+    alert-vl: 3 # Alerts staff after 3 flags
+  flight:
+    enabled: true
+    alert-vl: 5
+  speed:
+    enabled: true
+    max-speed: 0.65
+    alert-vl: 10
+
+# Commands to run when a player is flagged many times (optional)
+# Example: "kick <player> &cYou have been flagged for cheating!"
+punishments:
+  enabled: false
+  commands:
+    - "kick <player> &cForgifiedAC &8» &fCheating detected."

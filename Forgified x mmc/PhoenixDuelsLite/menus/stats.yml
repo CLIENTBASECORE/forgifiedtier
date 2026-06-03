@@ -1,0 +1,140 @@
+items:
+  top-filler:
+    slot: 9-17
+    material: STAINED_GLASS_PANE:7
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&a'
+    lore: []
+    actions: []
+  selected-section:
+    slot: '12'
+    material: STAINED_GLASS_PANE:15
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&a'
+    lore: []
+    actions: []
+  stats:
+    slot: '3'
+    material: PAPER
+    amount: 1
+    custom-model-data: 0
+    glow: true
+    hide-attributes: false
+    display-name: '&aYour Stats'
+    lore:
+    - '&7Click here to navigate to your stats section.'
+    - ''
+    - '&7Here you will be able to see all your'
+    - '&7statistics such as matchs played, wins,'
+    - '&7losses, ranking score and much more.'
+    - ''
+    - '&6Left-Click: &eNavigate.'
+    actions: []
+  leaderboard:
+    slot: '5'
+    material: NETHER_STAR
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&aLeaderboard'
+    lore:
+    - '&7Click here to navigate to your leaderboard section.'
+    - ''
+    - '&7See the top players in each game mode.'
+    - ''
+    - '&6Left-Click: &eNavigate.'
+    actions:
+    - '[MENU] leaderboard'
+    - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+settings:
+  type: STATS
+  title: Your Stats
+  rows: 6
+  refresh:
+    enabled: true
+    rate: 60
+  on-open-actions: []
+custom-stats-item:
+  slot: '29'
+  material: SUGAR
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aChallenge Stats'
+  lore:
+  - '&7(Statistics update every %delay% seconds)'
+  - ''
+  - '&fTotal Wins: &a%total_wins%'
+  - '&fWin Streak: &a%win_streak%'
+  - ''
+  - '&fTotal Losses: &c%total_losses%'
+  - '&fLoss Streak: &c%loss_streak%'
+  - ''
+  - '&fTotal Draws: &e%total_draws%'
+  - ''
+  - '&fTotal Kills: &6%total_kills%'
+  - '&fKill Streak: &6%kill_streak%'
+  - ''
+  - '&fTotal Deaths: &6%total_deaths%'
+  - '&fDeath Streak: &6%death_streak%'
+  actions: []
+unranked-stats-item:
+  slot: '31'
+  material: GLOWSTONE_DUST
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aUnranked Stats'
+  lore:
+  - '&7(Statistics update every %delay% seconds)'
+  - ''
+  - '&fTotal Wins: &a%total_wins%'
+  - '&fWin Streak: &a%win_streak%'
+  - ''
+  - '&fTotal Losses: &c%total_losses%'
+  - '&fLoss Streak: &c%loss_streak%'
+  - ''
+  - '&fTotal Draws: &e%total_draws%'
+  - ''
+  - '&fTotal Kills: &6%total_kills%'
+  - '&fKill Streak: &6%kill_streak%'
+  - ''
+  - '&fTotal Deaths: &6%total_deaths%'
+  - '&fDeath Streak: &6%death_streak%'
+  actions: []
+ranked-stats-item:
+  slot: '33'
+  material: REDSTONE
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aRanked Stats'
+  lore:
+  - '&7(Statistics update every %delay% seconds)'
+  - ''
+  - '&fGlobal Elo: &a%elo%'
+  - ''
+  - '&fTotal Wins: &a%total_wins%'
+  - '&fWin Streak: &a%win_streak%'
+  - ''
+  - '&fTotal Losses: &c%total_losses%'
+  - '&fLoss Streak: &c%loss_streak%'
+  - ''
+  - '&fTotal Draws: &e%total_draws%'
+  - ''
+  - '&fTotal Kills: &6%total_kills%'
+  - '&fKill Streak: &6%kill_streak%'
+  - ''
+  - '&fTotal Deaths: &6%total_deaths%'
+  - '&fDeath Streak: &6%death_streak%'
+  actions: []

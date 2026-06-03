@@ -1,0 +1,24 @@
+bossbar:
+  enable: true
+  interval: 200
+  list:
+    bossbar1:
+      color: RED
+      style: NOTCHED_20
+      seconds: 10
+      message: '&6https://discord.gg/NyawUnyyVk'
+    bossbar2:
+      color: PURPLE
+      style: NOTCHED_20
+      seconds: 10
+      message: '&6FORGIFIED OFFICIAL DISCORD!'
+actionbar:
+  enable: true
+  interval: 300
+  list:
+    actionbar1:
+      stay: 50
+      message: '&6ForgifiedPractice.minekeep.gg'
+    actionbar2:
+      stay: 50
+      message: '&6FORGIFIED COMMUNITY'S OFFICIAL PRACTICE SERVER!'

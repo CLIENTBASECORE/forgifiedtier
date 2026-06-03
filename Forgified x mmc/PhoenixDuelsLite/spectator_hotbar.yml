@@ -1,0 +1,12 @@
+items: {}
+leave-item:
+  slot: 4
+  material: BARRIER
+  custom-model-data: 0
+  glow: false
+  display-name: '&cLeave'
+  lore:
+  - '&7Click here to leave this game.'
+  - ''
+  - '&7Or do /leave.'
+  actions: []

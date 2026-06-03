@@ -1,0 +1,9 @@
+# Void / fall detection for Sumo (and kits with sumo: true) only.
+# Same layout as void.yml: distance below your arena spawnpoint Y.
+
+void:
+  # Treat as void this many blocks below the kit spawn (same meaning as void.yml).
+  blocks-under-spawn: 25
+  # If true, use absolute-y instead of blocks-under-spawn (same idea as bridge void).
+  use-absolute-y: false
+  absolute-y: 0

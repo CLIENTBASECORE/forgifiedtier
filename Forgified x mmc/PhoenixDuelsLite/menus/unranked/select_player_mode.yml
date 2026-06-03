@@ -1,0 +1,109 @@
+items:
+  bottom-filler:
+    slot: 27-35
+    material: STAINED_GLASS_PANE:15
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&a'
+    lore: []
+    actions: []
+  selected-section:
+    slot: 30-32
+    material: STAINED_GLASS_PANE:14
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: true
+    display-name: '&cCancel'
+    lore:
+    - '&7Click here to cancel and go back.'
+    - ''
+    - '&6Left-Click: &eCancel.'
+    actions:
+    - '[CLOSE_INVENTORY]'
+settings:
+  type: RANKED_PLAYER_MODE
+  title: Select player mode
+  rows: 4
+  refresh:
+    enabled: false
+    rate: 20
+  on-open-actions: []
+solo-item:
+  slot: '10'
+  material: WOOD_SWORD
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: true
+  display-name: '&aSolo'
+  lore:
+  - '&7Click here to play 1v1 game.'
+  - ''
+  - '&fHow this works?'
+  - '&7You will fight random players and'
+  - '&7in case your &f/party &7is not full,'
+  - '&7random players will fill your team.'
+  - ''
+  - '&6Left-Click: &eSelect solo mode.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+duo-item:
+  slot: '12'
+  material: STONE_SWORD
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: true
+  display-name: '&aDuo'
+  lore:
+  - '&7Click here to play 2v2 game.'
+  - ''
+  - '&fHow this works?'
+  - '&7You will fight random players and'
+  - '&7in case your &f/party &7is not full,'
+  - '&7random players will fill your team.'
+  - ''
+  - '&6Left-Click: &eSelect duo mode.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+trio-item:
+  slot: '14'
+  material: IRON_SWORD
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: true
+  display-name: '&aTrio'
+  lore:
+  - '&7Click here to play 3v3 game.'
+  - ''
+  - '&fHow this works?'
+  - '&7You will fight random players and'
+  - '&7in case your &f/party &7is not full,'
+  - '&7random players will fill your team.'
+  - ''
+  - '&6Left-Click: &eSelect trio mode.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+quad-item:
+  slot: '16'
+  material: DIAMOND_SWORD
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: true
+  display-name: '&aQuad'
+  lore:
+  - '&7Click here to play 4v4 game.'
+  - ''
+  - '&fHow this works?'
+  - '&7You will fight random players and'
+  - '&7in case your &f/party &7is not full,'
+  - '&7random players will fill your team.'
+  - ''
+  - '&6Left-Click: &eSelect quad mode.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'

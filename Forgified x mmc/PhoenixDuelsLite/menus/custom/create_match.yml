@@ -1,0 +1,171 @@
+items:
+  top-filler:
+    slot: 0-8
+    material: STAINED_GLASS_PANE:15
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&a'
+    lore: []
+    actions: []
+  bottom-filler:
+    slot: 45-53
+    material: STAINED_GLASS_PANE:15
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&a'
+    lore: []
+    actions: []
+  empty-slot:
+    slot: '24'
+    material: STAINED_GLASS_PANE:15
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&a'
+    lore: []
+    actions: []
+  cancel:
+    slot: 46-48
+    material: STAINED_GLASS_PANE:14
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&cCancel'
+    lore:
+    - '&7Click here to cancel and go back.'
+    - ''
+    - '&6Left-Click: &eCancel.'
+    actions:
+    - '[MENU] party'
+settings:
+  type: CREATE_MATCH
+  title: Creating Match...
+  rows: 6
+  refresh:
+    enabled: false
+    rate: 20
+  on-open-actions: []
+pagination:
+  direction-items: HORIZONTAL
+  align-items: LEFT
+  slots: 19-22, 28-31
+  fill-item:
+    material: STAINED_GLASS_PANE:7
+    custom-model-data: 0
+    glow: false
+    display-name: '&7No modes'
+    lore: []
+    actions: []
+  previous-item:
+    slot: '9'
+    material: ARROW
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&aPrevious page'
+    lore:
+    - '&8(Page %page%)'
+    - '&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<'
+    actions: []
+  next-item:
+    slot: '17'
+    material: ARROW
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&aNext page'
+    lore:
+    - '&8(Page %page%)'
+    - '&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>'
+    actions: []
+mode-item:
+  display-name: '&aPlay %display_name%'
+  lore:
+  - '&7%description%'
+  - ''
+  - ' %kit%'
+  - ''
+  - '&e%arenas% &aavailable arena(s)!'
+  - ''
+  - '&6Left-Click: &eSelect mode.'
+  - '&6Right-Click: &ePreview kit.'
+external-spectator-item:
+  slot: '34'
+  material: GLASS_BOTTLE
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aExternal Spectator'
+  lore:
+  - '&7Click here to toggle where this game'
+  - '&7accepts external spectators who are'
+  - '&7not playing in the match or not.'
+  - ''
+  - '&fIs Enabled: &7%state%'
+  - ''
+  - '&6Left-Click: &eSwitch state.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+rounds-item:
+  slot: '25'
+  material: PAPER
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aRounds To Win'
+  lore:
+  - '&7Click here to define how many rounds'
+  - '&7you will be playing in this match.'
+  - ''
+  - '&fRounds: &7%rounds%'
+  - ''
+  - '&6Left-Click: &eAdd 1.'
+  - '&6Right-Click: &eRemove 1.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+map:
+  slot: '33'
+  material: STORAGE_MINECART
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: true
+  display-name: '&aMap'
+  lore:
+  - '&7By clicking here you will be able'
+  - '&7to define which map you want to play.'
+  - ''
+  - '&fMap: &7%map%'
+  - ''
+  - '&6Left-Click: &eSelect map.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+create-game-item:
+  slot: 50-52
+  states:
+    'on':
+      material: STAINED_GLASS_PANE:5
+      custom-model-data: 0
+      glow: false
+    'off':
+      material: STAINED_GLASS_PANE:4
+      custom-model-data: 0
+      glow: false
+  display-name: '&aCreate Match'
+  lore:
+  - '&7Click here to create a match'
+  - '&7with this settings.'
+  - ''
+  - '&6Left-Click: &eCreate match.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'

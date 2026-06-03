@@ -1,0 +1,178 @@
+items:
+  bottom-filler:
+    slot: 27-35
+    material: STAINED_GLASS_PANE:15
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&a'
+    lore: []
+    actions: []
+  close:
+    slot: '31'
+    material: FEATHER
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&cClose'
+    lore:
+    - '&7Click here to close.'
+    actions:
+    - '[CLOSE_INVENTORY]'
+settings:
+  type: PARTY_INFO
+  title: Party - Info
+  rows: 4
+  refresh:
+    enabled: true
+    rate: 20
+  on-open-actions: []
+states:
+  member-slots:
+    positions: 10-16
+    previous-page: '9'
+    next-page: '17'
+    member:
+      default:
+        material: SKULL_ITEM:3
+        custom-model-data: 0
+        glow: false
+        display-name: '&7%player%'
+        lore:
+        - '&fIs Online: %online%'
+      empty:
+        material: SKULL_ITEM:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0=
+        custom-model-data: 0
+        glow: false
+        display-name: '&7Empty Slot'
+        lore: []
+      unknown-member:
+        material: SKULL_ITEM:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDgzNjJhMjRjMGZhODQ1M2U0ZDkzZTY4YzU5NjlkZGJkZTU3YmY2NjY2YzAzMTljMWVkMWU4NGQ4OTA2NSJ9fX0=
+        custom-model-data: 0
+        glow: false
+        display-name: '&7Unknown member'
+        lore: []
+      invitation:
+        material: SKULL_ITEM:3
+        custom-model-data: 0
+        glow: false
+        display-name: '&7%player% &e(Invited)'
+        lore:
+        - '&7This user is not in this party.'
+        - '&7It is only a representation of the invitation.'
+    leader:
+      default:
+        material: SKULL_ITEM:3
+        custom-model-data: 0
+        glow: false
+        display-name: '&7%player%'
+        lore:
+        - '&fIs Online: %online%'
+        - ''
+        - '&6Left-Click: &eManage member.'
+      empty:
+        material: SKULL_ITEM:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0=
+        custom-model-data: 0
+        glow: false
+        display-name: '&7Empty Slot'
+        lore:
+        - ''
+        - '&6Left-Click: &eInvite player.'
+      unknown-member:
+        material: SKULL_ITEM:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc1NDgzNjJhMjRjMGZhODQ1M2U0ZDkzZTY4YzU5NjlkZGJkZTU3YmY2NjY2YzAzMTljMWVkMWU4NGQ4OTA2NSJ9fX0=
+        custom-model-data: 0
+        glow: false
+        display-name: Unknown member
+        lore:
+        - ''
+        - '&6Left-Click: &eKick from party.'
+      invitation:
+        material: SKULL_ITEM:3
+        custom-model-data: 0
+        glow: false
+        display-name: '&7%player% &e(Invited)'
+        lore:
+        - '&7This user is not in this party.'
+        - '&7It is only a representation of the invitation.'
+        - ''
+        - '&6Left-Click: &eCancel invite.'
+disband-item:
+  slot: '28'
+  material: WOOD_DOOR
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aDisband party'
+  lore:
+  - '&7By clicking here you will destroy'
+  - '&7this party and kick all members.'
+  - ''
+  - '&6Left-Click: &eDisband party.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+leave-item:
+  slot: '28'
+  material: WOOD_DOOR
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aLeave party'
+  lore:
+  - '&7By clicking here you leave this party.'
+  - ''
+  - '&6Left-Click: &eLeave party.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+challenge-party-item:
+  slot: '34'
+  material: IRON_SWORD
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aChallenge Party'
+  lore:
+  - '&7Click here to choose your opponent.'
+  - ''
+  - '&7You will be able to fight a player or a party.'
+  - ''
+  - '&6Left-Click: &eChoose opponent.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+pending-challenge-item:
+  slot: '34'
+  material: GOLD_SWORD
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aChallenge Invitation'
+  lore:
+  - '&e(Pending Invitation)'
+  - '&7Click here to cancel this invitation.'
+  - ''
+  - '&fOpponent: '
+  - '&8- &7%opponent%'
+  - ''
+  - '&6Left-Click: &eCancel invitation.'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'
+cancel-matchmaking-item:
+  slot: '34'
+  material: SKULL_ITEM:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmMxODNmMzYwMWY2NzI5M2E1MWUyNTc3ZGJlYTA1YTQ2MDJlZmE0MzNjYzM1NGU2M2ZjZjdmYmUwMjY0ODZiYyJ9fX0=
+  amount: 1
+  custom-model-data: 0
+  glow: false
+  hide-attributes: false
+  display-name: '&aCancel Matchmaking'
+  lore:
+  - '&7Click here to cancel the matchmaking.'
+  - ''
+  - '&6Left-Click: &eStop matchmaking.'
+  - '&bLooking for available arenas...'
+  actions:
+  - '[SOUND] UI_BUTTON_CLICK;0.1;1'

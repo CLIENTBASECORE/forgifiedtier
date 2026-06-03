@@ -1,0 +1,20 @@
+# ForgifiedAC Configuration
+prefix: "&8[&cForgifiedAC&8] "
+
+checks:
+  reach:
+    enabled: true
+    max-distance: 3.8
+    alert-vl: 3
+  flight:
+    enabled: true
+    alert-vl: 5
+  speed:
+    enabled: true
+    max-speed: 0.65
+    alert-vl: 10
+
+punishments:
+  enabled: false
+  commands:
+    - "kick <player> &cForgifiedAC &8» &fCheating detected."

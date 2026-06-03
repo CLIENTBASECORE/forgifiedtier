@@ -1,0 +1,267 @@
+DEFAULT-KIT: "&6Default Kit"
+PLAY-AGAIN:
+  NAME: "&6Play Again &7(Right Click)"
+  MATERIAL: PAPER
+  DATA: 0
+  AMOUNT: 1
+  SLOT: 3
+  ENABLED: true
+
+IN-SPAWN:
+  QUEUES_MENU:
+    NAME: "&6Queues &7(Right Click)"
+    MATERIAL: IRON_SWORD
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 0
+    ACTION: QUEUES_MENU
+    COMMAND: ""
+    ENABLED: false
+  UNRANKED:
+    NAME: "&6Unranked Queue &7(Right Click)"
+    MATERIAL: IRON_SWORD
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 0
+    ACTION: JOIN_UNRANKED
+    COMMAND: ""
+    ENABLED: true
+  RANKED:
+    NAME: "&6Ranked Queue &7(Right Click)"
+    MATERIAL: DIAMOND_SWORD
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 1
+    ACTION: JOIN_RANKED
+    COMMAND: ""
+    ENABLED: true
+  KIT-EDITOR:
+    NAME: "&6Kit Editor &7(Right Click)"
+    MATERIAL: BOOK
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 2
+    ACTION: EDITOR_MENU
+    COMMAND: ""
+    ENABLED: true
+  PREMIUM:
+    NAME: "&6Premium Queue &7(Right Click)"
+    MATERIAL: STONE_SWORD
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 2
+    ACTION: JOIN_PREMIUM
+    COMMAND: ""
+    ENABLED: false
+  FFA:
+    NAME: "&6Join FFA &7(Right Click)"
+    MATERIAL: STONE_SWORD
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 3
+    ACTION: JOIN_FFA
+    COMMAND: ""
+    ENABLED: false
+  CREATE-PARTY:
+    NAME: "&6Create Party &7(Right Click)"
+    MATERIAL: NAME_TAG
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 4
+    ACTION: CREATE_PARTY
+    COMMAND: ""
+    ENABLED: true
+  LEADERBOARDS:
+    NAME: "&6Leaderboards &7(Right Click)"
+    MATERIAL: EMERALD
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 6
+    ACTION: LEADERBOARDS_MENU
+    COMMAND: ""
+    ENABLED: true
+  HOST-EVENT:
+    NAME: "&6Host Events &7(Right Click)"
+    MATERIAL: EYE_OF_ENDER
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 7
+    ACTION: EVENTS_MENU
+    COMMAND: ""
+    ENABLED: true
+  SETTINGS:
+    NAME: "&6Settings &7(Right Click)"
+    MATERIAL: SKULL_ITEM
+    DATA: 3
+    AMOUNT: 1
+    SLOT: 8
+    ACTION: SETTINGS_MENU
+    COMMAND: ""
+    ENABLED: true
+  MATCHES_MENU:
+    NAME: "&6Available Matches &7(Right Click)"
+    MATERIAL: COMPASS
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 5
+    ACTION: OPEN_CURRENT_MATCHES
+    COMMAND: ""
+    ENABLED: false
+
+IN-QUEUE:
+  LEAVE:
+    NAME: "&cLeave Queue &7(Right Click)"
+    MATERIAL: INK_SACK
+    DATA: 1
+    AMOUNT: 1
+    SLOT: 8
+    ACTION: LEAVE_QUEUE
+    COMMAND: ""
+    ENABLED: true
+
+IN-PARTY:
+  UNRANKED:
+    NAME: "&6Unranked Queue &7(Right Click)"
+    MATERIAL: IRON_SWORD
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 0
+    ACTION: JOIN_UNRANKED
+    COMMAND: ""
+    ENABLED: true
+  RANKED:
+    NAME: "&6Ranked Queue &7(Right Click)"
+    MATERIAL: DIAMOND_SWORD
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 1
+    ACTION: JOIN_RANKED
+    COMMAND: ""
+    ENABLED: true
+  KIT-EDITOR:
+    NAME: "&6Kit Editor &7(Right Click)"
+    MATERIAL: BOOK
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 2
+    ACTION: EDITOR_MENU
+    COMMAND: ""
+    ENABLED: true
+  INFO:
+    NAME: "&6View Party Members &7(Right Click)"
+    MATERIAL: PAPER
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 7
+    ACTION: PARTY_INFO
+    COMMAND: ""
+    ENABLED: true
+  PARTY-EVENT:
+    NAME: "&6Start Party Event &7(Right Click)"
+    MATERIAL: IRON_AXE
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 4
+    ACTION: PARTY_EVENTS
+    COMMAND: ""
+    ENABLED: true
+  OTHER-PARTIES:
+    NAME: "&6Fight Other Party &7(Right Click)"
+    MATERIAL: DIAMOND_AXE
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 5
+    ACTION: OTHER_PARTIES
+    COMMAND: ""
+    ENABLED: true
+  LEAVE-PARTY:
+    NAME: "&cLeave Party &7(Right Click)"
+    MATERIAL: NETHER_STAR
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 8
+    ACTION: PARTY_LEAVE
+    COMMAND: ""
+    ENABLED: true
+
+IN-PARTY-SPEC:
+  LEAVE:
+    NAME: "&cStop Spectating &7(Right Click)"
+    MATERIAL: INK_SACK
+    DATA: 1
+    AMOUNT: 1
+    SLOT: 8
+    ACTION: LEAVE_SPECTATOR
+    COMMAND: ""
+    ENABLED: true
+  VIEW-PLAYERS:
+    NAME: "&6View Players &7(Right Click)"
+    MATERIAL: COMPASS
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 4
+    ACTION: PLAYERS_MENU
+    COMMAND: ""
+    ENABLED: true
+
+IN-TOURNAMENT:
+  LEAVE:
+    NAME: "&6Leave Tournament &7(Right Click)"
+    MATERIAL: INK_SACK
+    DATA: 1
+    AMOUNT: 1
+    SLOT: 8
+    ACTION: LEAVE_TOURNAMENT
+    COMMAND: ""
+    ENABLED: true
+
+IN-EVENT:
+  LEAVE:
+    NAME: "&cLeave Event &7(Right Click)"
+    MATERIAL: INK_SACK
+    DATA: 1
+    AMOUNT: 1
+    SLOT: 8
+    ACTION: LEAVE_EVENT
+    COMMAND: ""
+    ENABLED: true
+
+IN-SPEC:
+  LEAVE:
+    NAME: "&cLeave Spectator Mode &7(Right Click)"
+    MATERIAL: INK_SACK
+    DATA: 1
+    AMOUNT: 1
+    SLOT: 8
+    ACTION: LEAVE_SPECTATOR
+    COMMAND: ""
+    ENABLED: true
+  VIEW-PLAYERS:
+    NAME: "&6View Players &7(Right Click)"
+    MATERIAL: COMPASS
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 4
+    ACTION: PLAYERS_MENU
+    COMMAND: ""
+    ENABLED: true
+
+PARKOUR-EVENT:
+  PLAYER-HIDER:
+    NAME: "&6Hide Players &7(Right Click)"
+    MATERIAL: EYE_OF_ENDER
+    DATA: 0
+    AMOUNT: 1
+    SLOT: 0
+    ACTION: HIDE_PLAYERS
+    COMMAND: ""
+    ENABLED: true
+  LEAVE:
+    NAME: "&cLeave Event &7(Right Click)"
+    MATERIAL: INK_SACK
+    DATA: 1
+    AMOUNT: 1
+    SLOT: 8
+    ACTION: LEAVE_EVENT
+    COMMAND: ""
+    ENABLED: true

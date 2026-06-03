@@ -1,0 +1,8 @@
+Map0:
+  ArenaMap: world
+  Name: FirstMap
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIRT
+  Schematic: fastbridge
+  SchematicSize: 50

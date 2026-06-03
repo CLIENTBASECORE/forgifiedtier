@@ -1,0 +1,11 @@
+entered-nether: 0
+messages:
+  entered-nether: ''
+  join: ''
+  first-join: ''
+  quit: ''
+  switch-to-survival: ''
+join: 1
+first-join: 1
+quit: 1
+switch-to-survival: 0

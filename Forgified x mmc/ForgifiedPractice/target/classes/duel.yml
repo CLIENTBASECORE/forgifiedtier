@@ -1,0 +1,13 @@
+duel-sent:
+  - "&6&lDuel Sent"
+  - " &6• &6To: &f<target_prefix><target_name>"
+  - " &6• &6Kit: &d<kit_name>"
+  - " &6• &6Map: &d<map_name>"
+
+duel-received:
+  - "&6&lDuel Received"
+  - " &6• &6From: &f<challenger_prefix><challenger_name>"
+  - " &6• &6Kit: &d<kit_name>"
+  - " &6• &6Map: &d<map_name>"
+
+fallback-buttons: "&a[ACCEPT] &7or &c[DENY]"

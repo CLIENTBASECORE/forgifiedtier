@@ -1,0 +1,96 @@
+#Messages Version 1 by Yukun
+#Placeholders:
+#- %course% for course ID -- Can be used in Start and Complete.
+#- %difficulty% for course difficulty -- Can be used in Start and Complete.
+#- %time% for course timing -- Can be used in Complete.
+#- %checkpoint% for checkpoint ID -- Can be used in Checkpoint.
+Messages:
+  ####################
+  # General Messages #
+  ####################
+  #Prefix before all messages.
+  Prefix: "&bBridge&ePractice&f >> &7"
+  #Message sent when console tries to run a player only command.
+  Player: "&cOnly a player may run this command!"
+  #Message sent when a player tries to start a course via command but there are no empty courses.
+  NoEmpty: "&cThere are no empty courses of this difficulty!"
+
+  ########################
+  # Placeholder Settings #
+  ########################
+  #What to replace the %time% placeholder with.
+  #You can use %hours%, %minutes% and %seconds% here to tell the player their time.
+  #If you leave a placeholder out, the time will be added to the next biggest unit.
+  #For example if you don't have the %hours% placeholder and a player somehow takes 1 hour 23 minutes to complete the course, it will display as 83 min instead.
+  Time: "&f%minutes% min %seconds% sec"
+
+  ###################
+  # Course Messages #
+  ###################
+  #Message sent when a player starts a bridging practice course.
+  Start: "&aYou have begun &c&l%difficulty% course number %course%&a."
+  #Message sent when a player reaches a checkpoint.
+  Checkpoint: "&aYou have reached &fcheckpoint %checkpoint%&a!"
+  #Message sent when a player falls.
+  Fall: "&cYou have fallen off the course! You have been sent to the previous checkpoint."
+  #Message sent when a player stops a bridging practice course without completing it.
+  #Also sent when player does not complete the bridging practice course within time limits.
+  Stop: "&cYou have failed to complete the course. Your timing has been forfeited. You will be teleported to spawn in 3 seconds."
+  #Message sent when a player successfully completes a bridging practice course.
+  Complete: "&aYou have successfully completed &c&l%difficulty% course number %course%&a. Your timing is %time%&a. You will be teleported to spawn in 3 seconds."
+  #Message sent when a player tries to move items in their inventory during the course.
+  NoMove: "&cYou are not allowed to move items around in your inventory during the course!"
+  #Message sent when a player tries to drop items during the course.
+  NoDrop: "&cYou are not allowed to drop items during the course!"
+  #Message sent when a player tries to change their held item during the course.
+  NoChange: "&cYou are not allowed to change held item during the course!"
+  #Message sent when a player tries to enter the bridging practice course when it is already occupied.
+  NoEnter: "&cNo entry! This course is already occupied."
+  #Message sent when a player tries to break or place blocks in a bridging practice course when they have not started the course.
+  NoBuild: "&cYou may not build in this area!"
+  #Message sent when a player tries to run a non bridge practice command in a practice course.
+  NoCommand: "&cYou may only run bridge practice related commands during the bridging course!"
+  #Message sent when a player tries to finish a course without passing through all the checkpoints.
+  MissCheckpoint: "&cYou must pass through all the checkpoints to complete the course!"
+
+  #######################
+  # Leaderboard Message #
+  #######################
+  #This section uses special placeholders.
+  #The placeholders are difficulty name followed by the number for placing.
+  #For example, if the difficulty level is called ABC, then the first placed timing would be ABC1.
+  #You can display up to the first 5 fastest timings. (Listed in Timings.yml)
+  #Top score placeholders have the format %(difficulty)(placing)Top%
+  #Personal best score placeholders have the format %(difficulty)(placing)Player%
+  #For example again, the top score for Simple difficulty would be Simple1Top.
+  #The personal best of a player for Simple difficulty would be Simple1Player.
+  #If the leaderboard command is run from console, the personal bests portion would be omitted.
+  Leaderboard:
+    - "&b&l============Top Timings============"
+    - "&e-----&f&lSimple&e-----"
+    - "&e1. %Simple1% -- %Simple1Top%"
+    - "&f2. %Simple2% -- %Simple2Top%"
+    - "&63. %Simple3% -- %Simple3Top%"
+    - "&74. %Simple4% -- %Simple4Top%"
+    - "&75. %Simple5% -- %Simple5Top%"
+    - "&e-----&a&lIntermediate&e-----"
+    - "&e1. %Intermediate1% -- %Intermediate1Top%"
+    - "&f2. %Intermediate2% -- %Intermediate2Top%"
+    - "&63. %Intermediate3% -- %Intermediate3Top%"
+    - "&74. %Intermediate4% -- %Intermediate4Top%"
+    - "&75. %Intermediate5% -- %Intermediate5Top%"
+  #This is sent after the main leaderboard message.
+  Personal:
+    - "&b&l===========Personal Best==========="
+    - "&e-----&f&lSimple&e-----"
+    - "&e1. %Simple1Player%"
+    - "&f2. %Simple2Player%"
+    - "&63. %Simple3Player%"
+    - "&74. %Simple4Player%"
+    - "&75. %Simple5Player%"
+    - "&e-----&a&lIntermediate&e-----"
+    - "&e1. %Intermediate1Player%"
+    - "&f2. %Intermediate2Player%"
+    - "&63. %Intermediate3Player%"
+    - "&74. %Intermediate4Player%"
+    - "&75. %Intermediate5Player%"

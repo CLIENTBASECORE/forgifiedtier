@@ -1,0 +1,5 @@
+name: AdvancedBan
+version: 2.3.0
+main: me.leoko.advancedban.bungee.BungeeMain
+author: Leoko
+softDepends: [RedisBungee, LuckPerms]
