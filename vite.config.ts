@@ -4,7 +4,7 @@ import { tanstackStart } from "@tanstack/react-start/plugin/vite";
 import { defineConfig } from "vite";
 import tsConfigPaths from "vite-tsconfig-paths";
 
-const allowedHosts = ["forgifiedtiers.vermc.eu", "verhost.xyz", ".verhost.xyz"];
+const allowedHosts = ["https://fc8d5aec.forgifiedtier.pages.dev", "forgified.club"];
 
 export default defineConfig({
   plugins: [
