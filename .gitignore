@@ -38,3 +38,10 @@ dist/
 build/
 .next/
 *.zip
+
+# Archive files in project root
+*.tar.gz
+
+# Cloudflare build artifacts
+.npm/
+.wrangler/
