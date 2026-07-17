@@ -14,27 +14,7 @@ export type Database = {
   }
   public: {
     Tables: {
-      app_settings: {
-        Row: {
-          key: string
-          updated_at: string
-          updated_by: string | null
-          value: Json
-        }
-        Insert: {
-          key: string
-          updated_at?: string
-          updated_by?: string | null
-          value: Json
-        }
-        Update: {
-          key?: string
-          updated_at?: string
-          updated_by?: string | null
-          value?: Json
-        }
-        Relationships: []
-      }
+
       news_posts: {
         Row: {
           body: string
@@ -143,33 +123,7 @@ export type Database = {
         }
         Relationships: []
       }
-      tiertagger_mods: {
-        Row: {
-          file_name: string
-          file_path: string
-          mode_kind: string
-          size_bytes: number
-          updated_at: string
-          updated_by: string | null
-        }
-        Insert: {
-          file_name: string
-          file_path: string
-          mode_kind: string
-          size_bytes?: number
-          updated_at?: string
-          updated_by?: string | null
-        }
-        Update: {
-          file_name?: string
-          file_path?: string
-          mode_kind?: string
-          size_bytes?: number
-          updated_at?: string
-          updated_by?: string | null
-        }
-        Relationships: []
-      }
+
       user_roles: {
         Row: {
           created_at: string
