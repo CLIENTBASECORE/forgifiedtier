@@ -1,0 +1,1 @@
+ALTER TABLE public.tier_entries ADD COLUMN IF NOT EXISTS glow boolean NOT NULL DEFAULT false;
